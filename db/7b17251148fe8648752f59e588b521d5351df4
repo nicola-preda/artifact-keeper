@@ -1,0 +1,17 @@
+backend/src/api/handlers/admin.rs
+  h_206b40f42abaf2 311-312,320-323,392,435,489,615,3399,3411
+backend/src/services/backup_service.rs
+  h_206b40f42abaf2 1762,1767-1768,1777,3998-4003
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "db7b17251148fe8648752f59e588b521d5351df4",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
