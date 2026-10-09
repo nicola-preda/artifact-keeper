@@ -1,0 +1,17 @@
+backend/src/api/handlers/oci_v2.rs
+  h_206b40f42abaf2 9477-9483,13186
+backend/src/api/handlers/proxy_helpers.rs
+  h_206b40f42abaf2 6442-6443,6447-6456,6459-6464,6580,6582-6607,6609-6613,6616,6618-6623,6626-6645,6659,6702,6709,6711,8787-8802,8809
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "9d0aaada390bcbaa675f8f09753b81174105887b",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
