@@ -1,0 +1,26 @@
+backend/src/config.rs
+  s_9faa11ffa34f24::t_bd077f9cac6364 959-960
+backend/src/services/cluster_lock.rs
+  s_9faa11ffa34f24::t_36169c7bced7ce 11-13,17,19,54,63,91-93,101-117,124,135,137,146-148,150,158,162,310,318,344,364-390
+backend/src/services/proxy_hydration.rs
+  s_9faa11ffa34f24::t_00058456b21f45 13-14,800,1051-1054,1056
+backend/src/services/upstream_feed.rs
+  s_9faa11ffa34f24::t_d5aeb101e4688f 922
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f5e8dffbb0e327e72bdb21f4e9fdce42f492414a",
+  "prompts": {},
+  "sessions": {
+    "s_9faa11ffa34f24": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a13428162352e3f3d",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
