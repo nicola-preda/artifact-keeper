@@ -22,5 +22,19 @@ backend/src/services/upstream_feed.rs
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 77,
+    "ai_accepted": 77,
+    "git_diff_deleted_lines": 36,
+    "git_diff_added_lines": 77,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 77,
+        "ai_accepted": 77
+      }
+    }
+  },
   "proton_build": "1.7.6-proton.8"
 }
