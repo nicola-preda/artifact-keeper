@@ -1,0 +1,15 @@
+backend/src/api/handlers/cargo.rs
+  h_206b40f42abaf2 477,492-501,1997-2006,2015-2021
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "07f721b21d0c45daffb13dd7cdec49889235fb95",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
