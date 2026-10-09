@@ -1,0 +1,29 @@
+backend/src/api/handlers/cargo.rs
+  h_206b40f42abaf2 2230,2236
+backend/src/api/handlers/composer.rs
+  h_206b40f42abaf2 1609,1615
+backend/src/api/handlers/debian.rs
+  h_206b40f42abaf2 2970,2976
+backend/src/api/handlers/goproxy.rs
+  h_206b40f42abaf2 1561-1562
+backend/src/api/handlers/maven.rs
+  h_206b40f42abaf2 1305,1311,1313-1314,1323-1336,1338-1348,1366-1371,2676-2677,6572-6645
+backend/src/api/handlers/npm.rs
+  h_206b40f42abaf2 3837
+backend/src/api/handlers/proxy_helpers.rs
+  h_206b40f42abaf2 2706,2917
+backend/src/api/handlers/pypi.rs
+  h_206b40f42abaf2 1939-1940,2823-2824
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "10d80bdf4d8b112da54eb5975eed2ebeb7a38ef4",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
