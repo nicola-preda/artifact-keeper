@@ -1,0 +1,15 @@
+backend/src/api/handlers/proxy_helpers.rs
+  h_206b40f42abaf2 3373-3380
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "b8b50691711b3089dc8b7077ec7fcc1b950bb657",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
