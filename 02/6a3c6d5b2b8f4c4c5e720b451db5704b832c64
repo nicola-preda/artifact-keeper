@@ -1,0 +1,17 @@
+backend/src/api/handlers/admin_security.rs
+  h_206b40f42abaf2 96,98-103
+backend/src/services/sbom_service.rs
+  h_206b40f42abaf2 472-479,483-491,494-496,503-527,1682,1684-1688,5529-5590
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "026a3c6d5b2b8f4c4c5e720b451db5704b832c64",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
