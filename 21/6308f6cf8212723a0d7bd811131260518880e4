@@ -1,0 +1,29 @@
+backend/src/api/handlers/auth.rs
+  h_206b40f42abaf2 163-167,636-644
+backend/src/api/handlers/projects.rs
+  h_206b40f42abaf2 197-232,429-463
+backend/src/api/handlers/repositories.rs
+  h_206b40f42abaf2 833-837,2291-2341,12522,12592
+backend/src/services/permission_service.rs
+  h_206b40f42abaf2 108-159,349,370,384-440,2877-3005
+changes/unreleased/4670-create-repository-capability.md
+  h_206b40f42abaf2 1-7
+changes/unreleased/4670-named-access-tiers.md
+  h_206b40f42abaf2 1-9
+changes/unreleased/4670-project-permission-target.md
+  h_206b40f42abaf2 1-5
+changes/unreleased/4670-repo-admin-follows-grants.md
+  h_206b40f42abaf2 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "216308f6cf8212723a0d7bd811131260518880e4",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
