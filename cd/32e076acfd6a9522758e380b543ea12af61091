@@ -1,0 +1,17 @@
+.config/nextest.toml
+  h_206b40f42abaf2 137
+backend/src/api/handlers/security.rs
+  h_206b40f42abaf2 4915-4917,4949
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "cd32e076acfd6a9522758e380b543ea12af61091",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
