@@ -32,6 +32,20 @@ changes/unreleased/4670-effective-repository-actions.md
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 438,
+    "ai_accepted": 438,
+    "git_diff_deleted_lines": 49,
+    "git_diff_added_lines": 438,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 438,
+        "ai_accepted": 438
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
