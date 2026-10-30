@@ -1,0 +1,17 @@
+backend/src/api/handlers/projects.rs
+  h_206b40f42abaf2 211-217,436-437,439-443,451-455,464,2350-2407
+backend/src/api/handlers/repositories.rs
+  h_206b40f42abaf2 2623-2625,13432-13512
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "6223b47aa0035d503de6357c73511d0c943ce3f0",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
