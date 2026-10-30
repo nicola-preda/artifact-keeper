@@ -1,0 +1,37 @@
+.config/nextest.toml
+  h_206b40f42abaf2 137
+backend/src/api/handlers/proxy_helpers.rs
+  h_206b40f42abaf2 10085-10087,10109-10110,10448,10452-10470,10590
+backend/src/api/handlers/security.rs
+  h_206b40f42abaf2 4867-4928
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "73c19c613abbca8d558d8b1b8a24c1043bddf74d",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 166,
+        "output_tokens": 75590,
+        "cache_creation_input_tokens": 128766,
+        "cache_read_input_tokens": 17091578
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 166,
+          "output_tokens": 75590,
+          "cache_creation_input_tokens": 128766,
+          "cache_read_input_tokens": 17091578
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
