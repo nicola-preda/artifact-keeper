@@ -18,6 +18,20 @@ changes/unreleased/4695-proxy-scan-423-reason.md
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 45,
+    "ai_accepted": 45,
+    "git_diff_deleted_lines": 1,
+    "git_diff_added_lines": 45,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 45,
+        "ai_accepted": 45
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
