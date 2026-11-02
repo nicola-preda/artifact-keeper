@@ -1,0 +1,17 @@
+backend/src/services/scheduler_service.rs
+  h_206b40f42abaf2 1909-1912,1914-1963,1965-1973,3866-3897
+changes/unreleased/9999-cron-standard-weekdays.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "71b05311cf2cfb93a939d295f029a13429d129e2",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
