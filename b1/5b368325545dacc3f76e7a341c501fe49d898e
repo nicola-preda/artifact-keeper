@@ -1,0 +1,15 @@
+backend/src/api/middleware/auth.rs
+  h_206b40f42abaf2 1835-1840,1856-1858,1860-1863,1866-1871
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "b15b368325545dacc3f76e7a341c501fe49d898e",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
