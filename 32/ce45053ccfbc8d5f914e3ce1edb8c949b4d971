@@ -1,0 +1,21 @@
+backend/src/api/handlers/groups.rs
+  h_206b40f42abaf2 318-335,394-403,406-410,416-418,420-421,1721-1793
+backend/src/api/handlers/repositories.rs
+  h_206b40f42abaf2 4867-4877,4893,4996-5001,20655-20712
+changes/unreleased/4670-rename-needs-create-authority.md
+  h_206b40f42abaf2 1-5
+changes/unreleased/4670-sso-bound-groups.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "32ce45053ccfbc8d5f914e3ce1edb8c949b4d971",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
