@@ -28,6 +28,20 @@ changes/unreleased/4097-scan-on-proxy-generic.md
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 12,
+    "ai_additions": 424,
+    "ai_accepted": 424,
+    "git_diff_deleted_lines": 22,
+    "git_diff_added_lines": 436,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 424,
+        "ai_accepted": 424
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
