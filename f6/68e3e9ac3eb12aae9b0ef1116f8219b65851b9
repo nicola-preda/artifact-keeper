@@ -1,0 +1,29 @@
+backend/src/services/peer_instance_service.rs
+  h_206b40f42abaf2 673,1411-1444
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f668e3e9ac3eb12aae9b0ef1116f8219b65851b9",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 35,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 0,
+    "git_diff_added_lines": 35,
+    "tool_model_breakdown": {}
+  },
+  "token_usage": {
+    "origins": [
+      "eaa913e08a02b7e2dbcd0ce91e86444818371207"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
