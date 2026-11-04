@@ -1,0 +1,17 @@
+backend/src/services/metrics_service.rs
+  h_206b40f42abaf2 9,40-45,681-700,941-957
+backend/src/services/scheduler_service.rs
+  h_206b40f42abaf2 395-396
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "ce6d528e2647a894657055e3dac084688d3767bb",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
