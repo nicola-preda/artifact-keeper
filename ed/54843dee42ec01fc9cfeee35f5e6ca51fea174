@@ -1,0 +1,35 @@
+backend/src/services/proxy_scan_service.rs
+  h_206b40f42abaf2 179-233,235,1097-1175
+changes/unreleased/0000-proxy-scan-verdict-reuse.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "ed54843dee42ec01fc9cfeee35f5e6ca51fea174",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 392,
+        "output_tokens": 115982,
+        "cache_creation_input_tokens": 818394,
+        "cache_read_input_tokens": 26968589
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 392,
+          "output_tokens": 115982,
+          "cache_creation_input_tokens": 818394,
+          "cache_read_input_tokens": 26968589
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
