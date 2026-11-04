@@ -11,5 +11,14 @@ backend/src/services/peer_instance_service.rs
       "author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 35,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 0,
+    "git_diff_added_lines": 35,
+    "tool_model_breakdown": {}
+  },
   "proton_build": "1.7.6-proton.8"
 }
