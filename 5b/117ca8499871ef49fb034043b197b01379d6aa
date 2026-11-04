@@ -11,6 +11,15 @@ backend/src/api/handlers/proxy_helpers.rs
       "author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 27,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 2,
+    "git_diff_added_lines": 27,
+    "tool_model_breakdown": {}
+  },
   "token_usage": {
     "carried": {
       "total": {
