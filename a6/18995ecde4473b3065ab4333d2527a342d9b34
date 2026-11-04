@@ -1,0 +1,88 @@
+backend/src/api/handlers/security.rs
+  s_544c4e0dcf4034::t_5409088946e641 781-785,1878,1890,1894-1904,7646-7648,7652-7673,7708
+changes/unreleased/4099-scan-on-proxy-support-per-repo.md
+  s_544c4e0dcf4034::t_a3b338a099cbf8 1-5
+docs/security/scan-on-proxy.md
+  s_544c4e0dcf4034::t_8c18051874e295 12-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "a618995ecde4473b3065ab4333d2527a342d9b34",
+  "prompts": {},
+  "sessions": {
+    "s_544c4e0dcf4034": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3c31ba85-5c93-4ae8-9b07-c92ac873f014",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 54,
+    "ai_accepted": 54,
+    "git_diff_deleted_lines": 3,
+    "git_diff_added_lines": 54,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 54,
+        "ai_accepted": 54
+      }
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 14,
+        "output_tokens": 13605,
+        "cache_creation_input_tokens": 25227,
+        "cache_read_input_tokens": 3560635
+      },
+      "by_tool_model": {
+        "claude::unknown": {
+          "input_tokens": 14,
+          "output_tokens": 13605,
+          "cache_creation_input_tokens": 25227,
+          "cache_read_input_tokens": 3560635
+        }
+      },
+      "tool_uses": {
+        "bash": 7,
+        "edit": 2,
+        "write": 2
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 2,
+        "output_tokens": 4116,
+        "cache_creation_input_tokens": 6160,
+        "cache_read_input_tokens": 124881
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 2,
+          "output_tokens": 4116,
+          "cache_creation_input_tokens": 6160,
+          "cache_read_input_tokens": 124881
+        }
+      }
+    },
+    "by_prompt": {
+      "s_544c4e0dcf4034": {
+        "input_tokens": 14,
+        "output_tokens": 13605,
+        "cache_creation_input_tokens": 25227,
+        "cache_read_input_tokens": 3560635
+      }
+    },
+    "origins": [
+      "5b22d6c88f348d23bd0a9950251f256894be34d6"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
