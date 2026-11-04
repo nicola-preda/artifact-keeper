@@ -22,5 +22,19 @@ docs/security/scan-on-proxy.md
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 83,
+    "ai_accepted": 83,
+    "git_diff_deleted_lines": 10,
+    "git_diff_added_lines": 83,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 83,
+        "ai_accepted": 83
+      }
+    }
+  },
   "proton_build": "1.7.6-proton.8"
 }
