@@ -1,0 +1,75 @@
+backend/src/api/handlers/alpine.rs
+  s_010e26b22253b8::t_a816df68451e4f 1199-1201,1216,1251-1252
+backend/src/api/handlers/cocoapods.rs
+  s_010e26b22253b8::t_50286644ac9152 428-430,463,498-499
+backend/src/api/handlers/debian.rs
+  s_544c4e0dcf4034::t_7877a31dc1734a 2814-2819,2835-2837,2893,3367-3373,3380-3404,3634-3639,3696-3697,3769-3770,9180-9207
+backend/src/api/handlers/proxy_helpers.rs
+  s_010e26b22253b8::t_602252bdc5150c 11006-11076,25326-25341,25343-25345,25359-25371,26462-26606
+backend/src/api/handlers/rpm.rs
+  s_544c4e0dcf4034::t_e91ed49add3092 2147-2151,2180,2264-2275,2306-2337,2339-2341,7493-7516
+backend/src/api/handlers/security.rs
+  s_010e26b22253b8::t_5393e835851000 2209-2211,2452-2462,2618,2644,3489-3509,7682,7695,7702-7705
+backend/src/formats/mod.rs
+  s_010e26b22253b8::t_183780cafc15b7 333-346
+backend/src/models/format_handler.rs
+  s_010e26b22253b8::t_432fde23819e1e 31-34,52-56,267-274,287,325
+changes/unreleased/4111-scan-on-proxy-not-scannable.md
+  s_010e26b22253b8::t_baf6e54b1e982d 1-5
+docs/security/scan-on-proxy.md
+  s_010e26b22253b8::t_a817f7e3805136 11-13,303-326,330-332,346-347,353,357
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "50b5cc1b4e7331255d26d8e18c4e3cba7fc3bbdc",
+  "prompts": {},
+  "sessions": {
+    "s_010e26b22253b8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a50393dd-3774-490c-b4ab-1dd7ea60f516",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    },
+    "s_544c4e0dcf4034": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3c31ba85-5c93-4ae8-9b07-c92ac873f014",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 8,
+        "output_tokens": 2716,
+        "cache_creation_input_tokens": 3746,
+        "cache_read_input_tokens": 2350499
+      },
+      "by_tool_model": {
+        "claude::unknown": {
+          "input_tokens": 8,
+          "output_tokens": 2716,
+          "cache_creation_input_tokens": 3746,
+          "cache_read_input_tokens": 2350499
+        }
+      },
+      "tool_uses": {
+        "bash": 5
+      }
+    },
+    "by_prompt": {
+      "s_010e26b22253b8": {
+        "input_tokens": 8,
+        "output_tokens": 2716,
+        "cache_creation_input_tokens": 3746,
+        "cache_read_input_tokens": 2350499
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
