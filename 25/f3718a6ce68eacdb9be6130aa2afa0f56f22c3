@@ -1,0 +1,38 @@
+backend/src/api/handlers/proxy_helpers.rs
+  s_91241db92deb5d::t_b91e8a2b480455 23455-23531
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "25f3718a6ce68eacdb9be6130aa2afa0f56f22c3",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 28,
+        "output_tokens": 6092,
+        "cache_creation_input_tokens": 12148,
+        "cache_read_input_tokens": 2829535
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 28,
+          "output_tokens": 6092,
+          "cache_creation_input_tokens": 12148,
+          "cache_read_input_tokens": 2829535
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
