@@ -1,0 +1,38 @@
+backend/src/services/scan_worker.rs
+  s_91241db92deb5d::t_4cfe50b77297a8 17,224-225,227-229
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "0ae473b142f24db3e34a3b2f967d9be005097dfd",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 42,
+        "output_tokens": 9366,
+        "cache_creation_input_tokens": 22116,
+        "cache_read_input_tokens": 3820206
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 42,
+          "output_tokens": 9366,
+          "cache_creation_input_tokens": 22116,
+          "cache_read_input_tokens": 3820206
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
