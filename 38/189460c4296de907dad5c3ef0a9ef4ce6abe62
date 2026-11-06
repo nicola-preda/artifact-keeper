@@ -20,6 +20,20 @@ backend/src/services/backup_service.rs
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 572,
+    "ai_additions": 203,
+    "ai_accepted": 203,
+    "git_diff_deleted_lines": 2,
+    "git_diff_added_lines": 775,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 203,
+        "ai_accepted": 203
+      }
+    }
+  },
   "token_usage": {
     "carried": {
       "total": {
