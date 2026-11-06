@@ -1,0 +1,37 @@
+backend/src/main.rs
+  h_206b40f42abaf2 1292
+backend/src/services/scan_queue.rs
+  h_206b40f42abaf2 4,53
+changes/unreleased/4690-durable-scan-queue.md
+  h_206b40f42abaf2 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "fe2c53ea7fd745a9c719c100d0c37175c8d16ea0",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 560,
+        "output_tokens": 90224,
+        "cache_creation_input_tokens": 1495741,
+        "cache_read_input_tokens": 11650725
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 560,
+          "output_tokens": 90224,
+          "cache_creation_input_tokens": 1495741,
+          "cache_read_input_tokens": 11650725
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
