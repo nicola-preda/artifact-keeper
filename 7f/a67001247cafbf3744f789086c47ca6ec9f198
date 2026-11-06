@@ -1,0 +1,36 @@
+backend/src/api/middleware/auth.rs
+  s_91241db92deb5d::t_4257fd8ce29fb5 1938-1943,1959-1961,1963-1966,1969-1974,2922-2928,2994-2996,8506-8571,9374-9376,9378-9383,9437-9444,9446,9451,9454-9456,9459-9461,9471-9472,9481-9482,9836-9837,9951-9957,10013,10054
+changes/unreleased/5476-db-outage-503.md
+  s_91241db92deb5d::t_2eabbc381fe3f5 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "7fa67001247cafbf3744f789086c47ca6ec9f198",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 140,
+    "ai_accepted": 140,
+    "git_diff_deleted_lines": 29,
+    "git_diff_added_lines": 140,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 140,
+        "ai_accepted": 140
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
