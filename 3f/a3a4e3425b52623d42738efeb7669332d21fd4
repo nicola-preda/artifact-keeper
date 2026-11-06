@@ -1,0 +1,36 @@
+backend/src/services/scanner_service.rs
+  s_91241db92deb5d::t_074d656e6a5c21 3007,3186,3528-3529,3539-3569,9738-9741,15514-15516,15683,17208-17261
+changes/unreleased/4691-apk-silent-clean.md
+  s_91241db92deb5d::t_e3ecb06a5a2f1c 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "3fa3a4e3425b52623d42738efeb7669332d21fd4",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 102,
+    "ai_accepted": 102,
+    "git_diff_deleted_lines": 2,
+    "git_diff_added_lines": 102,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 102,
+        "ai_accepted": 102
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
