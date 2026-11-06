@@ -1,0 +1,44 @@
+.env.example
+  s_91241db92deb5d::t_82a615cf5e17d7 565-568
+backend/src/api/handlers/proxy_helpers.rs
+  s_91241db92deb5d::t_3fe91a3d8b47e5 7253-7278,7301-7310,7348-7350,7353,13147-13180
+backend/src/config.rs
+  s_91241db92deb5d::t_e0e33a4228b8f9 1469-1471
+backend/src/services/cluster_lock.rs
+  s_91241db92deb5d::t_e3820f769146e4 16,182-187,190-196,199-216,272-282,289,314,352,381,491-537,1105-1143
+backend/src/services/proxy_hydration.rs
+  s_91241db92deb5d::t_935a7c9d4fd1e2 1257-1265,1268
+changes/unreleased/4691-proxy-load-bounded-db-connections.md
+  s_91241db92deb5d::t_fa377f700fb7df 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "275d2432438e40b58b95abdad2862c9c8e9a2ad0",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 229,
+    "ai_accepted": 229,
+    "git_diff_deleted_lines": 6,
+    "git_diff_added_lines": 229,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 229,
+        "ai_accepted": 229
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
