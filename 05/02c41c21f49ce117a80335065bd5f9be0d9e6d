@@ -1,0 +1,38 @@
+backend/src/api/handlers/maven.rs
+  s_91241db92deb5d::t_1595b5fef0d1e2 3647-3661,3736-3737,3833-3859,3862,3865,5353-5420
+backend/src/api/handlers/proxy_helpers.rs
+  s_91241db92deb5d::t_28d3d4d635465d 7155-7175
+changes/unreleased/4693-maven-virtual-get-fewer-queries.md
+  s_91241db92deb5d::t_649ffe9986f308 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "0502c41c21f49ce117a80335065bd5f9be0d9e6d",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 140,
+    "ai_accepted": 140,
+    "git_diff_deleted_lines": 23,
+    "git_diff_added_lines": 140,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 140,
+        "ai_accepted": 140
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
