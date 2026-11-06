@@ -15,6 +15,15 @@ changes/unreleased/4690-durable-scan-queue.md
       "author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 4,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 4,
+    "git_diff_added_lines": 4,
+    "tool_model_breakdown": {}
+  },
   "token_usage": {
     "carried": {
       "total": {
