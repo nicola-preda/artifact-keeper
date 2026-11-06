@@ -1,0 +1,38 @@
+backend/src/api/handlers/alpine.rs
+  s_91241db92deb5d::t_411013c45b4ae5 24,1339,1342-1347,1406,1440,1444,1465-1471,1487-1494,1529,1545-1576,1751,1761-1763,1779-1785,2436-2498,4634-4666
+backend/src/api/handlers/proxy_helpers.rs
+  s_91241db92deb5d::t_67177eb2bde9ce 1564-1580,2016-2092,13204-13378,20162-20170,20221,26145-26149,26424-26427
+changes/unreleased/4690-apk-downloads-honour-range.md
+  s_91241db92deb5d::t_e999a9da6fe0d8 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "5cc40ace6d66b74b4ea777d8402f740e92812427",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 459,
+    "ai_accepted": 459,
+    "git_diff_deleted_lines": 27,
+    "git_diff_added_lines": 459,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 459,
+        "ai_accepted": 459
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
