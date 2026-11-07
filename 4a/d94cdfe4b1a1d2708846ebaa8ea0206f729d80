@@ -1,0 +1,53 @@
+backend/src/api/handlers/auth.rs
+  s_91241db92deb5d::t_d2a4fa420bc89f 163-167,231-235,668-678,686,1381-1441,2212,2221,2234
+backend/src/api/handlers/projects.rs
+  s_91241db92deb5d::t_ac0780175e2468 197-243,440-481,2143,2145-2150,2354-2421,2431-2441
+changes/unreleased/4670-create-repositories-capability.md
+  s_91241db92deb5d::t_b956bcaba1a7ee 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "4ad94cdfe4b1a1d2708846ebaa8ea0206f729d80",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 16,
+        "output_tokens": 2875,
+        "cache_creation_input_tokens": 5776,
+        "cache_read_input_tokens": 3914176
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 16,
+          "output_tokens": 2875,
+          "cache_creation_input_tokens": 5776,
+          "cache_read_input_tokens": 3914176
+        }
+      },
+      "tool_uses": {
+        "bash": 6
+      }
+    },
+    "by_prompt": {
+      "s_91241db92deb5d": {
+        "input_tokens": 16,
+        "output_tokens": 2875,
+        "cache_creation_input_tokens": 5776,
+        "cache_read_input_tokens": 3914176
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
