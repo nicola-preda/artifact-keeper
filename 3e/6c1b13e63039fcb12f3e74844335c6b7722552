@@ -16,6 +16,20 @@ changes/unreleased/5336-restore-streams-archive.md
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 582,
+    "ai_additions": 5,
+    "ai_accepted": 5,
+    "git_diff_deleted_lines": 150,
+    "git_diff_added_lines": 587,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 5,
+        "ai_accepted": 5
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "tool_uses": {
