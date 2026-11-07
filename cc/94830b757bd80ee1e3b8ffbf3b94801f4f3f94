@@ -1,0 +1,19 @@
+Cargo.toml
+  h_206b40f42abaf2 186
+backend/src/services/backup_service.rs
+  h_206b40f42abaf2 10-11,15,18-19,303-338,349-350,353-354,356-360,362-368,370-398,400-432,434-437,439-464,555,668,670-699,1185-1202,1593,1595-1622,1640,1671-1742,1863-1866,1868-1870,1874-1875,1878-1879,3254-3376,4086-4383
+changes/unreleased/5336-backup-streams-archive.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "cc94830b757bd80ee1e3b8ffbf3b94801f4f3f94",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
