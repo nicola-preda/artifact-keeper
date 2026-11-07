@@ -1,0 +1,52 @@
+backend/src/api/handlers/cargo.rs
+  s_91241db92deb5d::t_21cfa035f3a812 2278,2284
+backend/src/api/handlers/conda.rs
+  s_91241db92deb5d::t_987141e489850a 6917,6923
+backend/src/api/handlers/debian.rs
+  s_91241db92deb5d::t_909bfeb2e1ce9d 3999,4005
+backend/src/api/handlers/goproxy.rs
+  s_91241db92deb5d::t_5955405ebb8b93 1445-1446
+backend/src/api/handlers/maven.rs
+  s_91241db92deb5d::t_97ac69a62f3910 2649-2651,2664-2677,2679-2689,2715-2716,2720-2725,10395-10468
+backend/src/api/handlers/npm.rs
+  s_91241db92deb5d::t_34dfd8852cb636 5134
+backend/src/api/handlers/proxy_helpers.rs
+  s_91241db92deb5d::t_22617c8a6c9a32 25845-25903
+backend/src/api/handlers/pypi.rs
+  s_91241db92deb5d::t_30dbcfc0cca351 1940-1941,3068-3069
+backend/src/api/handlers/vscode.rs
+  s_91241db92deb5d::t_dead24c66b4682 3704-3708
+changes/unreleased/5495-virtual-member-error-is-not-a-miss.md
+  s_91241db92deb5d::t_3eac6ba58942bc 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "af5096b57c7792be4bc6c6165138d3f1158d001f",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 194,
+    "ai_accepted": 194,
+    "git_diff_deleted_lines": 33,
+    "git_diff_added_lines": 194,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 194,
+        "ai_accepted": 194
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
