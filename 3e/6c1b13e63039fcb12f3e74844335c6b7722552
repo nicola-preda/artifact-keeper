@@ -1,0 +1,27 @@
+changes/unreleased/5336-restore-streams-archive.md
+  s_bcc4198474d9be::t_0a92b1e6de8a1d 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "3e6c1b13e63039fcb12f3e74844335c6b7722552",
+  "prompts": {},
+  "sessions": {
+    "s_bcc4198474d9be": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-affccdf433ca7f066",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "tool_uses": {
+        "bash": 4
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
