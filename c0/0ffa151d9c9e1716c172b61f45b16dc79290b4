@@ -1,0 +1,36 @@
+backend/src/services/artifact_service.rs
+  s_91241db92deb5d::t_5f59850eb5e08e 39-42,5242-5306
+changes/unreleased/5497-replication-deletes-offline-peer.md
+  s_91241db92deb5d::t_267824d63ec21b 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "c00ffa151d9c9e1716c172b61f45b16dc79290b4",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 74,
+    "ai_accepted": 74,
+    "git_diff_deleted_lines": 1,
+    "git_diff_added_lines": 74,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 74,
+        "ai_accepted": 74
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
