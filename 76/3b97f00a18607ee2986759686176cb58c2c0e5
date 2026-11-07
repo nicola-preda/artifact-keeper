@@ -15,6 +15,15 @@ changes/unreleased/5479-nexus-source-connections.md
       "author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 301,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 37,
+    "git_diff_added_lines": 301,
+    "tool_model_breakdown": {}
+  },
   "token_usage": {
     "carried": {
       "total": {
