@@ -1,0 +1,25 @@
+.env.example
+  h_206b40f42abaf2 469-476
+backend/src/services/metrics_service.rs
+  h_206b40f42abaf2 803-812
+backend/src/services/mod.rs
+  h_206b40f42abaf2 139
+backend/src/services/proxy_service.rs
+  h_206b40f42abaf2 38,3389-3464,3508-3509,3551-3585,3598,3857-3860,3935-3938,4101-4104,4244-4255,4368-4374,4716-4719,7452-7467,23073-23122
+backend/src/services/upstream_breaker.rs
+  h_206b40f42abaf2 1-425
+changes/unreleased/5013-upstream-circuit-breaker.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "5ae6c9af3092e5ad12ba51f459cff9157aa30712",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
