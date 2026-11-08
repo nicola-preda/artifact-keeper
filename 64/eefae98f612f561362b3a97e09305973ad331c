@@ -1,0 +1,23 @@
+backend/migrations/337_artifacts_listing_sort_indexes.sql
+  h_206b40f42abaf2 1-37
+backend/src/api/handlers/last_promotion.rs
+  h_206b40f42abaf2 295-296
+backend/src/api/handlers/repositories.rs
+  h_206b40f42abaf2 38,7335-7342,7747-7762,7765,7793,7821,7846-7852,7857,7904-7906,7928-7941,7943-7956,7961-7965,7969-7970,9691-9711,41819-42019
+backend/src/services/artifact_service.rs
+  h_206b40f42abaf2 789-886,2755-2817
+changes/unreleased/5040-artifact-list-sort.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "64eefae98f612f561362b3a97e09305973ad331c",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
