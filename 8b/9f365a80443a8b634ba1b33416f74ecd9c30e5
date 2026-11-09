@@ -1,0 +1,34 @@
+backend/src/services/scheduler_service.rs
+  s_c3cb26384f2544::t_f20cefabf64616 1922-1925,1927-2005,2007-2012,3707-3753
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "8b9f365a80443a8b634ba1b33416f74ecd9c30e5",
+  "prompts": {},
+  "sessions": {
+    "s_c3cb26384f2544": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e5dbbc4-e58d-4248-ae16-52eee0711c78",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 7,
+    "ai_additions": 136,
+    "ai_accepted": 136,
+    "git_diff_deleted_lines": 5,
+    "git_diff_added_lines": 143,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 136,
+        "ai_accepted": 136
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
