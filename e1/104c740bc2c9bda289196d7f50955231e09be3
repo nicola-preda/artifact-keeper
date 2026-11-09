@@ -1,0 +1,34 @@
+backend/src/api/handlers/maven.rs
+  h_206b40f42abaf2 3553,3561-3563,3602-3606,3608-3611,3613,3930,3940-3948,6881-6889,7089,7093
+backend/src/api/handlers/mod.rs
+  h_206b40f42abaf2 469
+backend/src/api/handlers/npm.rs
+  h_206b40f42abaf2 5838-5845,5857,5897-5909,5911-5923,5925-5929,5931-5943,5951-5970,5972-5977,5979-6008,6061-6094,16526-16756
+backend/src/api/handlers/publish_lock.rs
+  h_206b40f42abaf2 1-113
+backend/src/api/handlers/test_db_helpers.rs
+  h_206b40f42abaf2 1318-1352
+changes/unreleased/5399-npm-concurrent-publish.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e1104c740bc2c9bda289196d7f50955231e09be3",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 563,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 159,
+    "git_diff_added_lines": 563,
+    "tool_model_breakdown": {}
+  },
+  "proton_build": "1.7.6-proton.8"
+}
