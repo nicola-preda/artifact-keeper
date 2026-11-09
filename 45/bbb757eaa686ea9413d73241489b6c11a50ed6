@@ -1,0 +1,76 @@
+backend/src/api/handlers/alpine.rs
+  s_c3cb26384f2544::t_6b8aa43dd9e0a4 4668-4735
+backend/src/services/proxy_service.rs
+  s_44df3d3343b549::t_7515a5de840815 316-376,7794,8799-8814,25533-25586
+changes/unreleased/5509-cold-range-fills-cache.md
+  s_44df3d3343b549::t_0dd0e0581645d0 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "45bbb757eaa686ea9413d73241489b6c11a50ed6",
+  "prompts": {},
+  "sessions": {
+    "s_44df3d3343b549": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a3078c183ea265693",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    },
+    "s_c3cb26384f2544": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e5dbbc4-e58d-4248-ae16-52eee0711c78",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 10,
+        "output_tokens": 2316,
+        "cache_creation_input_tokens": 2735,
+        "cache_read_input_tokens": 2718908
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 4,
+          "output_tokens": 617,
+          "cache_creation_input_tokens": 1254,
+          "cache_read_input_tokens": 1120603
+        },
+        "claude::unknown": {
+          "input_tokens": 6,
+          "output_tokens": 1699,
+          "cache_creation_input_tokens": 1481,
+          "cache_read_input_tokens": 1598305
+        }
+      },
+      "tool_uses": {
+        "agent": 1,
+        "bash": 20,
+        "edit": 1,
+        "read": 1
+      }
+    },
+    "by_prompt": {
+      "s_44df3d3343b549": {
+        "input_tokens": 6,
+        "output_tokens": 1699,
+        "cache_creation_input_tokens": 1481,
+        "cache_read_input_tokens": 1598305
+      },
+      "s_c3cb26384f2544": {
+        "input_tokens": 4,
+        "output_tokens": 617,
+        "cache_creation_input_tokens": 1254,
+        "cache_read_input_tokens": 1120603
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
