@@ -13,6 +13,15 @@ changes/unreleased/5573-publish-artifact-lookup.md
       "author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 62,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 19,
+    "git_diff_added_lines": 62,
+    "tool_model_breakdown": {}
+  },
   "token_usage": {
     "carried": {
       "total": {
