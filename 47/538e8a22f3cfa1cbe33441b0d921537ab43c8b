@@ -1,0 +1,53 @@
+backend/src/api/handlers/alpine.rs
+  s_c3cb26384f2544::t_ad8f7473386bfb 3709-3776
+backend/src/services/proxy_service.rs
+  s_c3cb26384f2544::t_7d621b7d6112a7 222-297,6161,6904,21343-21393
+changes/unreleased/5509-cold-range-fills-cache.md
+  s_c3cb26384f2544::t_43c8fd35769890 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "47538e8a22f3cfa1cbe33441b0d921537ab43c8b",
+  "prompts": {},
+  "sessions": {
+    "s_c3cb26384f2544": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e5dbbc4-e58d-4248-ae16-52eee0711c78",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 12,
+        "output_tokens": 1844,
+        "cache_creation_input_tokens": 6435,
+        "cache_read_input_tokens": 2254203
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 12,
+          "output_tokens": 1844,
+          "cache_creation_input_tokens": 6435,
+          "cache_read_input_tokens": 2254203
+        }
+      },
+      "tool_uses": {
+        "bash": 3
+      }
+    },
+    "by_prompt": {
+      "s_c3cb26384f2544": {
+        "input_tokens": 12,
+        "output_tokens": 1844,
+        "cache_creation_input_tokens": 6435,
+        "cache_read_input_tokens": 2254203
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
