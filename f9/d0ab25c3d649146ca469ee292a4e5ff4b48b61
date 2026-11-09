@@ -1,0 +1,17 @@
+backend/src/api/handlers/admin_security.rs
+  h_206b40f42abaf2 67-69,271-318,358-362,375-376,404-408,520-550,558-559,667-684,702-703,1219-1220,1807-1967
+changes/unreleased/5494-blast-radius-affected-artifacts.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f9d0ab25c3d649146ca469ee292a4e5ff4b48b61",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
