@@ -1,0 +1,55 @@
+changes/unreleased/0000-x-net-cve-2026-78661.md
+  s_933afceb3c6daa::t_5fd26eb0dbb615 5
+docker/Dockerfile.scanner-adapter
+  s_933afceb3c6daa::t_ad836778f64bbe 205,237-250
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "d03ea6e4897252ee20c9bfc8876f4dd339a97dd1",
+  "prompts": {},
+  "sessions": {
+    "s_933afceb3c6daa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0f6161dd-dfed-4090-b8b7-d9323137460a",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 76,
+        "output_tokens": 29686,
+        "cache_creation_input_tokens": 52528,
+        "cache_read_input_tokens": 8897036
+      },
+      "by_tool_model": {
+        "claude::unknown": {
+          "input_tokens": 76,
+          "output_tokens": 29686,
+          "cache_creation_input_tokens": 52528,
+          "cache_read_input_tokens": 8897036
+        }
+      },
+      "tool_uses": {
+        "bash": 27,
+        "edit": 13,
+        "read": 2,
+        "taskupdate": 1,
+        "write": 5
+      }
+    },
+    "by_prompt": {
+      "s_933afceb3c6daa": {
+        "input_tokens": 76,
+        "output_tokens": 29686,
+        "cache_creation_input_tokens": 52528,
+        "cache_read_input_tokens": 8897036
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
