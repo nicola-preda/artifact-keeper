@@ -1,0 +1,19 @@
+backend/src/services/scan_result_service.rs
+  h_206b40f42abaf2 1984-1998
+backend/src/services/scanner_service.rs
+  h_206b40f42abaf2 9436-9437,9445-9455,9457-9463,30670-30724
+changes/unreleased/00-scan-placeholder-rows.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "507e6c59e4b922b14c92d2f295d93ab56e78cce3",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
