@@ -1,0 +1,28 @@
+backend/src/api/handlers/migration.rs
+  h_206b40f42abaf2 72,215-228,687-688,690,698-699,714,717,809,831-837,845,875,881,909-914,917,933-936,938,945-965,975,3613-3806
+backend/src/services/nexus_client.rs
+  h_206b40f42abaf2 228-230,1554-1585
+changes/unreleased/5479-nexus-source-connections.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "a8c58fb32fa3accff577f996750d7ad304824695",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 301,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 37,
+    "git_diff_added_lines": 301,
+    "tool_model_breakdown": {}
+  },
+  "proton_build": "1.7.6-proton.8"
+}
