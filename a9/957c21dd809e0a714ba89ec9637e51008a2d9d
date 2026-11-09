@@ -1,0 +1,35 @@
+backend/src/services/package_service.rs
+  h_206b40f42abaf2 413-417,445-453,1143-1185
+changes/unreleased/5573-publish-artifact-lookup.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "a9957c21dd809e0a714ba89ec9637e51008a2d9d",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 124,
+        "output_tokens": 36124,
+        "cache_creation_input_tokens": 1441630,
+        "cache_read_input_tokens": 21773859
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 124,
+          "output_tokens": 36124,
+          "cache_creation_input_tokens": 1441630,
+          "cache_read_input_tokens": 21773859
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
