@@ -1,0 +1,38 @@
+docker/Dockerfile.backend.alpine
+  s_c3cb26384f2544::t_0f3d278d00c0cb 1,15,105,259,270
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "cf289c990d90fcc55ba9ca0d290c0213b7f82ab0",
+  "prompts": {},
+  "sessions": {
+    "s_c3cb26384f2544": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e5dbbc4-e58d-4248-ae16-52eee0711c78",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 8,
+        "output_tokens": 1339,
+        "cache_creation_input_tokens": 517904,
+        "cache_read_input_tokens": 1607986
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 8,
+          "output_tokens": 1339,
+          "cache_creation_input_tokens": 517904,
+          "cache_read_input_tokens": 1607986
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
