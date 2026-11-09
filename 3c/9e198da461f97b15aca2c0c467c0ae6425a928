@@ -1,0 +1,29 @@
+backend/migrations/9007_proton_group_role_assignments.sql
+  h_206b40f42abaf2 1-8
+backend/src/api/handlers/groups.rs
+  h_206b40f42abaf2 711-723
+backend/src/api/handlers/mod.rs
+  h_206b40f42abaf2 485
+backend/src/api/handlers/security_reviewers.rs
+  h_206b40f42abaf2 1-689
+backend/src/api/openapi.rs
+  h_206b40f42abaf2 187-190
+backend/src/api/routes.rs
+  h_206b40f42abaf2 1239-1242
+backend/src/services/audit_service.rs
+  h_206b40f42abaf2 359,382,1566
+backend/src/services/permission_service.rs
+  h_206b40f42abaf2 665-668,674-676,678-691
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "3c9e198da461f97b15aca2c0c467c0ae6425a928",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
