@@ -18,6 +18,20 @@ docker/Dockerfile.scanner-adapter
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 16,
+    "ai_accepted": 16,
+    "git_diff_deleted_lines": 3,
+    "git_diff_added_lines": 16,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 16,
+        "ai_accepted": 16
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
