@@ -16,5 +16,19 @@ backend/src/services/backup_service.rs
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 5,
+    "ai_additions": 585,
+    "ai_accepted": 585,
+    "git_diff_deleted_lines": 153,
+    "git_diff_added_lines": 590,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 585,
+        "ai_accepted": 585
+      }
+    }
+  },
   "proton_build": "1.7.6-proton.8"
 }
