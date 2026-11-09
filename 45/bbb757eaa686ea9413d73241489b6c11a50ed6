@@ -28,6 +28,24 @@ changes/unreleased/5509-cold-range-fills-cache.md
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 205,
+    "ai_accepted": 205,
+    "git_diff_deleted_lines": 2,
+    "git_diff_added_lines": 205,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 68,
+        "ai_accepted": 68
+      },
+      "claude::unknown": {
+        "ai_additions": 137,
+        "ai_accepted": 137
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
