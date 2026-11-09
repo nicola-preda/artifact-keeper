@@ -1,0 +1,73 @@
+docker/Dockerfile.backend.alpine
+  s_933afceb3c6daa::t_ac38c929ed7cae 107,137-138,158
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "8a9314c89c4a8f3aa6d181177d5dbef9e99f4727",
+  "prompts": {},
+  "sessions": {
+    "s_933afceb3c6daa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0f6161dd-dfed-4090-b8b7-d9323137460a",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 163,
+        "output_tokens": 52286,
+        "cache_creation_input_tokens": 207682,
+        "cache_read_input_tokens": 11127619
+      },
+      "by_tool_model": {
+        "claude::unknown": {
+          "input_tokens": 163,
+          "output_tokens": 52286,
+          "cache_creation_input_tokens": 207682,
+          "cache_read_input_tokens": 11127619
+        }
+      },
+      "tool_uses": {
+        "bash": 68,
+        "edit": 14,
+        "enterworktree": 1,
+        "read": 2,
+        "skill": 1,
+        "taskcreate": 5,
+        "taskupdate": 3,
+        "toolsearch": 2,
+        "write": 4
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 101,
+        "output_tokens": 61253,
+        "cache_creation_input_tokens": 112439,
+        "cache_read_input_tokens": 7069828
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 101,
+          "output_tokens": 61253,
+          "cache_creation_input_tokens": 112439,
+          "cache_read_input_tokens": 7069828
+        }
+      }
+    },
+    "by_prompt": {
+      "s_933afceb3c6daa": {
+        "input_tokens": 163,
+        "output_tokens": 52286,
+        "cache_creation_input_tokens": 207682,
+        "cache_read_input_tokens": 11127619
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
