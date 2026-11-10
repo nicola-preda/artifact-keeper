@@ -1,0 +1,134 @@
+backend/src/api/handlers/auth.rs
+  s_7295de5a5caaa6::t_84edc4c9a8ebcf 23,242-257,565,568-584,632-635,698,744-750,929,2216,2226,2240
+backend/src/api/middleware/tracing.rs
+  s_7295de5a5caaa6::t_12d903fe36c276 393,572,579
+.env.example
+  s_def58d8b4807ac::t_fcb5c2463f9d9a 522-533
+backend/src/api/handlers/impersonation.rs
+  s_def58d8b4807ac::t_76036e9a380b35 1-195
+backend/src/api/handlers/mod.rs
+  s_def58d8b4807ac::t_1021af8b5fa597 441
+backend/src/api/middleware/auth.rs
+  s_def58d8b4807ac::t_0bcf49b3ab3e5e 28,545-546,612-617,654-661,666,687,1035,1071-1075,1448,1932-1934
+backend/src/api/middleware/impersonation.rs
+  s_def58d8b4807ac::t_678f29298b852b 1-737
+backend/src/api/middleware/mod.rs
+  s_def58d8b4807ac::t_3fdc2d84a86629 8
+backend/src/api/middleware/request_span.rs
+  s_def58d8b4807ac::t_d74ca44e64c34f 66-67,78,88,91-98,107-109,140-153
+backend/src/api/routes.rs
+  s_def58d8b4807ac::t_3e2669847f53b3 274-283,1259,1266-1268
+backend/src/services/audit_export.rs
+  s_def58d8b4807ac::t_095f7167ad5a17 182-183
+backend/src/services/audit_service.rs
+  s_def58d8b4807ac::t_f0e4ed92944621 233-237,338-339
+backend/src/services/auth_service.rs
+  s_def58d8b4807ac::t_207b835a540d0b 264-286,2052-2095
+docs/audit-events.md
+  s_c90ac3535047f4::t_72c484519f3eb3 207-222
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "455d0ff75737af246df4b06c95c6bde63a5e4e38",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    },
+    "s_c90ac3535047f4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a2d0733b72fd9fda9",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    },
+    "s_def58d8b4807ac": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a312148a-0899-406c-a756-458a091048b2",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 327,
+        "output_tokens": 138596,
+        "cache_creation_input_tokens": 447344,
+        "cache_read_input_tokens": 38214822
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 40,
+          "output_tokens": 13702,
+          "cache_creation_input_tokens": 28116,
+          "cache_read_input_tokens": 7528623
+        },
+        "claude::unknown": {
+          "input_tokens": 287,
+          "output_tokens": 124894,
+          "cache_creation_input_tokens": 419228,
+          "cache_read_input_tokens": 30686199
+        }
+      },
+      "tool_uses": {
+        "bash": 149,
+        "edit": 6,
+        "enterworktree": 1,
+        "read": 4,
+        "sendmessage": 1,
+        "skill": 2,
+        "structuredoutput": 1,
+        "toolsearch": 1,
+        "workflow": 2,
+        "write": 7
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 87,
+        "output_tokens": 29064,
+        "cache_creation_input_tokens": 187917,
+        "cache_read_input_tokens": 1724608
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 87,
+          "output_tokens": 29064,
+          "cache_creation_input_tokens": 187917,
+          "cache_read_input_tokens": 1724608
+        }
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 40,
+        "output_tokens": 13702,
+        "cache_creation_input_tokens": 28116,
+        "cache_read_input_tokens": 7528623
+      },
+      "s_c90ac3535047f4": {
+        "input_tokens": 54,
+        "output_tokens": 14409,
+        "cache_creation_input_tokens": 76028,
+        "cache_read_input_tokens": 1566622
+      },
+      "s_def58d8b4807ac": {
+        "input_tokens": 233,
+        "output_tokens": 110485,
+        "cache_creation_input_tokens": 343200,
+        "cache_read_input_tokens": 29119577
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
