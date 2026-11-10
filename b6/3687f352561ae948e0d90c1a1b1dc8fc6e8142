@@ -1,0 +1,43 @@
+.env.example
+  h_206b40f42abaf2 65-79
+backend/src/api/handlers/conan.rs
+  h_206b40f42abaf2 5134-5135
+backend/src/api/handlers/proxy_helpers.rs
+  h_206b40f42abaf2 17372-17373
+backend/src/api/handlers/test_db_helpers.rs
+  h_206b40f42abaf2 668-669
+backend/src/config.rs
+  h_206b40f42abaf2 1035-1047,1518-1519,1680-1681,2061-2064,3506-3546
+backend/src/db.rs
+  h_206b40f42abaf2 142,144-158,160-161,185,270,276-306,706-712,864-1228
+backend/src/main.rs
+  h_206b40f42abaf2 205-210,220-224,244
+backend/src/services/auth_service.rs
+  h_206b40f42abaf2 4587-4588
+backend/src/services/cache_invalidation.rs
+  h_206b40f42abaf2 470
+backend/src/services/cluster_lock.rs
+  h_206b40f42abaf2 203
+backend/src/services/ldap_service.rs
+  h_206b40f42abaf2 1452-1453
+backend/src/services/ldap_sync_service.rs
+  h_206b40f42abaf2 554
+backend/src/services/oidc_service.rs
+  h_206b40f42abaf2 983-984,1159-1160
+changes/unreleased/00-pgbouncer-direct-pool.md
+  h_206b40f42abaf2 1-5
+docs/operations/load-shedding.md
+  h_206b40f42abaf2 124-134
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "b63687f352561ae948e0d90c1a1b1dc8fc6e8142",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
