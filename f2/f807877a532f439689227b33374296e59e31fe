@@ -20,6 +20,20 @@ backend/src/services/scanner_service.rs
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 294,
+    "ai_accepted": 294,
+    "git_diff_deleted_lines": 3,
+    "git_diff_added_lines": 294,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 294,
+        "ai_accepted": 294
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
