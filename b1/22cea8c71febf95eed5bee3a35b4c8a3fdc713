@@ -15,5 +15,14 @@ changes/unreleased/5657-adapter-restart-resubmits-scan.md
       "author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 229,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 47,
+    "git_diff_added_lines": 229,
+    "tool_model_breakdown": {}
+  },
   "proton_build": "1.7.6-proton.8"
 }
