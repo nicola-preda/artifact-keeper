@@ -1,0 +1,73 @@
+.env.example
+  s_cb5ac2d927bff6::t_3af6f8867fdf78 782-794
+backend/Cargo.toml
+  s_cb5ac2d927bff6::t_6eb59a7b1cc136 147-148
+backend/src/services/scanner_service.rs
+  s_cb5ac2d927bff6::t_efd67290c5587b 6506-6507,6530-6535,7373-7469,7477,7563-7567,8267-8278,8482-8492,8498,18575-18718
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f2f807877a532f439689227b33374296e59e31fe",
+  "prompts": {},
+  "sessions": {
+    "s_cb5ac2d927bff6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7180e7ae-4f6f-4d65-9aa8-8f0480999dc3",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 148,
+        "output_tokens": 57764,
+        "cache_creation_input_tokens": 197614,
+        "cache_read_input_tokens": 10910379
+      },
+      "by_tool_model": {
+        "claude::unknown": {
+          "input_tokens": 148,
+          "output_tokens": 57764,
+          "cache_creation_input_tokens": 197614,
+          "cache_read_input_tokens": 10910379
+        }
+      },
+      "tool_uses": {
+        "agent": 1,
+        "bash": 70,
+        "edit": 13,
+        "enterworktree": 1,
+        "read": 2
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 155,
+        "output_tokens": 32991,
+        "cache_creation_input_tokens": 263457,
+        "cache_read_input_tokens": 6488713
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 155,
+          "output_tokens": 32991,
+          "cache_creation_input_tokens": 263457,
+          "cache_read_input_tokens": 6488713
+        }
+      }
+    },
+    "by_prompt": {
+      "s_cb5ac2d927bff6": {
+        "input_tokens": 148,
+        "output_tokens": 57764,
+        "cache_creation_input_tokens": 197614,
+        "cache_read_input_tokens": 10910379
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
