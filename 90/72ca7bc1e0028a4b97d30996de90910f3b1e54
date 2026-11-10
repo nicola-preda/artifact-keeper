@@ -1,0 +1,23 @@
+backend/src/api/handlers/oci_v2.rs
+  h_206b40f42abaf2 11028
+backend/src/services/grype_scanner.rs
+  h_206b40f42abaf2 2886,2916,3206,3255,3324,3431,3512,3561
+backend/src/services/image_scanner.rs
+  h_206b40f42abaf2 1285,1311,1335,1654
+backend/src/services/scanner_service.rs
+  h_206b40f42abaf2 4634-4635,8807,8836,9081,11248,11311,13160,13181,18426,18521,25647,25699,26164,27042,27069
+backend/src/services/trivy_fs_scanner.rs
+  h_206b40f42abaf2 426
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "9072ca7bc1e0028a4b97d30996de90910f3b1e54",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
