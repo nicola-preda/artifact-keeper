@@ -1,0 +1,82 @@
+backend/src/api/handlers/maven.rs
+  s_65b9b72a85a1b2::t_a7f2a57418cd96 8424-8431,8462-8469,8522-8524,8737-8739,9075-9077
+backend/src/api/handlers/oci_v2.rs
+  s_65b9b72a85a1b2::t_fac098920de45d 23323-23334,23367-23371,24977,24995,25006,25567-25571,25576-25577,25595-25599,26654-26661,32500-32510,32547-32551
+backend/src/api/handlers/repositories.rs
+  s_65b9b72a85a1b2::t_786bcd904f8d38 25156,25166-25174,25180,30299-30307,30349-30353
+backend/src/api/handlers/upload.rs
+  s_65b9b72a85a1b2::t_318e01b3d462e4 6368,6379
+backend/src/services/ci_oidc_service.rs
+  s_65b9b72a85a1b2::t_d9f5f1331bf54d 4116-4123,4130-4134
+backend/src/services/storage_scrub_service.rs
+  s_65b9b72a85a1b2::t_141ed7433c575e 1037-1040,1043-1044,1047-1049,1052-1057
+backend/src/testing.rs
+  s_65b9b72a85a1b2::t_585b9039ff4081 30-31
+backend/src/testing/ddl.rs
+  s_65b9b72a85a1b2::t_f35dabbec07f21 1-77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e5fe33cc18bac5b1772e23e6264ff6f6b1b5198e",
+  "prompts": {},
+  "sessions": {
+    "s_65b9b72a85a1b2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c439de16-a8c7-4f99-a0f4-28a5f18f1353",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 87,
+        "output_tokens": 38806,
+        "cache_creation_input_tokens": 77940,
+        "cache_read_input_tokens": 10603593
+      },
+      "by_tool_model": {
+        "claude::unknown": {
+          "input_tokens": 87,
+          "output_tokens": 38806,
+          "cache_creation_input_tokens": 77940,
+          "cache_read_input_tokens": 10603593
+        }
+      },
+      "tool_uses": {
+        "bash": 36,
+        "edit": 21,
+        "read": 7,
+        "write": 3
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 41,
+        "output_tokens": 19227,
+        "cache_creation_input_tokens": 278269,
+        "cache_read_input_tokens": 4601840
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 41,
+          "output_tokens": 19227,
+          "cache_creation_input_tokens": 278269,
+          "cache_read_input_tokens": 4601840
+        }
+      }
+    },
+    "by_prompt": {
+      "s_65b9b72a85a1b2": {
+        "input_tokens": 87,
+        "output_tokens": 38806,
+        "cache_creation_input_tokens": 77940,
+        "cache_read_input_tokens": 10603593
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
