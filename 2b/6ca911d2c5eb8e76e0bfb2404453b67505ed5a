@@ -1,0 +1,39 @@
+backend/migrations/9008_proton_global_role_grants.sql
+  h_206b40f42abaf2 1-38
+backend/src/api/handlers/groups.rs
+  h_206b40f42abaf2 713
+backend/src/api/handlers/security_reviewers.rs
+  h_206b40f42abaf2 95-96,99,107-108,228-230,238-239,456-461,485-532
+backend/src/api/middleware/auth.rs
+  h_206b40f42abaf2 10791-10863
+backend/src/services/permission_service.rs
+  h_206b40f42abaf2 645-650,667,682-683,686-688,1564-1565,1574-1585
+changes/unreleased/4700-security-reviewer-storage.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "2b6ca911d2c5eb8e76e0bfb2404453b67505ed5a",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 207,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 39,
+    "git_diff_added_lines": 207,
+    "tool_model_breakdown": {}
+  },
+  "token_usage": {
+    "origins": [
+      "871b5360eaf6d02aa629310506f970ed8bb6ca76"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
