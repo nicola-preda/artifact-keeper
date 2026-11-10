@@ -1,0 +1,17 @@
+backend/src/api/handlers/cargo.rs
+  h_206b40f42abaf2 1718-1733,1762-1767,5635-5640,5707-5725,7028,7175-7322
+changes/unreleased/5609-cargo-repo-scoped-storage-keys.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "02c5914299f2a07a6ecac2241593f042b84ea8df",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
