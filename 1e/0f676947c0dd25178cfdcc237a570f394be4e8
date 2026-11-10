@@ -1,0 +1,40 @@
+backend/migrations/343_global_role_grants.sql
+  s_7295de5a5caaa6::t_1c4b60e3a84bb9 1-27
+backend/src/api/handlers/security_reviewers.rs
+  s_7295de5a5caaa6::t_fa194edb1eba34 1-729
+backend/src/services/permission_service.rs
+  s_7295de5a5caaa6::t_a2d91cc1f095b5 654-658,674-677,683-685,687-698,1575-1576,1585-1596
+changes/unreleased/5152-security-reviewer-grants.md
+  s_7295de5a5caaa6::t_fef6f1b5f35260 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "1e0f676947c0dd25178cfdcc237a570f394be4e8",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 36,
+    "ai_additions": 799,
+    "ai_accepted": 799,
+    "git_diff_deleted_lines": 14,
+    "git_diff_added_lines": 835,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 799,
+        "ai_accepted": 799
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
