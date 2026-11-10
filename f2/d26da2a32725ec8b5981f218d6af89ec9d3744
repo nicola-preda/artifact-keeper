@@ -1,0 +1,59 @@
+.config/nextest.toml
+  h_206b40f42abaf2 126-131,137
+.env.example
+  h_206b40f42abaf2 954-970
+backend/migrations/337_scan_queue.sql
+  h_206b40f42abaf2 1-83
+backend/src/api/handlers/admin_security.rs
+  h_206b40f42abaf2 55-82,1116-1172,1179-1180,1192-1194,1208-1222
+backend/src/api/handlers/conan.rs
+  h_206b40f42abaf2 5308-5310
+backend/src/api/handlers/oci_v2.rs
+  h_206b40f42abaf2 11687-11689
+backend/src/api/handlers/proxy_helpers.rs
+  h_206b40f42abaf2 9057-9058,10326,10346,10359-10381,10906-11106,11113-11117,11130,11183,11198,11202-11225,11289-11319,11365-11386,11687-11695,11703,13182-13192,13208-13213,13357-13399,13497-13585,13870,13896,18591-18593
+backend/src/api/handlers/security.rs
+  h_206b40f42abaf2 1414-1446,1537-1545,5294-5313,5331,6584-6594,6624-6629,6631,6635,6647,7968
+backend/src/api/handlers/test_db_helpers.rs
+  h_206b40f42abaf2 609-621,624-626
+backend/src/config.rs
+  h_206b40f42abaf2 1110-1124,1858-1859,1998-2000,2346-2353
+backend/src/main.rs
+  h_206b40f42abaf2 1292-1298
+backend/src/services/auth_service.rs
+  h_206b40f42abaf2 4649-4651
+backend/src/services/ldap_service.rs
+  h_206b40f42abaf2 1388-1390
+backend/src/services/metrics_service.rs
+  h_206b40f42abaf2 569-634,1270-1280
+backend/src/services/mod.rs
+  h_206b40f42abaf2 136,139
+backend/src/services/oidc_service.rs
+  h_206b40f42abaf2 898-900,1080-1082
+backend/src/services/scan_queue.rs
+  h_206b40f42abaf2 1-1290
+backend/src/services/scan_worker.rs
+  h_206b40f42abaf2 1-539
+backend/src/services/scanner_service.rs
+  h_206b40f42abaf2 5379-5394,27446-27457
+backend/tests/composer_packages_index_tests.rs
+  h_206b40f42abaf2 45-47
+backend/tests/incus_upload_tests.rs
+  h_206b40f42abaf2 33-35
+changes/unreleased/4690-durable-scan-queue.md
+  h_206b40f42abaf2 1-7
+docs/security/scan-on-proxy.md
+  h_206b40f42abaf2 69-70,445-501
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f2d26da2a32725ec8b5981f218d6af89ec9d3744",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
