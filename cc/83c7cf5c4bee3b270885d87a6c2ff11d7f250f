@@ -1,0 +1,19 @@
+backend/src/api/handlers/maven.rs
+  h_206b40f42abaf2 1679-1688,2000,8720-8749
+backend/src/error.rs
+  h_206b40f42abaf2 497-505,527
+changes/unreleased/5623-member-walk-503-warn.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "cc83c7cf5c4bee3b270885d87a6c2ff11d7f250f",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
