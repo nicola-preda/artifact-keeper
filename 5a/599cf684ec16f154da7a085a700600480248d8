@@ -1,0 +1,49 @@
+backend/src/services/scanner_service.rs
+  s_c3cb26384f2544::t_d768867f7d27ad 12040,12060-12063,12094,12097-12103
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "5a599cf684ec16f154da7a085a700600480248d8",
+  "prompts": {},
+  "sessions": {
+    "s_c3cb26384f2544": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e5dbbc4-e58d-4248-ae16-52eee0711c78",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 4,
+        "output_tokens": 888,
+        "cache_creation_input_tokens": 1503,
+        "cache_read_input_tokens": 1637782
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 4,
+          "output_tokens": 888,
+          "cache_creation_input_tokens": 1503,
+          "cache_read_input_tokens": 1637782
+        }
+      },
+      "tool_uses": {
+        "bash": 2
+      }
+    },
+    "by_prompt": {
+      "s_c3cb26384f2544": {
+        "input_tokens": 4,
+        "output_tokens": 888,
+        "cache_creation_input_tokens": 1503,
+        "cache_read_input_tokens": 1637782
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
