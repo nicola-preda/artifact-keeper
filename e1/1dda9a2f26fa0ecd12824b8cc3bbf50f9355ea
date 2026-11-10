@@ -1,0 +1,19 @@
+backend/src/api/handlers/health.rs
+  h_206b40f42abaf2 603-606,623-666,3426-3454
+changes/unreleased/5651-readyz-database-deadline.md
+  h_206b40f42abaf2 1-5
+docs/operations/health-probes.md
+  h_206b40f42abaf2 66-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e11dda9a2f26fa0ecd12824b8cc3bbf50f9355ea",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
