@@ -1,0 +1,27 @@
+changes/unreleased/5666-adapter-offline-scan-default.md
+  h_206b40f42abaf2 1-5
+docker/scanner-adapter/README.md
+  h_206b40f42abaf2 70
+docker/scanner-adapter/config.go
+  h_206b40f42abaf2 35-39,155,169
+docker/scanner-adapter/scan.go
+  h_206b40f42abaf2 93-95,102-105
+docker/scanner-adapter/scan_test.go
+  h_206b40f42abaf2 158-185
+docker/scanner-adapter/vulndb_import_test.go
+  h_206b40f42abaf2 183-184,194-195,236,238-239
+docs/air-gapped.md
+  h_206b40f42abaf2 434
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "7de8cd35a54f5feee24f1e24169667c9424eba48",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
