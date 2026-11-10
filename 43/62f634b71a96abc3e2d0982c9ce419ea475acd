@@ -1,0 +1,19 @@
+backend/src/api/handlers/maven.rs
+  h_206b40f42abaf2 160-172,177,189,200-246,449-452,458-516,519,525-530,542-543,546-567,3858-3874,4322-4425,6702-6703,6705,11321-11772
+backend/src/api/handlers/repositories.rs
+  h_206b40f42abaf2 11593-11602
+changes/unreleased/5664-maven-snapshot-alias-checksums-metadata.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "4362f634b71a96abc3e2d0982c9ce419ea475acd",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
