@@ -13,5 +13,14 @@ changes/unreleased/5609-cargo-repo-scoped-storage-keys.md
       "author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 201,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 3,
+    "git_diff_added_lines": 201,
+    "tool_model_breakdown": {}
+  },
   "proton_build": "1.7.6-proton.8"
 }
