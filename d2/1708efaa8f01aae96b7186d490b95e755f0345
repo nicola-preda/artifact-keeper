@@ -1,0 +1,38 @@
+backend/src/formats/alpine.rs
+  s_c3cb26384f2544::t_9cfb8a70c85537 8,87-88,90-91
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "d21708efaa8f01aae96b7186d490b95e755f0345",
+  "prompts": {},
+  "sessions": {
+    "s_c3cb26384f2544": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e5dbbc4-e58d-4248-ae16-52eee0711c78",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 20,
+        "output_tokens": 2495,
+        "cache_creation_input_tokens": 69317,
+        "cache_read_input_tokens": 195893
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 20,
+          "output_tokens": 2495,
+          "cache_creation_input_tokens": 69317,
+          "cache_read_input_tokens": 195893
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
