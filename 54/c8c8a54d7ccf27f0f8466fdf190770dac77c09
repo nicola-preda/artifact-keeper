@@ -1,0 +1,17 @@
+backend/src/services/proxy_service.rs
+  h_206b40f42abaf2 1276,1281,1285,1292-1294,5722,6476,9047-9054,9057,9065-9071,9703-9704,9708,9710,9715,9720-9786
+changes/unreleased/5630-unscanned-warning-ungated-formats.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "54c8c8a54d7ccf27f0f8466fdf190770dac77c09",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
