@@ -1,0 +1,19 @@
+backend/src/api/handlers/alpine.rs
+  h_206b40f42abaf2 3709-3776
+backend/src/services/proxy_service.rs
+  h_206b40f42abaf2 333-480,6185-6194,6243-6246,6989-6992,26442-26698
+changes/unreleased/5509-alpine-ranged-cold-fill.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "0649a93e357d61fb52767519e2d703557de36dc4",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
