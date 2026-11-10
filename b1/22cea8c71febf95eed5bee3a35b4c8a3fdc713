@@ -1,0 +1,19 @@
+backend/src/services/image_scanner.rs
+  h_206b40f42abaf2 11,766-767,788-797,810-816,848,855-873,1589-1637,1643,1670-1677
+backend/src/services/scanner_adapter_client.rs
+  h_206b40f42abaf2 23-25,85-121,167-168,175-179,265-266,359-360,362,379-388,392-398,567-569,638-691
+changes/unreleased/5657-adapter-restart-resubmits-scan.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "b122cea8c71febf95eed5bee3a35b4c8a3fdc713",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
