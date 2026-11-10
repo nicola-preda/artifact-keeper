@@ -1,0 +1,23 @@
+backend/src/api/handlers/composer.rs
+  h_206b40f42abaf2 1306-1318,1343-1351,2252-2269
+backend/src/api/handlers/gitlfs.rs
+  h_206b40f42abaf2 277-306,392,562,690,818-820,1192-1209
+backend/src/api/handlers/test_db_helpers.rs
+  h_206b40f42abaf2 47-89
+backend/src/services/package_service.rs
+  h_206b40f42abaf2 1150-1151,1154-1158,1160-1161
+changes/unreleased/5573-char-column-casts.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e8e43542b64edb5bba2b58b77d976f79062b8560",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
