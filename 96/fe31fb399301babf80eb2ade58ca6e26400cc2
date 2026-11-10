@@ -1,0 +1,17 @@
+backend/src/api/handlers/goproxy.rs
+  h_206b40f42abaf2 2131-2141,2309-2319,4569-4626
+changes/unreleased/4812-go-republish-same-bytes.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "96fe31fb399301babf80eb2ade58ca6e26400cc2",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
