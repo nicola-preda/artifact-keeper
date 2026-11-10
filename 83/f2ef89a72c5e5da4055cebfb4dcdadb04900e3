@@ -1,0 +1,44 @@
+backend/src/api/handlers/cargo.rs
+  s_91241db92deb5d::t_b65fc4897f7a20 246-252,651,659-668,2000-2009,2018-2024,3638-3714
+changes/unreleased/5689-cargo-download-one-row-one-index.md
+  s_c3cb26384f2544::t_6b758b7d135c53 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "83f2ef89a72c5e5da4055cebfb4dcdadb04900e3",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    },
+    "s_c3cb26384f2544": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e5dbbc4-e58d-4248-ae16-52eee0711c78",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 117,
+    "ai_accepted": 117,
+    "git_diff_deleted_lines": 14,
+    "git_diff_added_lines": 117,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 117,
+        "ai_accepted": 117
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
