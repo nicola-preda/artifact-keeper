@@ -58,6 +58,24 @@ docs/audit-events.md
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 1164,
+    "ai_accepted": 1164,
+    "git_diff_deleted_lines": 10,
+    "git_diff_added_lines": 1164,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 54,
+        "ai_accepted": 54
+      },
+      "claude::unknown": {
+        "ai_additions": 1110,
+        "ai_accepted": 1110
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
