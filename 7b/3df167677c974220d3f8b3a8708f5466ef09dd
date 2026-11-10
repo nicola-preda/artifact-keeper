@@ -1,0 +1,19 @@
+backend/src/api/handlers/npm.rs
+  h_206b40f42abaf2 2909,2915-2926,5916-5918,6466-6469,6651,6656-6672,6674-6676,6685,6688-6696,6698-6700,6709-6746,6808,6812,6818,6822,6828,6832,6838,6841,6847,6850,6856,6859,20325-20326,20331,20590-20667
+backend/src/api/handlers/publish_lock.rs
+  h_206b40f42abaf2 15-28
+changes/unreleased/5403-npm-unpublish-rev.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "7b3df167677c974220d3f8b3a8708f5466ef09dd",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
