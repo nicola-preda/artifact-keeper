@@ -1,0 +1,59 @@
+backend/src/api/handlers/age_gate.rs
+  s_7295de5a5caaa6::t_79a6635f02d308 2399-2400
+changes/unreleased/5774-security-reviewer-grants.md
+  s_7295de5a5caaa6::t_97df204334da6c 1-5
+backend/src/api/openapi.rs
+  s_7295de5a5caaa6::t_f300cc51ac2229 196-199
+backend/src/api/handlers/mod.rs
+  s_7295de5a5caaa6::t_02263b7b2d3381 589
+docs/security/scan-on-proxy.md
+  s_7295de5a5caaa6::t_5b2eeac21c1a1a 298-306
+backend/src/api/handlers/security_reviewers.rs
+  s_7295de5a5caaa6::t_fa194edb1eba34 1-729
+backend/src/api/handlers/groups.rs
+  s_7295de5a5caaa6::t_5acad374c31ded 788-800
+backend/src/api/routes.rs
+  s_7295de5a5caaa6::t_a7e636a63b091e 1429-1432
+backend/migrations/343_global_role_grants.sql
+  s_7295de5a5caaa6::t_1c4b60e3a84bb9 1-27
+backend/src/services/permission_service.rs
+  s_7295de5a5caaa6::t_a2d91cc1f095b5 654-658,674-677,683-685,687-698,1575-1576,1585-1596
+backend/src/services/audit_service.rs
+  s_7295de5a5caaa6::t_787bad61c2d9ef 501,524,2235
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "8dcfef5bc14930b2db588b0f4b873b0ff8c17e87",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 835,
+    "ai_accepted": 835,
+    "git_diff_deleted_lines": 14,
+    "git_diff_added_lines": 835,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 835,
+        "ai_accepted": 835
+      }
+    }
+  },
+  "token_usage": {
+    "origins": [
+      "1e0f676947c0dd25178cfdcc237a570f394be4e8"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
