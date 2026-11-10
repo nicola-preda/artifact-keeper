@@ -18,6 +18,20 @@ docs/mcp-registry.md
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 27,
+    "ai_accepted": 27,
+    "git_diff_deleted_lines": 6,
+    "git_diff_added_lines": 27,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 27,
+        "ai_accepted": 27
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
