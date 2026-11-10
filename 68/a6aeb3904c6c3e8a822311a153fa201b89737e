@@ -1,0 +1,49 @@
+.gitlab-ci.yml
+  s_7295de5a5caaa6::t_ea29638c09b814 65-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "68a6aeb3904c6c3e8a822311a153fa201b89737e",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 11,
+        "output_tokens": 3299,
+        "cache_creation_input_tokens": 4191,
+        "cache_read_input_tokens": 1847679
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 11,
+          "output_tokens": 3299,
+          "cache_creation_input_tokens": 4191,
+          "cache_read_input_tokens": 1847679
+        }
+      },
+      "tool_uses": {
+        "bash": 3
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 11,
+        "output_tokens": 3299,
+        "cache_creation_input_tokens": 4191,
+        "cache_read_input_tokens": 1847679
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
