@@ -18,6 +18,20 @@ docker/Dockerfile.backend.alpine
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 23,
+    "ai_accepted": 23,
+    "git_diff_deleted_lines": 4,
+    "git_diff_added_lines": 23,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 23,
+        "ai_accepted": 23
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
