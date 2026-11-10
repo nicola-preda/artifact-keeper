@@ -1,0 +1,19 @@
+backend/src/api/handlers/proxy_helpers.rs
+  h_206b40f42abaf2 836-838,843,15803-15833
+backend/src/error.rs
+  h_206b40f42abaf2 514-522,543
+changes/unreleased/5623-member-walk-503-warn.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "a6be0902ba3f77ae22a7b3ce5c73b1c78c4ec5ec",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
