@@ -1,0 +1,54 @@
+backend/src/api/handlers/maven.rs
+  s_7295de5a5caaa6::t_3df302234fc0e9 482-484,486-490,492,3868,3877-3889,4362-4366,4379,4383,4395,4410,4420-4443,4451-4481,11612-11613,11681-11790
+changes/unreleased/5678-maven-idempotent-sidecars.md
+  s_7295de5a5caaa6::t_f3362805e53cd5 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "04ffa4c818b8c88dc51d700c1e38ae7044d06e02",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 204,
+    "ai_accepted": 204,
+    "git_diff_deleted_lines": 32,
+    "git_diff_added_lines": 204,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 204,
+        "ai_accepted": 204
+      }
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 56,
+        "output_tokens": 16426,
+        "cache_creation_input_tokens": 43441,
+        "cache_read_input_tokens": 6136242
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 56,
+          "output_tokens": 16426,
+          "cache_creation_input_tokens": 43441,
+          "cache_read_input_tokens": 6136242
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
