@@ -9579,6 +9579,8 @@ impl ScannerService {
     /// reuse path here so the freshly-allocated placeholder rows are not
     /// converted into `is_reused = true` rows pointing at the very cached
     /// result the caller was trying to bypass (#1469).
+    ///
+    /// A prepared row the scan returns without finishing is failed with the reason, not left `running` for the janitor
     pub async fn scan_artifact_with_prepared(
         &self,
         artifact_id: Uuid,
@@ -9586,8 +9588,25 @@ impl ScannerService {
         force: bool,
         bypass_dedup: bool,
     ) -> Result<()> {
-        self.scan_artifact_inner(artifact_id, force, bypass_dedup, Some(prepared))
+        let ids: Vec<Uuid> = prepared.values().copied().collect();
+        let result = self
+            .scan_artifact_inner(artifact_id, force, bypass_dedup, Some(prepared))
+            .await;
+        let reason = match &result {
+            Ok(()) => "scan ended before this scanner ran".to_string(),
+            Err(e) => format!("scan ended before this scanner ran: {e}"),
+        };
+        if let Err(e) = self
+            .scan_result_service
+            .fail_running_scans(&ids, &reason)
             .await
+        {
+            warn!(
+                "Failed to close the unfinished scans of artifact {}: {}",
+                artifact_id, e
+            );
+        }
+        result
     }
 
     /// Run the leaf scanners over raw in-memory bytes with NO `artifacts` row
@@ -31350,6 +31369,61 @@ tonic-build = "0.12"
             .scan_artifact_with_prepared(ghost, prepared, true, false)
             .await;
 
+        fx.teardown().await;
+    }
+
+    /// The trigger already returned these ids, so a scan that stops before its scanners fails them instead of leaving them `running`
+    #[tokio::test]
+    async fn test_scan_artifact_with_prepared_fails_the_rows_it_never_ran() {
+        use crate::api::handlers::test_db_helpers as tdh;
+        let Some(fx) = tdh::Fixture::setup("local", "generic").await else {
+            return;
+        };
+        let scanner = build_minimal_scanner_service(
+            fx.pool.clone(),
+            fx.state.storage.clone(),
+            fx.state.storage_registry.clone(),
+            fx.storage_dir.to_string_lossy().into_owned(),
+        );
+
+        // forced: no bytes in storage, so the read fails, unforced: scanning is off for the repository
+        for (force, want_err) in [(true, true), (false, false)] {
+            let artifact_id =
+                insert_minimal_artifact(&fx.pool, fx.repo_id, &fresh_checksum()).await;
+            let prepared = scanner
+                .prepare_artifact_scan(artifact_id, true, true)
+                .await
+                .expect("prepare placeholders");
+            assert!(!prepared.is_empty(), "no scanner prepared a row");
+            let result = scanner
+                .scan_artifact_with_prepared(
+                    artifact_id,
+                    prepared_pairs_to_map(prepared.clone()),
+                    force,
+                    true,
+                )
+                .await;
+            assert_eq!(result.is_err(), want_err, "force={force}: {result:?}");
+            for (scan_type, id) in &prepared {
+                let row = scanner
+                    .scan_result_service
+                    .get_scan(*id)
+                    .await
+                    .expect("placeholder row");
+                assert_eq!(row.status, "failed", "force={force} {scan_type}");
+                assert!(row.completed_at.is_some(), "force={force} {scan_type}");
+                assert!(
+                    row.error_message
+                        .as_deref()
+                        .unwrap_or_default()
+                        .starts_with("scan ended before this scanner ran"),
+                    "force={force} {scan_type}: {:?}",
+                    row.error_message
+                );
+            }
+        }
+
+        cleanup_scan_state(&fx.pool, fx.repo_id).await;
         fx.teardown().await;
     }
 

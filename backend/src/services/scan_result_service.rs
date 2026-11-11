@@ -2028,6 +2028,21 @@ impl ScanResultService {
         Ok(())
     }
 
+    /// Fail the rows in `scan_ids` still `running`, a terminal row is left as it is
+    pub async fn fail_running_scans(&self, scan_ids: &[Uuid], reason: &str) -> Result<()> {
+        sqlx::query(
+            "UPDATE scan_results SET status = 'failed', error_message = $2, completed_at = NOW() \
+             WHERE id = ANY($1) AND status = 'running'",
+        )
+        .bind(scan_ids)
+        .bind(reason)
+        .execute(&self.db)
+        .await
+        .map_err(|e| AppError::Database(e.to_string()))?;
+
+        Ok(())
+    }
+
     /// Mark a scan as `not_applicable` (#1470): the scanner does not apply to
     /// this artifact's format, so it never ran. This is a distinct terminal
     /// status from `failed` (which is reserved for a scanner that started and
