@@ -1,0 +1,33 @@
+backend/src/services/scan_result_service.rs
+  h_206b40f42abaf2 2024-2026,2028-2039
+backend/src/services/scanner_service.rs
+  h_206b40f42abaf2 9582-9583,9591-9601,9603-9609,31375-31429
+changes/unreleased/00-scan-placeholder-rows.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "3ac007c29e3ac91da884d0232faa97c365f69104",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 95,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 1,
+    "git_diff_added_lines": 95,
+    "tool_model_breakdown": {}
+  },
+  "token_usage": {
+    "origins": [
+      "507e6c59e4b922b14c92d2f295d93ab56e78cce3"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
