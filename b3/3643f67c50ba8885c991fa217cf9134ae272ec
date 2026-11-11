@@ -1,0 +1,40 @@
+backend/src/services/backup_service.rs
+  s_7295de5a5caaa6::t_5a1b698192c4a6 331-357,2435-2436,2456-2461,2470-2475,2617,2626-2629,2649,2659-2662,2670-2671,5232-5378
+changes/unreleased/5857-restore-object-pass-failure.md
+  s_7295de5a5caaa6::t_69a2346d2a9c8f 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "b33643f67c50ba8885c991fa217cf9134ae272ec",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 64,
+        "output_tokens": 26659,
+        "cache_creation_input_tokens": 48818,
+        "cache_read_input_tokens": 5734604
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 64,
+          "output_tokens": 26659,
+          "cache_creation_input_tokens": 48818,
+          "cache_read_input_tokens": 5734604
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
