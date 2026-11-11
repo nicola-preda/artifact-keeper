@@ -1,0 +1,41 @@
+backend/src/api/handlers/npm.rs
+  s_7295de5a5caaa6::t_e8e272b12e29fe 3143-3155,7764-7772,11383-11395,18029-18072
+changes/unreleased/5790-npm-encoded-scoped-version.md
+  s_7295de5a5caaa6::t_f36a5543772095 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "783fc4cfc7004bb4a03c334a4d52d547c72e96f7",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 84,
+    "ai_accepted": 84,
+    "git_diff_deleted_lines": 0,
+    "git_diff_added_lines": 84,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 84,
+        "ai_accepted": 84
+      }
+    }
+  },
+  "token_usage": {
+    "origins": [
+      "d1ce8203bfb456f80ed8a41a1e8af24f8166b901"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
