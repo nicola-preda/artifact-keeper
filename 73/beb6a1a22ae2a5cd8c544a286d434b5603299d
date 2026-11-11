@@ -1,0 +1,78 @@
+backend/src/api/handlers/admin_security.rs
+  s_7295de5a5caaa6::t_3a20158aec658e 55-82,1116-1172,1179-1180,1192-1194,1208-1222
+backend/src/config.rs
+  s_7295de5a5caaa6::t_e07480fc287e40 1112-1126,1862-1863,2002-2004,2350-2357
+backend/src/services/mod.rs
+  s_7295de5a5caaa6::t_d879f7dbd77bf2 138,141
+backend/migrations/344_scan_queue.sql
+  s_7295de5a5caaa6::t_f856a562386353 1-83
+backend/src/api/handlers/conan.rs
+  s_7295de5a5caaa6::t_9befd466f23435 5442-5444
+backend/src/api/handlers/proxy_helpers.rs
+  s_7295de5a5caaa6::t_67a936da9871a2 9583-9584,10913,10933,10946-10968,11634-11834,11841-11845,11858,11911,11926,11930-11953,12017-12047,12093-12114,12415-12423,12431,14006-14016,14032-14037,14181-14223,14657-14745,15030,15056,20032-20034
+.env.example
+  s_7295de5a5caaa6::t_ef0b26520b15b9 992-1008
+backend/src/main.rs
+  s_7295de5a5caaa6::t_625f9676196768 1291-1297
+backend/tests/incus_upload_tests.rs
+  s_7295de5a5caaa6::t_0d7ab7feb9bbc7 33-35
+backend/src/services/scan_queue.rs
+  s_7295de5a5caaa6::t_f94eab9c5ccc88 1-1290
+backend/src/api/handlers/test_db_helpers.rs
+  s_7295de5a5caaa6::t_e89b305cdce742 669-681,684-686
+backend/src/api/handlers/security.rs
+  s_7295de5a5caaa6::t_46d974d816cc1c 1429-1461,1552-1560,5334-5353,5371,6883-6893,6923-6928,6930,6934,6946,8267
+backend/src/services/scanner_service.rs
+  s_7295de5a5caaa6::t_b52e24ddf19751 5463-5478,28202-28213
+backend/src/services/scan_worker.rs
+  s_7295de5a5caaa6::t_8e10799ecd8567 1-547
+docs/security/scan-on-proxy.md
+  s_7295de5a5caaa6::t_83a5273f0feb6b 69-70,473-533
+backend/tests/composer_packages_index_tests.rs
+  s_7295de5a5caaa6::t_75f9779debd733 45-47
+backend/src/services/oidc_service.rs
+  s_7295de5a5caaa6::t_87fa49b4dc22cf 898-900,1080-1082
+backend/src/api/handlers/oci_v2.rs
+  s_7295de5a5caaa6::t_1d12d09831b376 11997-11999
+.config/nextest.toml
+  s_7295de5a5caaa6::t_deba97c23b8a1b 126-131,137
+backend/src/services/ldap_service.rs
+  s_7295de5a5caaa6::t_1d6ccbcb1f2ba1 1388-1390
+backend/src/services/metrics_service.rs
+  s_7295de5a5caaa6::t_832de00083fe84 42-49,51-53,55,60-66,583-648,1112-1138,1141-1142,1311-1321
+backend/src/services/auth_service.rs
+  s_7295de5a5caaa6::t_9270b143bf50e6 5054-5056
+changes/unreleased/5775-durable-scan-queue.md
+  s_7295de5a5caaa6::t_cf9402db43c975 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "73beb6a1a22ae2a5cd8c544a286d434b5603299d",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 2910,
+    "ai_accepted": 2910,
+    "git_diff_deleted_lines": 47,
+    "git_diff_added_lines": 2910,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 2910,
+        "ai_accepted": 2910
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
