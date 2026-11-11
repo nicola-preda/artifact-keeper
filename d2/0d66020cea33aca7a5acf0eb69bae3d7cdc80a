@@ -65,5 +65,10 @@ backend/src/api/handlers/admin.rs
       }
     }
   },
+  "activity": {
+    "added_sloc": 89,
+    "checkpoints": 2,
+    "span_seconds": 1
+  },
   "proton_build": "1.7.6-proton.8"
 }
