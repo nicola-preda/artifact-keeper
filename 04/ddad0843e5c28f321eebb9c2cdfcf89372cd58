@@ -30,6 +30,24 @@ backend/src/services/repository_service.rs
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 4,
+    "ai_additions": 220,
+    "ai_accepted": 220,
+    "git_diff_deleted_lines": 12,
+    "git_diff_added_lines": 224,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 35,
+        "ai_accepted": 35
+      },
+      "claude::unknown": {
+        "ai_additions": 185,
+        "ai_accepted": 185
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
