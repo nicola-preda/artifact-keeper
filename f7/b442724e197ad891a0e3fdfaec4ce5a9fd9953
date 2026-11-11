@@ -1,0 +1,33 @@
+backend/src/api/handlers/maven.rs
+  h_206b40f42abaf2 3883
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f7b442724e197ad891a0e3fdfaec4ce5a9fd9953",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 26,
+        "output_tokens": 4786,
+        "cache_creation_input_tokens": 204591,
+        "cache_read_input_tokens": 3548286
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 26,
+          "output_tokens": 4786,
+          "cache_creation_input_tokens": 204591,
+          "cache_read_input_tokens": 3548286
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
