@@ -1,0 +1,82 @@
+.sqlx/query-0b36c220dffee089baaf3c18a3d2914294cb52dd0979d94681145f8c53fb9b2b.json
+  s_7295de5a5caaa6::t_e97f0e023c85e9 3,123
+backend/src/services/auth_service.rs
+  s_b0fd63dd9d30aa::t_26965f873569da 3507-3512,3566-3567,3575-3576,3753-3767,3787-3811,4717-4729,6586-6604
+backend/src/api/handlers/service_accounts.rs
+  s_7295de5a5caaa6::t_a7c25418db96ac 130-133,647,692-698,2611-2684
+changes/unreleased/5864-service-account-supplied-token.md
+  s_7295de5a5caaa6::t_5e412a8c3bc4f0 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "b37881827dc88a0bbd4aaf9a69edb4e5e302d204",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    },
+    "s_b0fd63dd9d30aa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f7ada47f-5219-49a2-8be9-d83808fc1d11",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 175,
+    "ai_accepted": 175,
+    "git_diff_deleted_lines": 16,
+    "git_diff_added_lines": 175,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 93,
+        "ai_accepted": 93
+      },
+      "claude::unknown": {
+        "ai_additions": 82,
+        "ai_accepted": 82
+      }
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "tool_uses": {
+        "bash": 58,
+        "edit": 8,
+        "enterworktree": 1,
+        "read": 2,
+        "write": 3
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 54,
+        "output_tokens": 17500,
+        "cache_creation_input_tokens": 32372,
+        "cache_read_input_tokens": 8429845
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 54,
+          "output_tokens": 17500,
+          "cache_creation_input_tokens": 32372,
+          "cache_read_input_tokens": 8429845
+        }
+      }
+    },
+    "origins": [
+      "f06c3c8021638f9f7e1634914eaa1a95b5149662"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
