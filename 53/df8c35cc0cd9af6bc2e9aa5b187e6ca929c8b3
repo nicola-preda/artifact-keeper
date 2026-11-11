@@ -1,0 +1,38 @@
+Cargo.toml
+  s_7295de5a5caaa6::t_63b87b37b9ac70 186
+backend/src/services/backup_service.rs
+  s_7295de5a5caaa6::t_c57073fc33f6cf 10-11,15,18-19,446-481,492-493,496-497,499-503,505-511,513-541,543-575,577-580,582-607,698,811,813-842,1438-1455,1863,1865-1900,1918,1997-2071,2197-2200,2202-2204,2208-2209,2212-2213,3892-4014,4724-5021
+changes/unreleased/5336-backup-streams-archive.md
+  s_7295de5a5caaa6::t_dc5e37c80566b2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "53df8c35cc0cd9af6bc2e9aa5b187e6ca929c8b3",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 750,
+    "ai_accepted": 750,
+    "git_diff_deleted_lines": 120,
+    "git_diff_added_lines": 750,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 750,
+        "ai_accepted": 750
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
