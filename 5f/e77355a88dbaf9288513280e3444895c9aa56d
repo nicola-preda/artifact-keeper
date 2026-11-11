@@ -1,0 +1,36 @@
+changes/unreleased/5768-nfs-actimeo-doc.md
+  s_7295de5a5caaa6::t_ad3f8d5954f1fa 1-5
+docs/operations/proxy-cache-ha.md
+  s_7295de5a5caaa6::t_2c36d535ffa0c1 20-21,72-106
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "5fe77355a88dbaf9288513280e3444895c9aa56d",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 42,
+    "ai_accepted": 42,
+    "git_diff_deleted_lines": 1,
+    "git_diff_added_lines": 42,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 42,
+        "ai_accepted": 42
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
