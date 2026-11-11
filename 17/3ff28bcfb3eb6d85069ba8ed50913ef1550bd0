@@ -1,0 +1,33 @@
+backend/src/services/backup_service.rs
+  h_206b40f42abaf2 2192,2196
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "173ff28bcfb3eb6d85069ba8ed50913ef1550bd0",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 162,
+        "output_tokens": 42463,
+        "cache_creation_input_tokens": 766569,
+        "cache_read_input_tokens": 19712718
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 162,
+          "output_tokens": 42463,
+          "cache_creation_input_tokens": 766569,
+          "cache_read_input_tokens": 19712718
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
