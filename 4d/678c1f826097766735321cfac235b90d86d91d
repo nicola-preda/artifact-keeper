@@ -1,0 +1,42 @@
+backend/src/services/backup_service.rs
+  s_7295de5a5caaa6::t_e9a675e7a4a7a6 446,457-514,610-622,1662-1663,1665,1669,2244,2250-2252,2256,2260-2276,2280,2285-2286,2291-2303,2457-2461,2467,4201,5364-5554
+backend/src/storage/s3.rs
+  s_7295de5a5caaa6::t_7555aed7fcaffa 1409-1410,1453-1458,7870-7885
+changes/unreleased/5858-backup-lazy-artifact-get.md
+  s_7295de5a5caaa6::t_45abd6a8474684 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "4d678c1f826097766735321cfac235b90d86d91d",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 4,
+        "output_tokens": 2367,
+        "cache_creation_input_tokens": 2305,
+        "cache_read_input_tokens": 544342
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 4,
+          "output_tokens": 2367,
+          "cache_creation_input_tokens": 2305,
+          "cache_read_input_tokens": 544342
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
