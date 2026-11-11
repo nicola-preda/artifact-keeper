@@ -1,0 +1,41 @@
+backend/src/storage/s3.rs
+  s_91241db92deb5d::t_14c3883c393a30 466,469,906-909,4580-4634
+changes/unreleased/4694-empty-s3-prefix-breaks-copies.md
+  s_91241db92deb5d::t_98c6b832492583 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "6193576cf4c525601fcc0ab97f86001a35e5faca",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 66,
+    "ai_accepted": 66,
+    "git_diff_deleted_lines": 1,
+    "git_diff_added_lines": 66,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 66,
+        "ai_accepted": 66
+      }
+    }
+  },
+  "token_usage": {
+    "origins": [
+      "f722567683516eb44c76e2806c5c2d9ddbc6d2e3"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
