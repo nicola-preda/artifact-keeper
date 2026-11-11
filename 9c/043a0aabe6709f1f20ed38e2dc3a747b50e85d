@@ -1,0 +1,36 @@
+backend/src/formats/cargo.rs
+  s_7295de5a5caaa6::t_9fa69f73497058 435-446,463,866-884
+backend/src/services/scanner_service.rs
+  s_7295de5a5caaa6::t_cf06be900dbdd4 15963-15977
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "9c043a0aabe6709f1f20ed38e2dc3a747b50e85d",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 47,
+    "ai_accepted": 47,
+    "git_diff_deleted_lines": 1,
+    "git_diff_added_lines": 47,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 47,
+        "ai_accepted": 47
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
