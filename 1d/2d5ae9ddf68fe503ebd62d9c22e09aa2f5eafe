@@ -32,6 +32,24 @@ docs/operations/detection-metrics.md
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 130,
+    "ai_accepted": 130,
+    "git_diff_deleted_lines": 8,
+    "git_diff_added_lines": 130,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 67,
+        "ai_accepted": 67
+      },
+      "claude::unknown": {
+        "ai_additions": 63,
+        "ai_accepted": 63
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
