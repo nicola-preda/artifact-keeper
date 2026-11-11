@@ -20,6 +20,20 @@ backend/src/services/mod.rs
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 263,
+    "ai_accepted": 263,
+    "git_diff_deleted_lines": 0,
+    "git_diff_added_lines": 263,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 263,
+        "ai_accepted": 263
+      }
+    }
+  },
   "token_usage": {
     "carried": {
       "total": {
@@ -37,6 +51,10 @@ backend/src/services/mod.rs
         }
       }
     }
+  },
+  "activity": {
+    "added_sloc": 245,
+    "checkpoints": 1
   },
   "proton_build": "1.7.6-proton.8"
 }
