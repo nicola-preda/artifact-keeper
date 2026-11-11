@@ -1,0 +1,50 @@
+backend/src/api/handlers/lifecycle.rs
+  s_7295de5a5caaa6::t_e649ac15d43d05 49-51
+backend/src/api/handlers/npm.rs
+  s_7295de5a5caaa6::t_bc14f2b3c9b5ec 17664-17801
+backend/src/api/handlers/trash.rs
+  s_7295de5a5caaa6::t_8dc2a476ab673e 119,140-171
+backend/src/main.rs
+  s_7295de5a5caaa6::t_bef12d0a5d1bcb 1157
+backend/src/services/lifecycle_service.rs
+  s_7295de5a5caaa6::t_7be4b66cffd4e8 1282-1285,1294,1298-1308,1467-1472,1492-1496,1499-1546
+backend/src/services/scheduler_service.rs
+  s_7295de5a5caaa6::t_d6c2e07a56c45a 343,529-531
+changes/unreleased/5779-npm-packument-trash-retention.md
+  s_7295de5a5caaa6::t_ae912d3ad8e92f 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "6846e3645957f2180a40461e2e0b3ca76fe2bd28",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 10,
+        "output_tokens": 1866,
+        "cache_creation_input_tokens": 12239,
+        "cache_read_input_tokens": 963889
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 10,
+          "output_tokens": 1866,
+          "cache_creation_input_tokens": 12239,
+          "cache_read_input_tokens": 963889
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
