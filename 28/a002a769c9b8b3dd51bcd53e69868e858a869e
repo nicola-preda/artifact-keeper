@@ -1,0 +1,38 @@
+backend/src/api/handlers/migration.rs
+  s_7295de5a5caaa6::t_7174c6cd430539 73,216-229,688-689,691,699-700,715,718,810,832-838,846,876,882,910-915,918,934-937,939,946-966,976,3608-3801
+backend/src/services/nexus_client.rs
+  s_7295de5a5caaa6::t_6a97afc675468d 228-230,1526-1557
+changes/unreleased/5479-nexus-source-connections.md
+  s_7295de5a5caaa6::t_b8578cba79af2f 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "28a002a769c9b8b3dd51bcd53e69868e858a869e",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 301,
+    "ai_accepted": 301,
+    "git_diff_deleted_lines": 37,
+    "git_diff_added_lines": 301,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 301,
+        "ai_accepted": 301
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
