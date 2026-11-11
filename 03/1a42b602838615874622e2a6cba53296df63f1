@@ -28,6 +28,20 @@ changes/unreleased/5779-npm-packument-trash-retention.md
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 250,
+    "ai_accepted": 250,
+    "git_diff_deleted_lines": 2,
+    "git_diff_added_lines": 250,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 250,
+        "ai_accepted": 250
+      }
+    }
+  },
   "token_usage": {
     "carried": {
       "total": {
