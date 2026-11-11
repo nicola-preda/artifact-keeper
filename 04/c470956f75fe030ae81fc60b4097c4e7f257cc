@@ -1,0 +1,31 @@
+backend/src/api/middleware/auth.rs
+  h_206b40f42abaf2 2430-2436,2453,11807-11849
+changes/unreleased/5603-admin-denial-audit-full-path.md
+  h_206b40f42abaf2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "04c470956f75fe030ae81fc60b4097c4e7f257cc",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 56,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 6,
+    "git_diff_added_lines": 56,
+    "tool_model_breakdown": {}
+  },
+  "token_usage": {
+    "origins": [
+      "752ae477e3ae8dbf92460fda74a9fc1fe3dbccc1"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
