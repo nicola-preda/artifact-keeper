@@ -1,0 +1,75 @@
+backend/src/api/handlers/proxy_helpers.rs
+  s_bbb348b1f640f2::t_097a5699376e7c 11709-11710,11715,11717-11719,12024,12101-12105,13851-13955,14318,14321,14323,14327,14331,14336-14345
+changes/unreleased/5775-durable-scan-queue.md
+  s_bbb348b1f640f2::t_380b7c27cad338 7
+docs/security/scan-on-proxy.md
+  s_bbb348b1f640f2::t_a8d2f28e51f18e 504-506
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "c4f40e0fa5c2a14d7a7fba0ae5885c8d10028877",
+  "prompts": {},
+  "sessions": {
+    "s_bbb348b1f640f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "35e9bea7-f7ac-407a-be81-300d22eb3bd5",
+        "model": "unknown"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 136,
+    "ai_accepted": 136,
+    "git_diff_deleted_lines": 11,
+    "git_diff_added_lines": 136,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 136,
+        "ai_accepted": 136
+      }
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 46,
+        "output_tokens": 12837,
+        "cache_creation_input_tokens": 25525,
+        "cache_read_input_tokens": 4979244
+      },
+      "by_tool_model": {
+        "claude::unknown": {
+          "input_tokens": 46,
+          "output_tokens": 12837,
+          "cache_creation_input_tokens": 25525,
+          "cache_read_input_tokens": 4979244
+        }
+      },
+      "tool_uses": {
+        "bash": 18,
+        "edit": 2,
+        "enterworktree": 1,
+        "exitworktree": 1,
+        "read": 2,
+        "taskupdate": 2
+      }
+    },
+    "by_prompt": {
+      "s_bbb348b1f640f2": {
+        "input_tokens": 46,
+        "output_tokens": 12837,
+        "cache_creation_input_tokens": 25525,
+        "cache_read_input_tokens": 4979244
+      }
+    },
+    "origins": [
+      "0d3e4fdf925bf4d94e4e37cdefbcb01bc22d24a2"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
