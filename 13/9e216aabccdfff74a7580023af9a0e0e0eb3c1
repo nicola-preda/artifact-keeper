@@ -1,0 +1,55 @@
+backend/migrations/381_repositories_version_policy.sql
+  s_7295de5a5caaa6::t_30d54b695f8f76 1,3-7
+backend/src/api/handlers/approval.rs
+  s_7295de5a5caaa6::t_0a081c483641d6 997-1006
+backend/src/api/handlers/maven.rs
+  s_7295de5a5caaa6::t_608449e420e01e 5036-5047,10070-10171
+backend/src/api/handlers/promotion.rs
+  s_7295de5a5caaa6::t_a077de160e58d5 1444-1454,1899-1915
+backend/src/api/handlers/repositories.rs
+  s_7295de5a5caaa6::t_9c40451b9c593e 1103-1108,1480-1486,1789-1792,2321,2417-2431,4854-4865,5169-5172,5419,5483,6712-6715,6876,6878,12321-12331,16250,19997,21513,24208-24291,37471
+backend/src/models/repository.rs
+  s_7295de5a5caaa6::t_1351ffd3e7492d 366-420
+backend/src/services/maven_version_policy.rs
+  s_7295de5a5caaa6::t_3a6868342fefa3 1-292
+backend/src/services/migration_worker.rs
+  s_7295de5a5caaa6::t_dcbbf3e7a57003 2172-2181
+backend/src/services/mod.rs
+  s_7295de5a5caaa6::t_196dcbef5c1cc5 68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "139e216aabccdfff74a7580023af9a0e0e0eb3c1",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 674,
+    "ai_accepted": 674,
+    "git_diff_deleted_lines": 1,
+    "git_diff_added_lines": 674,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 674,
+        "ai_accepted": 674
+      }
+    }
+  },
+  "token_usage": {
+    "origins": [
+      "3fa6810767119519a15fd6ddde7368d29fed6925"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
