@@ -1,0 +1,66 @@
+backend/src/api/handlers/groups.rs
+  s_7295de5a5caaa6::t_67704ef4f85e8d 766,916,992,2235,2743-2896
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "dca03e8bde96f1504e41c38e2c54feb14b565ee3",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 158,
+    "ai_accepted": 158,
+    "git_diff_deleted_lines": 0,
+    "git_diff_added_lines": 158,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 158,
+        "ai_accepted": 158
+      }
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 4,
+        "output_tokens": 1754,
+        "cache_creation_input_tokens": 2413,
+        "cache_read_input_tokens": 1218286
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 4,
+          "output_tokens": 1754,
+          "cache_creation_input_tokens": 2413,
+          "cache_read_input_tokens": 1218286
+        }
+      },
+      "tool_uses": {
+        "bash": 2
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 4,
+        "output_tokens": 1754,
+        "cache_creation_input_tokens": 2413,
+        "cache_read_input_tokens": 1218286
+      }
+    },
+    "origins": [
+      "58f937ac2d79f8a5caa45a2e85e27acf9dbb6bf8"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
