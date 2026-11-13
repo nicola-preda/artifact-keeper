@@ -1,0 +1,22 @@
+backend/src/api/handlers/age_gate.rs
+  s_7295de5a5caaa6::t_e8171cd2a870e0 244-259,644,955,2525-2526,2679-2728
+changes/unreleased/5152-package-exception-queue.md
+  s_7295de5a5caaa6::t_76dca7151c62f3 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "6e73033e23a9f3c88d5b1d307aa59238a34173c2",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
