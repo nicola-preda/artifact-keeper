@@ -18,6 +18,20 @@ changes/unreleased/5922-audit-row-poll-deadline.md
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 101,
+    "ai_accepted": 101,
+    "git_diff_deleted_lines": 47,
+    "git_diff_added_lines": 101,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 101,
+        "ai_accepted": 101
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
