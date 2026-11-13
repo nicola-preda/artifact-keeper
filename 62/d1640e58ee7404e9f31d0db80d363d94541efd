@@ -1,0 +1,292 @@
+.config/nextest.toml
+  s_7295de5a5caaa6::t_47c3d11f211d14 135-140,146
+.env.example
+  s_7295de5a5caaa6::t_e14e043986370b 992-1008,1340-1367
+.github/PULL_REQUEST_TEMPLATE.md
+  s_7295de5a5caaa6::t_199a067452bf16 19-44
+.github/workflows/ci.yml
+  s_7295de5a5caaa6::t_0243bd7960eb41 1552-1560
+.github/workflows/mcp-sandbox.yml
+  s_7295de5a5caaa6::t_fa43083afa11c9 10-13,134-146
+.github/workflows/require-e2e-proof.yml
+  s_7295de5a5caaa6::t_e4956206593547 1-71
+.sqlx/query-0b36c220dffee089baaf3c18a3d2914294cb52dd0979d94681145f8c53fb9b2b.json
+  s_7295de5a5caaa6::t_66ef4798ad5d53 3,123
+.sqlx/query-a95bac14472d8e66de05ebdc2694ea1f92aa416e0e8e8041c97721fcc3b9958c.json
+  s_7295de5a5caaa6::t_430c85245be4eb 3,39
+.sqlx/query-c984c614555709ed6bdd9f7c4161d2c8cae4d0538259c079db7601d2ff08e318.json
+  s_7295de5a5caaa6::t_601ecb494bc2aa 3,27
+CONTRIBUTING.md
+  s_7295de5a5caaa6::t_10e90db8a23507 92,202-263
+RELEASING.md
+  s_7295de5a5caaa6::t_3d4c330f779dab 164-184
+backend/migrations/362_scan_queue.sql
+  s_7295de5a5caaa6::t_eac167423200bc 1-94
+backend/migrations/380_transfer_quota_usage.sql
+  s_7295de5a5caaa6::t_25747305ab3729 1-12
+backend/src/api/handlers/admin.rs
+  s_7295de5a5caaa6::t_67fa2468d80ffe 1810-1818,1845-1852,1949-1953,4213-4216,4219-4225
+backend/src/api/handlers/admin_security.rs
+  s_7295de5a5caaa6::t_0d16bfbc3e82b0 21-24,27-29,61-90,1124-1364,1371-1373,1385-1390,1404-1460,2526-2564
+backend/src/api/handlers/auth.rs
+  s_7295de5a5caaa6::t_bcdff3d15a5575 809
+backend/src/api/handlers/cargo.rs
+  s_7295de5a5caaa6::t_aec4ad75aff29f 246-252,651,659-668,2038-2047,2056-2062,3687-3763,7234
+backend/src/api/handlers/conan.rs
+  s_7295de5a5caaa6::t_959e144c211969 5442-5444,5521
+backend/src/api/handlers/device.rs
+  s_7295de5a5caaa6::t_b81602e54011a7 2578-2582
+backend/src/api/handlers/goproxy.rs
+  s_7295de5a5caaa6::t_4aff840c79b3e0 2134-2144,2315-2325,4734-4859
+backend/src/api/handlers/helm.rs
+  s_7295de5a5caaa6::t_af4d20fd49c6ce 2620
+backend/src/api/handlers/incus.rs
+  s_7295de5a5caaa6::t_11005b9a893917 768,773,2746,2755,5471
+backend/src/api/handlers/maven.rs
+  s_7295de5a5caaa6::t_e9615be8b071aa 14052-14135
+backend/src/api/handlers/migration.rs
+  s_7295de5a5caaa6::t_f0c3fa1ac82082 73,216-229,688-689,691,699-700,715,718,810,832-838,846,876,882,910-915,918,934-937,939,946-966,976,3608-3801
+backend/src/api/handlers/mod.rs
+  s_7295de5a5caaa6::t_d720f217cb75f7 707
+backend/src/api/handlers/npm.rs
+  s_7295de5a5caaa6::t_d104418f1bf15b 16556,16559
+backend/src/api/handlers/oci_v2.rs
+  s_7295de5a5caaa6::t_a6b025477601b3 207-254,1496-1498,1561-1562,4100-4102,4105,4107-4109,4114,4116,4145-4163,4166-4171,4179,4186-4193,4199-4205,4211,4237-4243,4280,4288-4297,4299-4301,4312-4314,4322,4364-4373,4379-4393,4402-4407,4440-4448,4458,4465-4471,4475,4483-4489,4504-4507,4517-4532,4578,4600-4602,4610,4628-4632,6843-6844,6979-6980,6982,6991-6997,7014-7015,7022-7029,7502,7511-7512,7537-7543,7552,7554,7563-7569,7615-7618,7793,10901-10906,10911-10924,10926,10929,11111,11114,11133,11146-11151,11184-11196,12531-12533,12730,12733,12752,12766-12771,12860-12872,13229-13231,13233,13237,13249,13253,13257,23467,23643,23659,23669,23687,23698-23699,23715,23718-23752,28386-28691,29689,35559,35631,36088,36090-36091,36094,36104,36135,36137
+backend/src/api/handlers/protobuf.rs
+  s_7295de5a5caaa6::t_56e75eabd3d2e5 425-428,431,435-443,2215,2217-2224,3841-3847
+backend/src/api/handlers/proxy_helpers.rs
+  s_7295de5a5caaa6::t_6fbdcc845d836b 27,1808-1813,3293-3297,3304,3309,3557-3575,3577-3578,3586-3588,3592,4146-4151,7023-7028,7103-7116,9804-9805,11295,11315,11328-11350,12143-12348,12355-12359,12372,12425,12440,12444-12467,12540-12570,12651-12674,12975-12983,12991,14404-14508,14671-14681,14697-14702,14846-14898,15332-15420,15705,15731,17148,17316-17420,21112-21114,21191,29075-29078
+backend/src/api/handlers/publish_quota.rs
+  s_7295de5a5caaa6::t_c2dc41845760e2 22-33,45,47-50,53,55-56,107,149,216,239-240,242-249,307,319,333,452,460-462
+backend/src/api/handlers/repositories/cache_seed.rs
+  s_7295de5a5caaa6::t_c0efb2358ea394 335,1123-1125
+backend/src/api/handlers/security.rs
+  s_7295de5a5caaa6::t_30a1740f0e85b4 1526-1558,1649-1657,5600-5619,5637,7149-7159,7189-7194,7196,7200,7212,8658
+backend/src/api/handlers/service_accounts.rs
+  s_7295de5a5caaa6::t_8ee4fff6f25b92 115,130-151,665,710-716,1006-1022,2646-2723
+backend/src/api/handlers/sso.rs
+  s_7295de5a5caaa6::t_466d31b33d66bd 26-27,58-99,222-234,333,335,339,353,358-361,416-426,629,631,660-663,679-680,706-708,719-720,726-729,737-738,940-941,948-949,1227-1228,1232,1239-1242,1265-1270,1283-1293,1315-1316,1349,1409-1421,1428-1429,1434-1489,1550,1559-1563,1610-1615,1628,1645-1689,1701-1703,1723-1724,1726,1731-1742,1754-1755,1757,1762-1774,1786-1793,4625-4626,4665-4669,4674-4686,4699,4736-4986
+backend/src/api/handlers/sso_binding.rs
+  s_7295de5a5caaa6::t_845aee1d3daa8e 1-421
+backend/src/api/handlers/system_config.rs
+  s_7295de5a5caaa6::t_0c8a79667b5104 27-59,399,401-405
+backend/src/api/handlers/test_db_helpers.rs
+  s_7295de5a5caaa6::t_8543ad26017f72 669-681,684-686,763,1059,1066,1070-1076,1091-1093,1125-1134,1141,2291-2294,2308-2311,2326,4330-4403
+backend/src/api/handlers/upload.rs
+  s_7295de5a5caaa6::t_da78a0e355743f 314-320,324-327,1260-1275,1283-1291,1303,1305,4413,6260,6286,7644,7653,7663,7716
+backend/src/api/handlers/upload_body.rs
+  s_7295de5a5caaa6::t_4118949797f319 141,170-178
+backend/src/api/middleware/auth.rs
+  s_7295de5a5caaa6::t_364fdc05a39b29 2855
+backend/src/api/middleware/request_span.rs
+  s_7295de5a5caaa6::t_bbe49bf28c8840 552,560
+backend/src/api/mod.rs
+  s_7295de5a5caaa6::t_bf14098a784bd3 264-273,324,354,378,408
+backend/src/api/routes.rs
+  s_7295de5a5caaa6::t_90d756ef7b9467 145-156,273-281,296-303,1209-1214,1252-1255,1764-1767
+backend/src/config.rs
+  s_7295de5a5caaa6::t_ba139ee182a305 681-766,1198-1212,1217-1220,1927,1953-1954,2093-2095,2097,2442-2449,2451
+backend/src/error.rs
+  s_7295de5a5caaa6::t_84b9e1553833c5 224-227,231-235,439-440,444-448,516-517,529,597,639-641,1093,1095-1103
+backend/src/main.rs
+  s_7295de5a5caaa6::t_6eebb1b814ed03 1240-1251,1303-1309
+backend/src/services/artifact_service.rs
+  s_7295de5a5caaa6::t_abd3fae76450b3 1312,1317,1503,1506,6520-6521
+backend/src/services/auth_config_service.rs
+  s_7295de5a5caaa6::t_6d9802ef1d4a98 1975-1994,1997,2116-2118,2120-2128,2135,2141-2142,2144-2156
+backend/src/services/auth_service.rs
+  s_7295de5a5caaa6::t_0550275108a1f8 3507-3512,3566-3567,3575-3576,3753-3767,3787-3811,4717-4748,5221-5223,5293,6609-6630
+backend/src/services/backup_service.rs
+  s_7295de5a5caaa6::t_264c39000cc99f 18,446-448,545-547,551,567,1349-1350,1385-1387,1603-1686,2119,2121,2129,2248-2254,2258,2268,2280,2284-2291,2315,2495-2509,2518,2521,2537-2554,2564-2572,2939-2973,3022-3078,3080-3086,3088,3090-3099,3103-3105,3107-3109,3111,3232-3236,3244-3249,3258-3264,3266-3276,3303,3306,3309,3317-3325,3327-3333,3338,3344,3350-3358,3363,3542-3555,4379,4875-4876
+backend/src/services/backup_service/archive_feed_tests.rs
+  s_7295de5a5caaa6::t_ea3ac764c15414 1-152
+backend/src/services/backup_service/identity_remap.rs
+  s_7295de5a5caaa6::t_69abb8243f6c30 1-267
+backend/src/services/backup_service/object_pass_tests.rs
+  s_7295de5a5caaa6::t_3bf964121e4400 1-240
+backend/src/services/backup_service/restore_identity_tests.rs
+  s_7295de5a5caaa6::t_f2e92fcc85f6ef 1-469
+backend/src/services/backup_service/rpm_depth_tests.rs
+  s_7295de5a5caaa6::t_3b5db619f770d3 42-48,333-343
+backend/src/services/cache_classifier.rs
+  s_7295de5a5caaa6::t_775fe0d0795d11 376-377,387-400,2233-2234,2251-2253
+backend/src/services/ldap_service.rs
+  s_7295de5a5caaa6::t_0f02ff263e9f9f 1388-1390,1460
+backend/src/services/mcp_remote.rs
+  s_7295de5a5caaa6::t_fa363cdf5e4cb6 611-617,2467-2469,2486,2489-2494
+backend/src/services/metrics_service.rs
+  s_7295de5a5caaa6::t_153cc5cda220f5 42-49,51-53,55,60-66,583-648,1112-1138,1141-1142,1311-1321
+backend/src/services/mod.rs
+  s_7295de5a5caaa6::t_fed162942e0d5d 126,141,144,179
+backend/src/services/nexus_client.rs
+  s_7295de5a5caaa6::t_12e4367877eceb 228-230,1526-1557
+backend/src/services/oidc_service.rs
+  s_7295de5a5caaa6::t_7a03d424ba055b 898-900,970,1081-1083,1153
+backend/src/services/proxy_service.rs
+  s_7295de5a5caaa6::t_f6b4de250b6876 6000-6002,6155-6157,6237-6242,10434-10436,10438-10446
+backend/src/services/quota/http.rs
+  s_7295de5a5caaa6::t_f0a93ef5a66464 1-781
+backend/src/services/quota/mod.rs
+  s_7295de5a5caaa6::t_e2d80201186579 1-128
+backend/src/services/quota/refusal.rs
+  s_7295de5a5caaa6::t_0c584540b61173 1-526
+backend/src/services/quota/router_tests.rs
+  s_7295de5a5caaa6::t_30d9aed346e680 1-504
+backend/src/services/quota/storage.rs
+  s_7295de5a5caaa6::t_de30006c5b32ef 1-304
+backend/src/services/quota/transfer.rs
+  s_7295de5a5caaa6::t_4b53656e527850 1-546
+backend/src/services/repository_service.rs
+  s_7295de5a5caaa6::t_184784e24ecef4 74-78,86-87,96,99-135,137,139,169,176,2903,2931,2935-2969,3030-3033,3040,3042,3151-3154,3238-3256,4773-4787,4810-4815,4817-4819,8717-8721,8728,8758-8761,8766-8769,8869-8873,8881-8882
+backend/src/services/saml_service.rs
+  s_7295de5a5caaa6::t_4df6524c430196 736-743,793-804,860
+backend/src/services/sbom_service.rs
+  s_7295de5a5caaa6::t_87e4468ebd4083 9,441-578,1625-1736,2131-2195,5492-5804
+backend/src/services/scan_queue.rs
+  s_7295de5a5caaa6::t_879514715e4302 1-1334
+backend/src/services/scan_result_service.rs
+  s_7295de5a5caaa6::t_6570660a112a25 78-80,83-106,674,3040-3056,3058-3074,3076-3081,3092,3095-3115,3117,3120-3123,3125,3135,3416,7468-7587
+backend/src/services/scan_worker.rs
+  s_7295de5a5caaa6::t_bc81c2fd8d1dbb 1-548
+backend/src/services/scanner_service.rs
+  s_7295de5a5caaa6::t_9353c1660c2471 3393-3409,5480-5495,10067-10071,10079-10084,28313-28324,29555-29664
+backend/src/services/sync_worker.rs
+  s_7295de5a5caaa6::t_b26d1519e9b6c7 2422-2424,2440-2444,5726,5741-5748
+backend/src/services/token_service.rs
+  s_7295de5a5caaa6::t_231efb67fd502e 482-485,539-541
+backend/src/services/virtual_member_breaker.rs
+  s_7295de5a5caaa6::t_f352bb47ca25f5 1-366
+backend/src/storage/s3.rs
+  s_7295de5a5caaa6::t_4f081f33fe1c76 466,469,906-909,1425-1428,1466,1470-1479,4594-4648,7554-7634,8030-8052
+backend/tests/common/sso_support.rs
+  s_7295de5a5caaa6::t_2d418f0fb190b2 84-94
+backend/tests/composer_packages_index_tests.rs
+  s_7295de5a5caaa6::t_f076e8b0590d6d 45-47,126
+backend/tests/incus_upload_tests.rs
+  s_7295de5a5caaa6::t_abf28bcc6a6403 33-35,114
+backend/tests/mcp_registry_proxy_tests.rs
+  s_7295de5a5caaa6::t_a3067ffb49235f 335-358,648-652,773,777-779
+backend/tests/sso_oidc_login_callback_e2e_tests.rs
+  s_7295de5a5caaa6::t_e8a6ecb3ecc349 81-82,422-443,459-461,467-488,1569-1570,1782-1783,1786-1790,1797,1855-1856,1961-2252
+backend/tests/sso_saml_acs_e2e_tests.rs
+  s_7295de5a5caaa6::t_298c19e42f5f4c 21-25,81-82,257-258,266-267,269-272,403,449,500,517,610,667,714,778,828,937,1075,1116,1163,1202,1256,1339,1418,1531,1579,1651-1654,1678-1682,1687-1703,1708,1714,1735-1740,1746-1750,1764-1992
+changes/unreleased/5479-nexus-source-connections.md
+  s_7295de5a5caaa6::t_ebbaf5ca167e95 1-5
+changes/unreleased/5486-sso-login-browser-binding.md
+  s_7295de5a5caaa6::t_1289e4fae6b34c 1-5
+changes/unreleased/5689-cargo-download-one-row-one-index.md
+  s_7295de5a5caaa6::t_6caea2f60663e9 1-5
+changes/unreleased/5768-nfs-actimeo-doc.md
+  s_7295de5a5caaa6::t_104807f9a0e6e8 1-5
+changes/unreleased/5775-durable-scan-queue.md
+  s_7295de5a5caaa6::t_53ac5faf44f41e 1-7
+changes/unreleased/5810-virtual-member-breaker.md
+  s_7295de5a5caaa6::t_b6a42ed21d817f 1-5
+changes/unreleased/5856-restore-fresh-server-identity.md
+  s_7295de5a5caaa6::t_1d378aa76ee821 1-5
+changes/unreleased/5857-restore-objects-before-tables.md
+  s_7295de5a5caaa6::t_3c379f63ade915 1-5
+changes/unreleased/5858-backup-opens-artifacts-when-ready.md
+  s_7295de5a5caaa6::t_4eb6e8fb7e9c33 1-5
+changes/unreleased/5862-empty-s3-prefix-breaks-copies.md
+  s_7295de5a5caaa6::t_075bb291f23191 1-5
+changes/unreleased/5863-helm-chart-scan-not-applicable.md
+  s_7295de5a5caaa6::t_2f6bf65cc486c9 1-5
+changes/unreleased/5864-service-account-supplied-token.md
+  s_7295de5a5caaa6::t_370e689adb9bd5 1-5
+changes/unreleased/5865-cve-drilldown-behind-the-tiles.md
+  s_7295de5a5caaa6::t_65405bec7e6010 1-7
+changes/unreleased/5882-device-rate-limit-audit-flake.md
+  s_7295de5a5caaa6::t_ae82b4e3262884 1-6
+changes/unreleased/5885-go-release-immutable.md
+  s_7295de5a5caaa6::t_e7ed7aaaa534e4 1-5
+changes/unreleased/5891-score-recalc-burst.md
+  s_7295de5a5caaa6::t_dba93946f912e1 1-5
+changes/unreleased/5894-oci-pull-storage-unavailable-503.md
+  s_7295de5a5caaa6::t_4cee0ec19a3f75 1-5
+changes/unreleased/5904-nightly-oci-tags-name.md
+  s_7295de5a5caaa6::t_2d3b8474367414 1-6
+changes/unreleased/5912-instance-quotas.md
+  s_7295de5a5caaa6::t_83ea0e769fb771 1-5
+changes/unreleased/5912-quota-refusal-403.md
+  s_7295de5a5caaa6::t_7e6361e2fd858d 1-5
+deploy/mcp-introspector/sandbox-check/source-refusal-check.sh
+  s_7295de5a5caaa6::t_4546da25664d80 1-167
+docs/operations/backup-and-restore.md
+  s_7295de5a5caaa6::t_1728a30db2e2fd 100-104,112-175
+docs/operations/instance-quotas.md
+  s_7295de5a5caaa6::t_48599ab57b4569 1-184
+docs/operations/proxy-cache-ha.md
+  s_7295de5a5caaa6::t_da97853e8f8c9b 20-21,72-106
+docs/security/mcp-sandbox.md
+  s_7295de5a5caaa6::t_163e3545abd349 333-341,343,348,353
+docs/security/scan-on-proxy.md
+  s_7295de5a5caaa6::t_3d793f17e98b29 69-70,486-550
+docs/sso-login-binding.md
+  s_7295de5a5caaa6::t_3ff1e1e2813a9b 1-82
+docs/sso-saml.md
+  s_7295de5a5caaa6::t_f011c6be635363 14-17
+docs/virtual-downloads.md
+  s_7295de5a5caaa6::t_6cf0fe0e411da2 52-72
+scripts/ci/check-e2e-proof.py
+  s_7295de5a5caaa6::t_755d0b8eb62825 1-968
+scripts/ci/e2e-exemptions.tsv
+  s_7295de5a5caaa6::t_0a809a488dfb73 1-49
+scripts/ci/e2e-fix-prs.tsv
+  s_7295de5a5caaa6::t_c495703d4ae76a 1-5
+scripts/ci/release-preflight.sh
+  s_7295de5a5caaa6::t_80fd0be3fc2607 143-147,959-1037
+scripts/ci/test-check-e2e-proof.sh
+  s_7295de5a5caaa6::t_95108efe55bcb5 1-415
+scripts/ci/test-release-preflight.sh
+  s_7295de5a5caaa6::t_0fa705faad89af 3,86-88,103-106,978-1044
+scripts/native-tests/test-docker.sh
+  s_7295de5a5caaa6::t_6f1f1e413fbd11 265-267
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "62d1640e58ee7404e9f31d0db80d363d94541efd",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 10,
+        "output_tokens": 1733,
+        "cache_creation_input_tokens": 549128,
+        "cache_read_input_tokens": 1134315
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 10,
+          "output_tokens": 1733,
+          "cache_creation_input_tokens": 549128,
+          "cache_read_input_tokens": 1134315
+        }
+      },
+      "tool_uses": {
+        "agent": 1,
+        "sendmessage": 1
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 10,
+        "output_tokens": 1733,
+        "cache_creation_input_tokens": 549128,
+        "cache_read_input_tokens": 1134315
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
