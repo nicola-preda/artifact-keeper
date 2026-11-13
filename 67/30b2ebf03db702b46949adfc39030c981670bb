@@ -18,5 +18,19 @@ changes/unreleased/5774-security-reviewer-grants.md
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 2,
+    "ai_accepted": 2,
+    "git_diff_deleted_lines": 2,
+    "git_diff_added_lines": 2,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 2,
+        "ai_accepted": 2
+      }
+    }
+  },
   "proton_build": "1.7.6-proton.8"
 }
