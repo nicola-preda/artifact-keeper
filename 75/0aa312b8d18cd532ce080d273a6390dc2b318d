@@ -16,6 +16,20 @@ backend/src/api/handlers/pypi.rs
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 317,
+    "ai_accepted": 317,
+    "git_diff_deleted_lines": 11,
+    "git_diff_added_lines": 317,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 317,
+        "ai_accepted": 317
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
