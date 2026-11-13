@@ -1,0 +1,22 @@
+backend/src/api/handlers/groups.rs
+  s_7295de5a5caaa6::t_85d6a800c85eb0 818
+changes/unreleased/5774-security-reviewer-grants.md
+  s_7295de5a5caaa6::t_a0fff7171792dd 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "6730b2ebf03db702b46949adfc39030c981670bb",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
