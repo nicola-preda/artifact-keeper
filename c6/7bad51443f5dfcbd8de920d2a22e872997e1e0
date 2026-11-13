@@ -1,0 +1,54 @@
+backend/src/api/handlers/age_gate.rs
+  s_7295de5a5caaa6::t_e7dff6c642c6dd 100-101,683,693-700,702,750,777,1073-1136,1345,1438-1439,2608-2660
+backend/src/services/age_gate_service.rs
+  s_7295de5a5caaa6::t_3e08a18b0c01f5 826-839,1453,1457-1464,1476-1477,1484-1485,1515-1516,1518,1525-1526,3570-3575
+changes/unreleased/5152-package-exception-queue.md
+  s_7295de5a5caaa6::t_de2b0ecb77ec3a 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "c67bad51443f5dfcbd8de920d2a22e872997e1e0",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 6,
+        "output_tokens": 5233,
+        "cache_creation_input_tokens": 7561,
+        "cache_read_input_tokens": 1800636
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 6,
+          "output_tokens": 5233,
+          "cache_creation_input_tokens": 7561,
+          "cache_read_input_tokens": 1800636
+        }
+      },
+      "tool_uses": {
+        "agent": 1,
+        "bash": 3
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 6,
+        "output_tokens": 5233,
+        "cache_creation_input_tokens": 7561,
+        "cache_read_input_tokens": 1800636
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
