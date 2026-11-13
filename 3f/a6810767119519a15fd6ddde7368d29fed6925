@@ -32,5 +32,19 @@ backend/src/services/mod.rs
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 674,
+    "ai_accepted": 674,
+    "git_diff_deleted_lines": 1,
+    "git_diff_added_lines": 674,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 674,
+        "ai_accepted": 674
+      }
+    }
+  },
   "proton_build": "1.7.6-proton.8"
 }
