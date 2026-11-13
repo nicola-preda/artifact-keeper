@@ -1,0 +1,36 @@
+backend/migrations/9009_proton_repositories_version_policy.sql
+  s_7295de5a5caaa6::t_30d54b695f8f76 1-8
+backend/src/api/handlers/approval.rs
+  s_7295de5a5caaa6::t_0a081c483641d6 880-889
+backend/src/api/handlers/maven.rs
+  s_7295de5a5caaa6::t_608449e420e01e 3818-3829,8142-8243
+backend/src/api/handlers/promotion.rs
+  s_7295de5a5caaa6::t_a077de160e58d5 1292-1302,1697-1713
+backend/src/api/handlers/repositories.rs
+  s_7295de5a5caaa6::t_9c40451b9c593e 989-994,1263-1269,1524-1527,1971,2045-2059,3892-3903,4149-4152,4395,4449,5189-5192,5513-5514,9980-9990,13478,16710,18126,20272-20355,31366
+backend/src/models/repository.rs
+  s_7295de5a5caaa6::t_1351ffd3e7492d 357-411
+backend/src/services/maven_version_policy.rs
+  s_7295de5a5caaa6::t_3a6868342fefa3 1-292
+backend/src/services/migration_worker.rs
+  s_7295de5a5caaa6::t_dcbbf3e7a57003 2172-2181
+backend/src/services/mod.rs
+  s_7295de5a5caaa6::t_196dcbef5c1cc5 61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "3fa6810767119519a15fd6ddde7368d29fed6925",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
