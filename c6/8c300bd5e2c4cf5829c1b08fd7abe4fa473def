@@ -1,0 +1,44 @@
+.github/workflows/docker-publish.yml
+  s_7295de5a5caaa6::t_d5599fe171d54d 601-603,631-633,661-700,977-982,1006,1010,1149,1175-1195,1263-1277,1331-1337,1367,1446,1877-2129,3026,3029,3038-3039,3129,3155,3203,3351,3408,3521
+changes/unreleased/5971-backend-image-without-grype.md
+  s_7295de5a5caaa6::t_d350e5260166b7 1-7
+docker-compose.yml
+  s_7295de5a5caaa6::t_76155ab6691151 20-21,198-202,215
+docker/Dockerfile.backend
+  s_7295de5a5caaa6::t_3c3e4ef18c3f3c 829-830,832,885-937
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "c68c300bd5e2c4cf5829c1b08fd7abe4fa473def",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 24,
+        "output_tokens": 5208,
+        "cache_creation_input_tokens": 953734,
+        "cache_read_input_tokens": 2591637
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 24,
+          "output_tokens": 5208,
+          "cache_creation_input_tokens": 953734,
+          "cache_read_input_tokens": 2591637
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
