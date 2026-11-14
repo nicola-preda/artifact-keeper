@@ -22,6 +22,20 @@ docker/Dockerfile.backend
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 434,
+    "ai_accepted": 434,
+    "git_diff_deleted_lines": 58,
+    "git_diff_added_lines": 434,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 434,
+        "ai_accepted": 434
+      }
+    }
+  },
   "token_usage": {
     "carried": {
       "total": {
