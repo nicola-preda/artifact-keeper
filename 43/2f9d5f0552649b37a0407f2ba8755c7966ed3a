@@ -1,0 +1,41 @@
+backend/src/api/handlers/maven.rs
+  s_7295de5a5caaa6::t_5eb7241892663e 16-17,2945-2954,4110,4164-4168,4202-4209,4640-4645,4686-4694,4696-4699,4701-4758,10546-10674
+changes/unreleased/5871-maven-hosted-download-etag.md
+  s_7295de5a5caaa6::t_de7018bb820060 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "432f9d5f0552649b37a0407f2ba8755c7966ed3a",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 237,
+    "ai_accepted": 237,
+    "git_diff_deleted_lines": 24,
+    "git_diff_added_lines": 237,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 237,
+        "ai_accepted": 237
+      }
+    }
+  },
+  "token_usage": {
+    "origins": [
+      "c4f480ebe80350503180da5074e95a3ca070c462"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
