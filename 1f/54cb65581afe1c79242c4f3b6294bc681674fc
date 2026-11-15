@@ -17,6 +17,20 @@ backend/src/api/handlers/pypi.rs
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 132,
+    "ai_accepted": 132,
+    "git_diff_deleted_lines": 18,
+    "git_diff_added_lines": 132,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 132,
+        "ai_accepted": 132
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
@@ -61,6 +75,12 @@ backend/src/api/handlers/pypi.rs
         "cache_read_input_tokens": 1620282
       }
     }
+  },
+  "activity": {
+    "added_sloc": 125,
+    "deleted_sloc": 17,
+    "checkpoints": 2,
+    "span_seconds": 1
   },
   "proton_build": "1.7.6-proton.8"
 }
