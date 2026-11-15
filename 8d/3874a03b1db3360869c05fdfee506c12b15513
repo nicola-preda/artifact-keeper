@@ -1,0 +1,339 @@
+.config/nextest.toml
+  s_7295de5a5caaa6::t_912af8a2c1180f 146
+.env.example
+  s_7295de5a5caaa6::t_2686227bb4ba34 978-1009,1026-1028,1041-1051
+.github/release-notes/1.12.0.md
+  s_7295de5a5caaa6::t_fb0494137d6444 71
+.github/workflows/ci.yml
+  s_7295de5a5caaa6::t_ed82eb72e20492 217-223,232,235,238-246,248,639-662,854-877,964-965
+.github/workflows/e2e.yml
+  s_7295de5a5caaa6::t_d47f4cca4941fb 154-155,293-296,300-302,316,331
+.github/workflows/mesh-e2e.yml
+  s_7295de5a5caaa6::t_4300dffe9df10e 43-44
+.github/workflows/release-candidate.yml
+  s_7295de5a5caaa6::t_6b8f23d95cd936 573,777-783,793-795
+.github/workflows/release-gate-rehearsal.yml
+  s_7295de5a5caaa6::t_f819335df7313f 9-14,19,253-257,265-266,276-278
+.github/workflows/release.yml
+  s_7295de5a5caaa6::t_fc25dcaaf95e4f 705-711,718-720
+.github/workflows/scheduled-tests.yml
+  s_7295de5a5caaa6::t_ab99eaf1082e7f 219-223
+.trivyignore
+  s_7295de5a5caaa6::t_6b85e3ba2ab1c9 28-31,243-289
+.vex/CVE-2026-107364.vex.json
+  s_7295de5a5caaa6::t_078bf4fa591156 1-35
+.vex/CVE-2026-112315.vex.json
+  s_7295de5a5caaa6::t_b21ec79b786219 1-35
+.vex/CVE-2026-112316.vex.json
+  s_7295de5a5caaa6::t_196d7b9cf5d429 1-35
+.vex/CVE-2026-112317.vex.json
+  s_7295de5a5caaa6::t_2ec0fc18d4a684 1-35
+.vex/CVE-2026-112318.vex.json
+  s_7295de5a5caaa6::t_b10e6986c5b3f8 1-35
+.vex/CVE-2026-112319.vex.json
+  s_7295de5a5caaa6::t_56db8376a0d9b5 1-35
+.vex/CVE-2026-112320.vex.json
+  s_7295de5a5caaa6::t_5c82ae22e83025 1-35
+.vex/CVE-2026-112321.vex.json
+  s_7295de5a5caaa6::t_fabbc89239eef1 1-35
+.vex/CVE-2026-112322.vex.json
+  s_7295de5a5caaa6::t_138214bd8d57d8 1-35
+.vex/CVE-2026-112323.vex.json
+  s_7295de5a5caaa6::t_864ab9c57ff406 1-35
+.vex/CVE-2026-118380.vex.json
+  s_7295de5a5caaa6::t_c4c4d55df55391 1-35
+.vex/CVE-2026-119079.vex.json
+  s_7295de5a5caaa6::t_1646ae760a2879 1-35
+.vex/CVE-2026-71199.vex.json
+  s_7295de5a5caaa6::t_63fc73bed39a83 1-35
+.vex/CVE-2026-71200.vex.json
+  s_7295de5a5caaa6::t_6a2d99c05b4271 1-35
+Cargo.lock
+  s_7295de5a5caaa6::t_939b2c8b280e3d 317,6068,6070,7308-7313,8992
+Cargo.toml
+  s_7295de5a5caaa6::t_c9453b59fbd9e3 105,173
+backend/Cargo.toml
+  s_7295de5a5caaa6::t_973a9ef2019c13 71
+backend/build.rs
+  s_7295de5a5caaa6::t_83bee14ce2a2ba 4-15,41-55
+backend/migrations/383_scan_queue_hosted_upload_image.sql
+  s_7295de5a5caaa6::t_2ea030042203f5 1-48
+backend/migrations/384_scan_rescan.sql
+  s_7295de5a5caaa6::t_7f0657251c9e2a 1-57
+backend/proto/bsr_module_v1.proto
+  s_7295de5a5caaa6::t_ba7bdc0067d3f4 1-299
+backend/proto/bsr_module_v1beta1.proto
+  s_7295de5a5caaa6::t_5f7aa96c002c08 1-124
+backend/proto/bsr_owner_v1.proto
+  s_7295de5a5caaa6::t_a28a71f457e44c 1-52
+backend/src/api/handlers/admin_security.rs
+  s_7295de5a5caaa6::t_23a3d39211718b 87,1451-1457
+backend/src/api/handlers/cargo.rs
+  s_7295de5a5caaa6::t_e17fc22e85f415 2414-2415,2419,2756,2764,2818-2820,2829-2830,2865-2867,2875-2887,2897,2904-2912
+backend/src/api/handlers/composer.rs
+  s_7295de5a5caaa6::t_5580ba29ea28ac 1822-1823,1826
+backend/src/api/handlers/conan.rs
+  s_7295de5a5caaa6::t_941924796db3e7 5445-5446
+backend/src/api/handlers/conda.rs
+  s_7295de5a5caaa6::t_7321c69cde0600 7152-7153,7156,7471-7473,7481-7483,7504-7506,7514-7518,7528,7543,9749-9751,9770,9780-9787
+backend/src/api/handlers/cran.rs
+  s_7295de5a5caaa6::t_d22cbae496146e 1184-1225
+backend/src/api/handlers/curation.rs
+  s_7295de5a5caaa6::t_7a0a74333a0060 191-314,590-597,669-673,1463,1881,1887-2126
+backend/src/api/handlers/debian.rs
+  s_7295de5a5caaa6::t_7479b906fb73d5 3959-3960,3963,4197,4200
+backend/src/api/handlers/goproxy.rs
+  s_7295de5a5caaa6::t_31685d5ec6a941 1721-1722,1725
+backend/src/api/handlers/helm.rs
+  s_7295de5a5caaa6::t_03ac62afcb514e 801-802,860-868
+backend/src/api/handlers/maven.rs
+  s_7295de5a5caaa6::t_7b2c9c93280405 2866-2868,2907,2909-2915,4476-4477,4481,4535-4537,4541,14068-14232
+backend/src/api/handlers/mod.rs
+  s_7295de5a5caaa6::t_ddf6a21c1e806c 681
+backend/src/api/handlers/npm.rs
+  s_7295de5a5caaa6::t_37ac4a1c531315 5664-5668,5670,5722-5727,5738-5741,5758,5774-5781,12878-12978
+backend/src/api/handlers/nuget.rs
+  s_7295de5a5caaa6::t_d791ec976fdda7 3940-3941,3963-3965,4036,4057-4067,4079
+backend/src/api/handlers/oci_v2.rs
+  s_7295de5a5caaa6::t_257f678520a37b 105,195-250,260-269,299-303,305-308,310,312,1853,1886,2271,2434,2458,2533,2600,2606-2609,2666,2668-2671,4416-4434,4457-4459,4482-4485,4612,4654-4674,5300-5304,5326-5328,5405-5412,8149,8195,8233,8250,8258,8332,8348,8365,8374,8535,8554,8573,8591,8634,8723,8727,8761,8820,9212,10172,10244,10315,10349,10443,13591,13609,13633,13636,14970,14980,28680-29146,38118-38120,38167-38372,53286-53332,53471-53821
+backend/src/api/handlers/protobuf.rs
+  s_7295de5a5caaa6::t_bf717cacb59ab6 6-9,42-44,72-77,80-84,88,106-109,111-134,147-292,326-331,550-588,650-674,797-798,803-947,949-973,1476-1477,1479-1480,1482,1487-1496,1503,1520-1536,1541-1546,1557-1558,1560-1569,1577-1610,1620-1621,1623-1624,1626,1631-1632,1655,1674-1686,1691-1696,1706-1707,1709-1710,1712,1733,1760-1766,1773-1792,1798-1799,1801-1812,1820-1843,1849-1873,1877-1898,1923-1927,2033-2038,2117-2130,2137-2159,2165-2167,2169-2173,2175,2180-2181,2367-2409,2419-2420,2422-2423,2425,2455-2460,2472,2474-2482,2490-2494,2565-2570,2580-2581,2583-2584,2586-2596,2598-2600,2603-2604,2606-2611,2613-2620,2622-2634,2636-2637,2641-2646,2656-2657,2659-2660,2662,2667-2668,2691,2718-2742,2746-2757,2760-2762,2765-2767,2770-2775,2779-2797,2800-2817,2821-2859,2862-2890,2893-2936,2939-2959,2964-2967,2969-2976,2979,2981-2991,2993-3011,3013-3021,3023,3025-3035,3037-3059,3061,3063-3086,3088-3110,3112-3130,3132,3134-3183,3186-3237,3239,3241-3254,3256,3258-3274,3276-3314,3316,3318,3320-3339,3341-3377,3379,3381-3386,3389-3398,3400-3402,3405-3414,3416-3441,3443-3444,3446-3483,3485-3501,3503-3517,3519-3536,3538-3555,3557-3581,3583-3587,3589-3590,3592-3609,3611,3613-3621,3623-3624,3626-3675,3678-3683,3685-3904,3907-3909,3911-3917,3920-3921,3923-3928,3931-3933,3935-3949,3953-3998,4001-4017,4020-4021,4023-4031,4033-4045,4048-4050,4052-4080,4084-4096,4099-4100,4102-4116,4119,4121-4160,4162-4251,4255-4257,4261-4263,4267-4269,4273,4277-4283,4287-4293,4297-4303,4307-4314,4317-4325,4328-4639,4642-5657,5659-5669,5672-5710,5712-5732,5735-5741,5744-5760,5763-5769,5771-5785,5787-5796,5798-5799,5802-5828,5830,5833-5837,5839-5877,5880-5887,5889-5918,5920-5932,5934-5967,5969-5970,5973-6032,6035-6041,6043-6044,6046-6052,6054-6067,6069-6113,6116-6156,6159-6167,6170-6176,6178-6189,6191-6205,6207,6210-6216,6218-6222,6224-6248,6250-6252,6254-6279,6281,6284-6288,6290-6308,6310-6320,6322,6326-6344,6348-6359,6363-6373,6377-6380,7073,7187,7466-7585
+backend/src/api/handlers/protobuf_bsr.rs
+  s_7295de5a5caaa6::t_8fdb19fa65bc29 19,133,423
+backend/src/api/handlers/protobuf_wire.rs
+  s_7295de5a5caaa6::t_293c0ddbc710f5 1-637
+backend/src/api/handlers/proxy_helpers.rs
+  s_7295de5a5caaa6::t_497e83a89e7637 688,826-841,843-845,3318-3322,3328-3334,3340,3514-3522,3559,3561-3564,3566-3569,3649-3652,3696-3701,3984-3986,4005-4009,4012,4024,4052,4065,4081,4093,4105,4228-4230,4416-4417,4518-4520,4931-5009,10216-10219,10230,10253-10263,10293-10299,10311-10351,10354-10407,10482-10484,11252-11259,11262-11273,13483-13490,13495,13499,13508-13519,13536,13549,13572-13574,13594-13596,13600,13604-13611,13615,13621,13626-13642,13686,13701-13702,13781-13788,13847-13855,13865-13942,15851-15910,17566,17767,17840-18091,19286,19301,19324,19348,21790-21791,28393,28533-28680,31474
+backend/src/api/handlers/proxy_scan_archive.rs
+  s_7295de5a5caaa6::t_ea82e188ffea58 320,323
+backend/src/api/handlers/pypi.rs
+  s_7295de5a5caaa6::t_877777c9d4b67c 3111-3117,3306-3310,3372-3374,17667-17812
+backend/src/api/handlers/repositories.rs
+  s_7295de5a5caaa6::t_ee35d343a109ed 1251-1256,1525-1537,1791-1797,2329,2390-2395,2403-2404,4678-4679,4682-4683,4685-4687,4691,4696-4706,4731-4732,5379,5475,6006-6007,6019,6036-6040,6059-6067,6092,6103,6884,11199-11200,11203,14055-14056,14059,16273,19997,20062,21514,36115,36138-36142,36652,36662-36870,37200-37213,37617
+backend/src/api/handlers/rubygems.rs
+  s_7295de5a5caaa6::t_87520c90d1d16f 37-39,66-70,853-860,1435-1449,1470-1477,1571-1576,1578-1584,1588-1589,1600-1601,1603-1707,1715-1740,2864-3071
+backend/src/api/handlers/sbt.rs
+  s_7295de5a5caaa6::t_08e3bfef8ec8ee 198,201,234-235,238
+backend/src/api/handlers/terraform.rs
+  s_7295de5a5caaa6::t_de921bfb34c99c 1383-1385,1416-1420,1442-1444,1482-1486
+backend/src/api/handlers/test_db_helpers.rs
+  s_7295de5a5caaa6::t_3f91e90ed68655 669-671,676-695,706-707,2312-2332,2346-2350,2361-2383,2385,2387,2399-2400,2406,3615-3781,4544-4556,4565-4573,5010-5050
+backend/src/api/handlers/vscode.rs
+  s_7295de5a5caaa6::t_763c219e3cd68c 4019-4021,4030-4039,4065-4067,4075-4088,4097,4107
+backend/src/api/middleware/auth.rs
+  s_7295de5a5caaa6::t_7a5bd36ca3c89d 2430-2436,2453,11807-11849
+backend/src/api/mod.rs
+  s_7295de5a5caaa6::t_52f97047f45517 512
+backend/src/api/openapi.rs
+  s_7295de5a5caaa6::t_e0a27471953de8 717-746
+backend/src/config.rs
+  s_7295de5a5caaa6::t_a526ea21abc69a 1213-1225,1895-1896,2111-2112,2467-2471,4012-4013
+backend/src/main.rs
+  s_7295de5a5caaa6::t_ce8c244664a613 878-910,929-931,935,1325-1332
+backend/src/services/age_gate_service.rs
+  s_7295de5a5caaa6::t_c569f54a91e82f 325,335,357,439,699,1444,1940,4042,4129
+backend/src/services/audit_service.rs
+  s_7295de5a5caaa6::t_19fe184725a11a 107
+backend/src/services/auth_service.rs
+  s_7295de5a5caaa6::t_2c07cf404478dd 5224-5225
+backend/src/services/backup_service.rs
+  s_7295de5a5caaa6::t_d77b3ecc9633b6 7713-7822,8046-8059
+backend/src/services/curation/popularity.rs
+  s_7295de5a5caaa6::t_07ce82cd868aa9 53-63,81-98,126,151-154,176,184,186-187,189,200,214,219-220,222,228,232,240,257-479,967-1249
+backend/src/services/curation/typosquat.rs
+  s_7295de5a5caaa6::t_58b639d835a0a6 129-169,189,300,332,510-530
+backend/src/services/curation_service.rs
+  s_7295de5a5caaa6::t_46ac50080e7237 150-154,159,165,168-266,272-278,978-979,2040-2294
+backend/src/services/exception_queue.rs
+  s_7295de5a5caaa6::t_5eb532c7d99c55 2
+backend/src/services/image_scanner.rs
+  s_7295de5a5caaa6::t_edc6012c07c058 12-14,464-466,487-489,494-499,502-504,508-509,518,522-528,668,671-677,688-695,697-702,704-721,726-727,729-730,733-737,739,741-745,747,760,851,1567-1856,2220-2241
+backend/src/services/ldap_service.rs
+  s_7295de5a5caaa6::t_f65461c3e2ccc8 1391-1392
+backend/src/services/mod.rs
+  s_7295de5a5caaa6::t_5e012f838c453d 142
+backend/src/services/oidc_service.rs
+  s_7295de5a5caaa6::t_669959021ab850 901-902,1086-1087
+backend/src/services/permission_service.rs
+  s_7295de5a5caaa6::t_4d0bb1d183d920 1525
+backend/src/services/proxy_service.rs
+  s_7295de5a5caaa6::t_c245e0f2c44967 1416-1442
+backend/src/services/scan_queue.rs
+  s_7295de5a5caaa6::t_5cafdf74c24f26 25-27,34,37-63,74-104,123-131,135-143,148-150,160-162,293,365-435,446-459,470,478-479,502,533-536,538-591,596-598,609,611-613,615,618,689-692,718,720,723,884,1545-1985
+backend/src/services/scan_rescan.rs
+  s_7295de5a5caaa6::t_eaa82ee7cfdf24 1-1001
+backend/src/services/scan_worker.rs
+  s_7295de5a5caaa6::t_8fb2ec540e7a66 84-86,101-102,174-189,197-199,201,216-229,247,255-279,357-361,479-630,653,698,702-713,720-743
+backend/src/services/scanner_adapter_client.rs
+  s_7295de5a5caaa6::t_d7c28727afa701 314-717,852-856,872-876,879-881,887-888,893,922-931,933-935,937-964,966-973,981,984-990,1001,1072,1212-1652,1706-1738
+backend/src/services/scanner_service.rs
+  s_7295de5a5caaa6::t_95e25c182bc9f8 9289-9295,9309-9312,9485,9502-9513,9654,9866,9882,9886-9932,9939,9941,10118-10123,10227-10232,10243-10247,12486-12495,12503-12535,13796,14242,14324,29774,29856,29985,30873,30965,31016,31199,32145
+backend/tests/composer_packages_index_tests.rs
+  s_7295de5a5caaa6::t_2eecf044ce165e 48-49
+backend/tests/incus_upload_tests.rs
+  s_7295de5a5caaa6::t_935fed7c087454 36-37
+backend/tests/streaming_invariant.rs
+  s_7295de5a5caaa6::t_07e8298165fac5 560-578,584
+changes/unreleased/5117-protobuf-binary-connect.md
+  s_7295de5a5caaa6::t_db86e3063e2005 1-5
+changes/unreleased/5152-package-exception-queue.md
+  s_7295de5a5caaa6::t_1d3949b079d504 5
+changes/unreleased/5274-popularity-name-checks-on-proxy.md
+  s_7295de5a5caaa6::t_ba50185cee00ea 1-7
+changes/unreleased/5336-backup-streams-archive.md
+  s_7295de5a5caaa6::t_318f5ba6f47427 5
+changes/unreleased/5336-restore-streams-archive.md
+  s_7295de5a5caaa6::t_08a9629662f481 5
+changes/unreleased/5479-nexus-source-connections.md
+  s_7295de5a5caaa6::t_a7db5df114938f 5
+changes/unreleased/5603-admin-denial-audit-full-path.md
+  s_7295de5a5caaa6::t_9581c5fc4390d5 1-5
+changes/unreleased/5686-rubygems-remote-bundler.md
+  s_7295de5a5caaa6::t_a9732a3eb50a1d 1-5
+changes/unreleased/5689-cargo-download-one-row-one-index.md
+  s_7295de5a5caaa6::t_1d2e41eeb6a6f0 5
+changes/unreleased/5768-nfs-actimeo-doc.md
+  s_7295de5a5caaa6::t_c0d64a31ad9f94 5
+changes/unreleased/5775-durable-scan-queue.md
+  s_7295de5a5caaa6::t_3905341acad65e 7
+changes/unreleased/5810-virtual-member-fallback-strict.md
+  s_7295de5a5caaa6::t_a636577df81d64 1-5
+changes/unreleased/5862-empty-s3-prefix-breaks-copies.md
+  s_7295de5a5caaa6::t_e557d48eb87df8 5
+changes/unreleased/5863-helm-chart-scan-not-applicable.md
+  s_7295de5a5caaa6::t_bd03be60dea43d 5
+changes/unreleased/5864-service-account-supplied-token.md
+  s_7295de5a5caaa6::t_7658c42c8cd731 5
+changes/unreleased/5865-cve-drilldown-behind-the-tiles.md
+  s_7295de5a5caaa6::t_54d920f7ad94ef 7
+changes/unreleased/5885-go-release-immutable.md
+  s_7295de5a5caaa6::t_0bd3b57ceb5c65 5
+changes/unreleased/5901-oci-push-database-error-text.md
+  s_7295de5a5caaa6::t_f55b8a86df8fd8 1-5
+changes/unreleased/5922-audit-row-poll-deadline.md
+  s_7295de5a5caaa6::t_c94985bfff8532 1-4,6
+changes/unreleased/5934-isolate-5654-restore-test.md
+  s_7295de5a5caaa6::t_3798a321d8e6e2 1-6
+changes/unreleased/5935-quinn-udp-rustsec-2026-0538.md
+  s_7295de5a5caaa6::t_7b574bb2bcec43 1-5
+changes/unreleased/5943-adapter-registry-cache-partition.md
+  s_7295de5a5caaa6::t_c07dd1854ccfd6 1-5
+changes/unreleased/5945-adapter-ready-timeout.md
+  s_7295de5a5caaa6::t_a2d9c65b80030c 1-5
+changes/unreleased/5946-scan-queue-uploads-and-images.md
+  s_7295de5a5caaa6::t_66ff1d26dadb6b 1-5
+changes/unreleased/5947-rescan-after-vuln-db-update.md
+  s_7295de5a5caaa6::t_6f2235795b5014 1-5
+changes/unreleased/5948-adapter-scan-token.md
+  s_7295de5a5caaa6::t_c899f61d93f0d9 1-5
+changes/unreleased/5991-krb5-libs-ubi-time-boxed-exception.md
+  s_7295de5a5caaa6::t_b97c61cb89d95e 1-5
+changes/unreleased/5991-openscap-image-drops-krb5.md
+  s_7295de5a5caaa6::t_a0934c5b74a994 1-5
+changes/unreleased/5992-rescan-observed-builds-interval.md
+  s_7295de5a5caaa6::t_9b72699447e3d8 1-5
+docker/Dockerfile.openscap
+  s_7295de5a5caaa6::t_ec09a9a4caafca 1-62,66-69,71-77,114-136
+docker/scanner-adapter/README.md
+  s_7295de5a5caaa6::t_9e28e69eefa6f7 20-21,30-34,42-44,68-115,144-175
+docker/scanner-adapter/config.go
+  s_7295de5a5caaa6::t_da6bd219c691c1 4,48-53,125-127,129-136,174,179-180,196-231
+docker/scanner-adapter/fs.go
+  s_7295de5a5caaa6::t_1dcad29dc7b7c7 48-50,52-57,72-82,113-119
+docker/scanner-adapter/harbor.go
+  s_7295de5a5caaa6::t_5f6189900f5b09 77-80,83-86
+docker/scanner-adapter/main.go
+  s_7295de5a5caaa6::t_f37b5a4bbfe203 20-22,24,109-122
+docker/scanner-adapter/partition_test.go
+  s_7295de5a5caaa6::t_d8614ff7acb0b0 1-518
+docker/scanner-adapter/remote_test.go
+  s_7295de5a5caaa6::t_ca7bf84a3b2770 38,61,73
+docker/scanner-adapter/scan.go
+  s_7295de5a5caaa6::t_7dc82f4722f9cc 10,39-40,52,61-66,84-86,104,144-145,150-151,156-220,414-415,444-446,451,482-484,487-488,563
+docker/scanner-adapter/scan_auth.go
+  s_7295de5a5caaa6::t_2d0d868005dfb3 1-188
+docker/scanner-adapter/scan_auth_test.go
+  s_7295de5a5caaa6::t_bcdf0ace5d0434 1-401
+docker/scanner-adapter/scan_test.go
+  s_7295de5a5caaa6::t_d66faced7e35a2 24,35,46,49,84,107,122,137,298-310
+docker/scanner-adapter/server.go
+  s_7295de5a5caaa6::t_4c6f0a08db9e47 76-80,83-84,135-139,155-161,238
+docker/scanner-adapter/vulndb_import_test.go
+  s_7295de5a5caaa6::t_6c86d600718f60 222
+docs/operations/backend-memory-allocator.md
+  s_7295de5a5caaa6::t_5dcc8f0ef771e8 63-64
+docs/security/scan-on-proxy.md
+  s_7295de5a5caaa6::t_d04932f89d433f 491-492,520-528,545-582
+docs/virtual-downloads.md
+  s_7295de5a5caaa6::t_88e2795b754bd7 19,54-55,73-135,150-152
+scripts/ci/test-ci-change-classification.sh
+  s_7295de5a5caaa6::t_64b0c45dff3776 114-118,120-132,136-139,141,144,209-220,274
+scripts/native-tests/run-all.sh
+  s_7295de5a5caaa6::t_34075f485101d8 16,29,34
+scripts/native-tests/test-protobuf-buf-cli.sh
+  s_7295de5a5caaa6::t_32b087eb5acf37 1-258
+scripts/native-tests/test-protobuf.sh
+  s_7295de5a5caaa6::t_ff4580e6af1fcd 128-130,132,137,247,251
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "8d3874a03b1db3360869c05fdfee506c12b15513",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 30,
+        "output_tokens": 6347,
+        "cache_creation_input_tokens": 2166715,
+        "cache_read_input_tokens": 5934793
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 30,
+          "output_tokens": 6347,
+          "cache_creation_input_tokens": 2166715,
+          "cache_read_input_tokens": 5934793
+        }
+      },
+      "tool_uses": {
+        "bash": 8
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 80,
+        "output_tokens": 22001,
+        "cache_creation_input_tokens": 2519832,
+        "cache_read_input_tokens": 6943589
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 80,
+          "output_tokens": 22001,
+          "cache_creation_input_tokens": 2519832,
+          "cache_read_input_tokens": 6943589
+        }
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 30,
+        "output_tokens": 6347,
+        "cache_creation_input_tokens": 2166715,
+        "cache_read_input_tokens": 5934793
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
