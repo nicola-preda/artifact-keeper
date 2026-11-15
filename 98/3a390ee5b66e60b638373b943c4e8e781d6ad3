@@ -1,0 +1,40 @@
+.gitlab-ci.yml
+  s_7295de5a5caaa6::t_d0654b70c287cf 26-27,31-34,44,49,66-74,81,88-94
+docker/Dockerfile.backend.alpine
+  s_7295de5a5caaa6::t_7fb7e932b82188 323-324,345-373
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "983a390ee5b66e60b638373b943c4e8e781d6ad3",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 76,
+        "output_tokens": 38027,
+        "cache_creation_input_tokens": 71303,
+        "cache_read_input_tokens": 5800131
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 76,
+          "output_tokens": 38027,
+          "cache_creation_input_tokens": 71303,
+          "cache_read_input_tokens": 5800131
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
