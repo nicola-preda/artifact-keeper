@@ -1,0 +1,46 @@
+.env.example
+  s_7295de5a5caaa6::t_f4c924b5f5fd99 1220
+backend/src/config.rs
+  s_7295de5a5caaa6::t_0b14339bf5de55 324-355,2738-2767
+backend/src/services/scan_worker.rs
+  s_7295de5a5caaa6::t_ac8d3be9335367 36-39
+backend/src/services/scanner_service.rs
+  s_7295de5a5caaa6::t_5143e731cb7c42 9448-9460,27594-27684
+changes/unreleased/5942-scanner-timeout.md
+  s_7295de5a5caaa6::t_a987e8529a3d50 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "0fc7f448e5d523b324e9ae796721feacc42d768d",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 210,
+        "output_tokens": 70806,
+        "cache_creation_input_tokens": 561750,
+        "cache_read_input_tokens": 15053324
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 210,
+          "output_tokens": 70806,
+          "cache_creation_input_tokens": 561750,
+          "cache_read_input_tokens": 15053324
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
