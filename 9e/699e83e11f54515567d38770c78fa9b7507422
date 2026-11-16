@@ -1,0 +1,21 @@
+backend/src/api/handlers/maven.rs
+  s_7295de5a5caaa6::t_b07d5beea500d3 11402,11409-11410,11412-11417
+  s_7295de5a5caaa6::t_4eb4e7d5364861 11371-11372,11381-11386
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "9e699e83e11f54515567d38770c78fa9b7507422",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
