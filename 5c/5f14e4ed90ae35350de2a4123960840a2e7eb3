@@ -16,5 +16,19 @@ backend/src/api/handlers/security.rs
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 97,
+    "ai_accepted": 97,
+    "git_diff_deleted_lines": 1,
+    "git_diff_added_lines": 97,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 97,
+        "ai_accepted": 97
+      }
+    }
+  },
   "proton_build": "1.7.6-proton.8"
 }
