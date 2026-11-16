@@ -26,6 +26,20 @@ docker/scanner-adapter/scan_test.go
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 642,
+    "ai_accepted": 642,
+    "git_diff_deleted_lines": 41,
+    "git_diff_added_lines": 642,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 642,
+        "ai_accepted": 642
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
