@@ -33,6 +33,20 @@ scripts/native-tests/test-npm.sh
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 23,
+    "ai_additions": 161,
+    "ai_accepted": 161,
+    "git_diff_deleted_lines": 7,
+    "git_diff_added_lines": 184,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 161,
+        "ai_accepted": 161
+      }
+    }
+  },
   "token_usage": {
     "carried": {
       "total": {
@@ -50,6 +64,12 @@ scripts/native-tests/test-npm.sh
         }
       }
     }
+  },
+  "activity": {
+    "added_sloc": 119,
+    "deleted_sloc": 33,
+    "checkpoints": 2,
+    "span_seconds": 3
   },
   "proton_build": "1.7.6-proton.8"
 }
