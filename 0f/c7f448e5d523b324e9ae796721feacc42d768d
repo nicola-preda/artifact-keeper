@@ -24,6 +24,20 @@ changes/unreleased/5942-scanner-timeout.md
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 176,
+    "ai_accepted": 176,
+    "git_diff_deleted_lines": 4,
+    "git_diff_added_lines": 176,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 176,
+        "ai_accepted": 176
+      }
+    }
+  },
   "token_usage": {
     "carried": {
       "total": {
