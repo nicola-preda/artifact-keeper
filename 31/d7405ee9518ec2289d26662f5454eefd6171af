@@ -1,0 +1,41 @@
+backend/src/api/handlers/security.rs
+  s_7295de5a5caaa6::t_811af7d1c90c5c 731-753,761-766,12035-12102
+changes/unreleased/6095-artifact-scans-reused-own-id.md
+  s_7295de5a5caaa6::t_e26445ba6b7e8f 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "31d7405ee9518ec2289d26662f5454eefd6171af",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 102,
+    "ai_accepted": 102,
+    "git_diff_deleted_lines": 1,
+    "git_diff_added_lines": 102,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 102,
+        "ai_accepted": 102
+      }
+    }
+  },
+  "token_usage": {
+    "origins": [
+      "5c5f14e4ed90ae35350de2a4123960840a2e7eb3"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
