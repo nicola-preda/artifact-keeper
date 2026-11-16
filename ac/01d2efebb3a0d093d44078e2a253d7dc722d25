@@ -26,6 +26,20 @@ backend/src/services/audit_service.rs
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 446,
+    "ai_accepted": 446,
+    "git_diff_deleted_lines": 8,
+    "git_diff_added_lines": 446,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 446,
+        "ai_accepted": 446
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
@@ -74,6 +88,11 @@ backend/src/services/audit_service.rs
         "cache_read_input_tokens": 6042625
       }
     }
+  },
+  "activity": {
+    "added_sloc": 38,
+    "checkpoints": 4,
+    "span_seconds": 11
   },
   "proton_build": "1.7.6-proton.8"
 }
