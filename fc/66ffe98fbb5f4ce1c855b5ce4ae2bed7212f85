@@ -1,0 +1,42 @@
+.env.example
+  s_7295de5a5caaa6::t_47591e52545913 1540
+backend/src/config.rs
+  s_7295de5a5caaa6::t_d2af67aa663d75 402-433,3236-3265
+backend/src/services/scan_worker.rs
+  s_7295de5a5caaa6::t_1c2bdf0008fe26 34-37
+backend/src/services/scanner_service.rs
+  s_7295de5a5caaa6::t_fb9f775b57823c 10440-10452,29899-29989
+changes/unreleased/5942-scanner-timeout.md
+  s_7295de5a5caaa6::t_05d8226e51a354 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "fc66ffe98fbb5f4ce1c855b5ce4ae2bed7212f85",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 176,
+    "ai_accepted": 176,
+    "git_diff_deleted_lines": 4,
+    "git_diff_added_lines": 176,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 176,
+        "ai_accepted": 176
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
