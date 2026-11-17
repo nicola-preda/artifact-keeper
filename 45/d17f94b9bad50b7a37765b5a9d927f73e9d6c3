@@ -1,0 +1,43 @@
+Cargo.lock
+  s_7295de5a5caaa6::t_16353d0f181df8 308
+backend/Cargo.toml
+  s_7295de5a5caaa6::t_73d6709867cc3a 260-261
+changes/unreleased/5933-age-policy-hides-held-npm-versions.md
+  s_7295de5a5caaa6::t_a69463a29363eb 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "45d17f94b9bad50b7a37765b5a9d927f73e9d6c3",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 404,
+    "ai_additions": 7,
+    "ai_accepted": 7,
+    "git_diff_deleted_lines": 32,
+    "git_diff_added_lines": 411,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 7,
+        "ai_accepted": 7
+      }
+    }
+  },
+  "token_usage": {
+    "origins": [
+      "eef0cc4b2d047e7fb685619ba3899a5ecfa4a30f"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
