@@ -1,0 +1,71 @@
+backend/src/api/handlers/proxy_helpers.rs
+  s_7295de5a5caaa6::t_dc1d28483631dc 10364-10366,10370-10378,10380-10381,10383-10388,10593,16718,16740,16777,16808
+  s_7295de5a5caaa6::t_a8e5e6e0a249a9 10454-10455,10511,10513-10515,10535,10538,10563-10564,10600-10602,10604-10605,10612,10614,10814-10815,16715-16717,16719-16739,16741-16776,16778-16807,16809-16814,16827,28579,28659-28660
+backend/src/api/handlers/oci_v2.rs
+  s_7295de5a5caaa6::t_caee794dccf2b0 12353-12356,12359-12365,16964,16997-17014
+changes/unreleased/6153-curation-fail-closed.md
+  s_7295de5a5caaa6::t_bdf42b00f970d5 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "ff059f54ec54cb84c25d02753d2afb396607122a",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 112,
+        "output_tokens": 31731,
+        "cache_creation_input_tokens": 3894668,
+        "cache_read_input_tokens": 27044934
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 112,
+          "output_tokens": 31731,
+          "cache_creation_input_tokens": 3894668,
+          "cache_read_input_tokens": 27044934
+        }
+      },
+      "tool_uses": {
+        "agent": 3,
+        "bash": 22
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 150,
+        "output_tokens": 26888,
+        "cache_creation_input_tokens": 236798,
+        "cache_read_input_tokens": 4376861
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 150,
+          "output_tokens": 26888,
+          "cache_creation_input_tokens": 236798,
+          "cache_read_input_tokens": 4376861
+        }
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 112,
+        "output_tokens": 31731,
+        "cache_creation_input_tokens": 3894668,
+        "cache_read_input_tokens": 27044934
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
