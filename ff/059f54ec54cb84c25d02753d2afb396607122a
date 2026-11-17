@@ -21,6 +21,20 @@ changes/unreleased/6153-curation-fail-closed.md
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 179,
+    "ai_accepted": 179,
+    "git_diff_deleted_lines": 29,
+    "git_diff_added_lines": 179,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 179,
+        "ai_accepted": 179
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
@@ -66,6 +80,10 @@ changes/unreleased/6153-curation-fail-closed.md
         "cache_read_input_tokens": 27044934
       }
     }
+  },
+  "activity": {
+    "added_sloc": 19,
+    "checkpoints": 1
   },
   "proton_build": "1.7.6-proton.8"
 }
