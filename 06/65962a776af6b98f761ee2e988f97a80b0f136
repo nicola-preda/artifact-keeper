@@ -1,0 +1,70 @@
+backend/src/services/migration_worker.rs
+  s_7295de5a5caaa6::t_dcf16268ec247c 9449-9467,9485-9494,9496-9499,9501-9510,9512-9516,9519-9536,9538-9608,9610-9613,9615-9631
+  s_7295de5a5caaa6::t_502c7752443785 9468-9484,9495,9500,9511,9517-9518,9537,9609,9614
+backend/src/services/nexus_client.rs
+  s_7295de5a5caaa6::t_40e3fcbbcbc211 113-118,122-144,223-229,616,622-652,657-659,694-697,700-701,703,706-738,740,745,749,753,756,2045-2046,2051-2059,2316-2581
+changes/unreleased/NNNN-nexus-component-less-assets.md
+  s_7295de5a5caaa6::t_6833fcf30c458a 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "0665962a776af6b98f761ee2e988f97a80b0f136",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 568,
+    "ai_accepted": 568,
+    "git_diff_deleted_lines": 30,
+    "git_diff_added_lines": 568,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 568,
+        "ai_accepted": 568
+      }
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 4,
+        "output_tokens": 69,
+        "cache_creation_input_tokens": 602,
+        "cache_read_input_tokens": 637821
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 4,
+          "output_tokens": 69,
+          "cache_creation_input_tokens": 602,
+          "cache_read_input_tokens": 637821
+        }
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 4,
+        "output_tokens": 69,
+        "cache_creation_input_tokens": 602,
+        "cache_read_input_tokens": 637821
+      }
+    },
+    "origins": [
+      "629d332a36457bf85a229632d758d45618d37ea7",
+      "8ea5e46d8d8a98a3e187fcacc948b4a72b7e3dc2",
+      "c8f3508c88d07e31ea7a14b34aa5c1658d62e599"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
