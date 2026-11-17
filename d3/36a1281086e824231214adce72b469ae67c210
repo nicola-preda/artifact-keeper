@@ -18,6 +18,20 @@ backend/src/services/nexus_client.rs
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 141,
+    "ai_accepted": 141,
+    "git_diff_deleted_lines": 6,
+    "git_diff_added_lines": 141,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 141,
+        "ai_accepted": 141
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
