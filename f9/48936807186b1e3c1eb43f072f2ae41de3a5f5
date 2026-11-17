@@ -30,6 +30,20 @@ backend/src/services/npm_packument_cache.rs
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 904,
+    "ai_accepted": 904,
+    "git_diff_deleted_lines": 12,
+    "git_diff_added_lines": 904,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 904,
+        "ai_accepted": 904
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
@@ -74,6 +88,12 @@ backend/src/services/npm_packument_cache.rs
         "cache_read_input_tokens": 1014338
       }
     }
+  },
+  "activity": {
+    "added_sloc": 338,
+    "deleted_sloc": 3,
+    "checkpoints": 2,
+    "span_seconds": 21
   },
   "proton_build": "1.7.6-proton.8"
 }
