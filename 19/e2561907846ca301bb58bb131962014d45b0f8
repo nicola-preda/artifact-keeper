@@ -1,0 +1,24 @@
+backend/src/services/peer_instance_service.rs
+  s_7295de5a5caaa6::t_ac41e142490100 1176,1179-1180,1184
+backend/src/services/sync_worker.rs
+  s_7295de5a5caaa6::t_88daba11c4528c 44-92,640,2881-2889,5412-5524,6387-6411
+changes/unreleased/6030-peer-demotion.md
+  s_7295de5a5caaa6::t_6291c6be3d4984 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "19e2561907846ca301bb58bb131962014d45b0f8",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
