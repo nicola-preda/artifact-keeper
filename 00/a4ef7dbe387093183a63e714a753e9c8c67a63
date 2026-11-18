@@ -22,6 +22,20 @@ scripts/ci/dispatch-cli-cache-warmup.sh
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 147,
+    "ai_accepted": 147,
+    "git_diff_deleted_lines": 8,
+    "git_diff_added_lines": 147,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 147,
+        "ai_accepted": 147
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
@@ -66,6 +80,11 @@ scripts/ci/dispatch-cli-cache-warmup.sh
         "cache_read_input_tokens": 939345
       }
     }
+  },
+  "activity": {
+    "added_sloc": 125,
+    "checkpoints": 2,
+    "span_seconds": 17
   },
   "proton_build": "1.7.6-proton.8"
 }
