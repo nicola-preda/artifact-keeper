@@ -1,0 +1,97 @@
+backend/migrations/9014_proton_package_exception_queue.sql
+  s_7295de5a5caaa6::t_18c2a7bf2abea4 1-62
+backend/src/api/handlers/admin.rs
+  s_7295de5a5caaa6::t_ba4911f7572e71 789-795,813-814,895,898-910,1088-1114,1118-1128,3387,3411-3441
+backend/src/api/handlers/age_gate.rs
+  s_7295de5a5caaa6::t_cd1f5a73d5b37f 28-64,86-96,128-135,164-165,168-197,211-278,324,327-336,353,357-359,551-557,575,578-584,586-589,598-607,652,664,667,698-699,710-714,717-772,788-789,801,808,810,817,838,845,866,873,879-1027,1234-1236,1279,1292-1293,1298,1309,1319-1323,1328,1339-1340,1475-1479,1483-1621,2307-2442
+backend/src/api/handlers/auth.rs
+  s_7295de5a5caaa6::t_2b0cbb8a62cd60 226-230,612-622,630,2095,2104,2117
+backend/src/api/handlers/cargo.rs
+  s_7295de5a5caaa6::t_02af9b20dede76 958-966,973,8085
+backend/src/api/handlers/goproxy.rs
+  s_7295de5a5caaa6::t_3703827b966ca2 977-984,991
+backend/src/api/handlers/maven.rs
+  s_7295de5a5caaa6::t_6e0ab54abfa3ee 1565-1589
+backend/src/api/handlers/oci_v2.rs
+  s_7295de5a5caaa6::t_d0f59c9d12672f 12357-12364,12369-12370,12375,12384-12392,12398-12399,12402-12407,12676-12687,16989,40278-40290,40294,40298
+backend/src/api/handlers/proxy_helpers.rs
+  s_7295de5a5caaa6::t_c9b6cfc3094211 10325,10336-10341,10363-10366,10372-10376,10382-10391,10393-10398,10509-10556,10558-10569,10589,10953-10962,10969,11119-11147,11151-11210,12449-12575,12949-12959,13022-13057,17071,17082-17154,28080-28081,28695-28771
+backend/src/api/handlers/vscode.rs
+  s_7295de5a5caaa6::t_be6f89528fac2a 2231-2238,2245,5311
+backend/src/api/routes.rs
+  s_7295de5a5caaa6::t_a8ad629857ab59 1665-1672
+backend/src/services/age_gate_service.rs
+  s_7295de5a5caaa6::t_6de11b3b0ce2d2 325-387,438-441,443-447,465-468,551-555,599,698-717,841-847,978,1422-1432,1435,1438,1442-1444,1449-1452,1455-1458,1461,1473-1474,1482-1485,1487,1490,1493,1512-1513,1531-1535,1541,1543,1558,1565-1584,1588-1592,1598-1599,1602,1614,1650-1659,1663-1667,1673-1674,1688,1738,1758,1879,1905-1913,1921,1930-1932,1940,1959-1960,1963-1964,1998,2001-2002,2066-2067,2072,2138,2140,2161,2201,2204,2206,2320-2321,3303,3534-3541,3548,3637,3647,3681,3987-3998,4002-4049,4091-4106,4169
+backend/src/services/audit_export.rs
+  s_7295de5a5caaa6::t_ac6febad97c5b2 112-115
+backend/src/services/audit_service.rs
+  s_7295de5a5caaa6::t_8008a2f2d8ffcd 107-109,413
+backend/src/services/download_holds_service.rs
+  s_7295de5a5caaa6::t_1c1e5959521dce 226
+backend/src/services/exception_queue.rs
+  s_7295de5a5caaa6::t_9e45edc4ab6323 1-878
+backend/src/services/mcp_packages.rs
+  s_7295de5a5caaa6::t_6fe1f4e907245a 2060,2082
+backend/src/services/mod.rs
+  s_7295de5a5caaa6::t_507628f8d93332 51
+backend/src/services/permission_service.rs
+  s_7295de5a5caaa6::t_fdc395c88e9050 652-695,1509-1607
+backend/src/services/proxy_service.rs
+  s_7295de5a5caaa6::t_c2758a59b50e67 6791-6802
+backend/tests/age_gate_tests.rs
+  s_7295de5a5caaa6::t_69bb6102fdde16 484,527
+changes/unreleased/5152-package-exception-queue.md
+  s_7295de5a5caaa6::t_178a8577315f08 1-9
+docs/audit-events.md
+  s_7295de5a5caaa6::t_9588b8a0ddba6e 278-287
+docs/security/download-holds.md
+  s_7295de5a5caaa6::t_2c8fe076b55f9d 234-236
+docs/security/scan-on-proxy.md
+  s_7295de5a5caaa6::t_c19d78906ae44b 81,292-303,681-683
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "952ea65343f30b5e8e4ac40199dba51226217232",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 6,
+        "output_tokens": 586,
+        "cache_creation_input_tokens": 1621,
+        "cache_read_input_tokens": 1365815
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 6,
+          "output_tokens": 586,
+          "cache_creation_input_tokens": 1621,
+          "cache_read_input_tokens": 1365815
+        }
+      },
+      "tool_uses": {
+        "bash": 1
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 6,
+        "output_tokens": 586,
+        "cache_creation_input_tokens": 1621,
+        "cache_read_input_tokens": 1365815
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
