@@ -1,0 +1,34 @@
+docker/scanner-adapter/README.md
+  s_7295de5a5caaa6::t_fceb82019a4f92 34-37,285-314
+docker/scanner-adapter/config.go
+  s_7295de5a5caaa6::t_5040bd4fa01e13 28-30,32-35,37-38,194
+docker/scanner-adapter/dbrefresh.go
+  s_7295de5a5caaa6::t_904ad8af00a0d0 1-193
+docker/scanner-adapter/dbrefresh_test.go
+  s_7295de5a5caaa6::t_07238d07021907 1-348
+docker/scanner-adapter/main.go
+  s_7295de5a5caaa6::t_d41ce733b6eb2b 15,41,60,165-184
+docker/scanner-adapter/scan.go
+  s_7295de5a5caaa6::t_f23e62472c4d88 126-127,130-133,135,372,579-584
+docker/scanner-adapter/scan_test.go
+  s_7295de5a5caaa6::t_66d80ead457d41 126-127
+docker/scanner-adapter/vulndb_import_test.go
+  s_7295de5a5caaa6::t_b90dd52955a35d 193-197,235,238
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "a0b68be8ed84328693e6d1354b8ff9a1a86a6733",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
