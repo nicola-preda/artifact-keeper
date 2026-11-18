@@ -14,6 +14,14 @@ backend/src/api/handlers/repositories.rs
         "model": "unknown"
       },
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    },
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
   "commit_stats": {
@@ -33,12 +41,18 @@ backend/src/api/handlers/repositories.rs
   "token_usage": {
     "attributable": {
       "total": {
-        "input_tokens": 26,
-        "output_tokens": 15160,
-        "cache_creation_input_tokens": 23015,
-        "cache_read_input_tokens": 7610386
+        "input_tokens": 34,
+        "output_tokens": 15434,
+        "cache_creation_input_tokens": 29762,
+        "cache_read_input_tokens": 7823431
       },
       "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 8,
+          "output_tokens": 274,
+          "cache_creation_input_tokens": 6747,
+          "cache_read_input_tokens": 213045
+        },
         "claude::unknown": {
           "input_tokens": 26,
           "output_tokens": 15160,
@@ -48,27 +62,28 @@ backend/src/api/handlers/repositories.rs
       },
       "tool_uses": {
         "agent": 2,
-        "bash": 236,
+        "bash": 238,
         "edit": 23,
         "enterworktree": 1,
         "read": 9,
+        "skill": 1,
         "toolsearch": 1,
         "write": 23
       }
     },
     "carried": {
       "total": {
-        "input_tokens": 2,
-        "output_tokens": 485,
-        "cache_creation_input_tokens": 2323,
-        "cache_read_input_tokens": 530968
+        "input_tokens": 30,
+        "output_tokens": 12505,
+        "cache_creation_input_tokens": 249802,
+        "cache_read_input_tokens": 2920800
       },
       "by_tool_model": {
         "claude::claude-opus-5-5": {
-          "input_tokens": 2,
-          "output_tokens": 485,
-          "cache_creation_input_tokens": 2323,
-          "cache_read_input_tokens": 530968
+          "input_tokens": 30,
+          "output_tokens": 12505,
+          "cache_creation_input_tokens": 249802,
+          "cache_read_input_tokens": 2920800
         }
       }
     },
@@ -78,10 +93,17 @@ backend/src/api/handlers/repositories.rs
         "output_tokens": 15160,
         "cache_creation_input_tokens": 23015,
         "cache_read_input_tokens": 7610386
+      },
+      "s_7295de5a5caaa6": {
+        "input_tokens": 8,
+        "output_tokens": 274,
+        "cache_creation_input_tokens": 6747,
+        "cache_read_input_tokens": 213045
       }
     },
     "origins": [
-      "625d1e3dee731570960f0de38967c87e79de594b"
+      "625d1e3dee731570960f0de38967c87e79de594b",
+      "6fb7aab58e24651e90bac63edd7673e0adac3040"
     ]
   },
   "proton_build": "1.7.6-proton.8"

@@ -105,7 +105,11 @@ docs/security/scan-on-proxy.md
         "cache_creation_input_tokens": 1621,
         "cache_read_input_tokens": 1365815
       }
-    }
+    },
+    "origins": [
+      "952ea65343f30b5e8e4ac40199dba51226217232",
+      "b20476e0877b2cff488dce52e6ddc61146bd812a"
+    ]
   },
   "proton_build": "1.7.6-proton.8"
 }

@@ -26,6 +26,14 @@ changes/unreleased/4097-scan-on-proxy-generic.md
         "model": "unknown"
       },
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    },
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
   "commit_stats": {
@@ -93,6 +101,7 @@ changes/unreleased/4097-scan-on-proxy-generic.md
       }
     },
     "origins": [
+      "5c5f14e4ed90ae35350de2a4123960840a2e7eb3",
       "a53a1445b7db1d52414fb8394413e571fac48a2b"
     ]
   },
