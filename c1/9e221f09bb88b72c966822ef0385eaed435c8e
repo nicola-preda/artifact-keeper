@@ -1,0 +1,22 @@
+backend/src/api/handlers/maven.rs
+  s_7295de5a5caaa6::t_080036ac25f143 16-17,2965-2974,4130,4184-4188,4222-4229,4666-4671,4712-4720,4722-4725,4727-4784,10612-10740
+changes/unreleased/5871-maven-hosted-download-etag.md
+  s_7295de5a5caaa6::t_30a8a635c6ac09 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "c19e221f09bb88b72c966822ef0385eaed435c8e",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
