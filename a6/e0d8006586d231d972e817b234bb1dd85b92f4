@@ -96,10 +96,8 @@ backend/src/services/cache_invalidation.rs
     ]
   },
   "activity": {
-    "added_sloc": 338,
-    "deleted_sloc": 3,
-    "checkpoints": 2,
-    "span_seconds": 21
+    "added_sloc": 9,
+    "checkpoints": 2
   },
   "proton_build": "1.7.6-proton.8"
 }
