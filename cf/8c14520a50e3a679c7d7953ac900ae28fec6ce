@@ -1,0 +1,28 @@
+backend/src/api/handlers/cargo.rs
+  s_7295de5a5caaa6::t_dc8f9fd86c29a7 9892-9955
+backend/src/api/handlers/proxy_helpers.rs
+  s_7295de5a5caaa6::t_dca7dc4270917a 12546-12573,12753-12761,12766-12769
+backend/src/services/metrics_service.rs
+  s_7295de5a5caaa6::t_36272b5cd26386 333-344
+changes/unreleased/6208-proxy-scan-unscannable-serves.md
+  s_7295de5a5caaa6::t_8c3538fdc83f0f 1-5
+docs/operations/detection-metrics.md
+  s_7295de5a5caaa6::t_221f8ae400bc60 131,143-155
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "cf8c14520a50e3a679c7d7953ac900ae28fec6ce",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
