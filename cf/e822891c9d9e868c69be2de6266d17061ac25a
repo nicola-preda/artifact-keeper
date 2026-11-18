@@ -1,0 +1,55 @@
+backend/src/api/handlers/swift.rs
+  s_7295de5a5caaa6::t_21347b55a857da 1353-1356,1498-1535,1551-1553,1560-1561,1564-1566,1727-1765,2750-2805
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "cfe822891c9d9e868c69be2de6266d17061ac25a",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 145,
+    "ai_accepted": 145,
+    "git_diff_deleted_lines": 36,
+    "git_diff_added_lines": 145,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 145,
+        "ai_accepted": 145
+      }
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 58,
+        "output_tokens": 10193,
+        "cache_creation_input_tokens": 118004,
+        "cache_read_input_tokens": 2398563
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 58,
+          "output_tokens": 10193,
+          "cache_creation_input_tokens": 118004,
+          "cache_read_input_tokens": 2398563
+        }
+      }
+    },
+    "origins": [
+      "8370441f14607b2750b8a5648ce0fd891a8f54b8"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
