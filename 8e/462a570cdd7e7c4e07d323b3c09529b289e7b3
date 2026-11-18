@@ -1,0 +1,43 @@
+.gitlab-ci.yml
+  s_7295de5a5caaa6::t_7629d10b8ccad2 95-112
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "8e462a570cdd7e7c4e07d323b3c09529b289e7b3",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 18,
+    "ai_accepted": 18,
+    "git_diff_deleted_lines": 0,
+    "git_diff_added_lines": 18,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 18,
+        "ai_accepted": 18
+      }
+    }
+  },
+  "token_usage": {
+    "origins": [
+      "c74d40b37a23dfe7cffaf04d661919c5a81a7a1d"
+    ]
+  },
+  "activity": {
+    "added_sloc": 17,
+    "checkpoints": 1
+  },
+  "proton_build": "1.7.6-proton.8"
+}
