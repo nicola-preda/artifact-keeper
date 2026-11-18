@@ -1,0 +1,28 @@
+.env.example
+  s_7295de5a5caaa6::t_265a88d24c3180 1576
+backend/src/config.rs
+  s_7295de5a5caaa6::t_ef08562172bc36 402-432,3256-3285
+backend/src/services/scan_worker.rs
+  s_7295de5a5caaa6::t_90d8e96f60a4bb 34-37
+backend/src/services/scanner_service.rs
+  s_7295de5a5caaa6::t_49f49eaacc37a7 10512-10524,30012-30098
+changes/unreleased/5942-scanner-timeout.md
+  s_7295de5a5caaa6::t_5864d57f92f1f2 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "0268ed5296b78b2a7379fe4284b1d56374eacca3",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
