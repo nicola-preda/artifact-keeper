@@ -1,0 +1,79 @@
+docker/Dockerfile.scanner-adapter
+  s_7295de5a5caaa6::t_00a4ef6d3e3f1c 70,261
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "90e8475f20728d7443081fcfe0820e6ad8bc6300",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 3,
+    "ai_accepted": 3,
+    "git_diff_deleted_lines": 3,
+    "git_diff_added_lines": 3,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 3,
+        "ai_accepted": 3
+      }
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 8,
+        "output_tokens": 761,
+        "cache_creation_input_tokens": 1961,
+        "cache_read_input_tokens": 360317
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 8,
+          "output_tokens": 761,
+          "cache_creation_input_tokens": 1961,
+          "cache_read_input_tokens": 360317
+        }
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 8,
+        "output_tokens": 1262,
+        "cache_creation_input_tokens": 2611,
+        "cache_read_input_tokens": 864265
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 8,
+          "output_tokens": 1262,
+          "cache_creation_input_tokens": 2611,
+          "cache_read_input_tokens": 864265
+        }
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 8,
+        "output_tokens": 761,
+        "cache_creation_input_tokens": 1961,
+        "cache_read_input_tokens": 360317
+      }
+    },
+    "origins": [
+      "79733b56872231b361d4e3539095231fb4885eca"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
