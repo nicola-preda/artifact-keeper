@@ -18,5 +18,19 @@ changes/unreleased/5871-maven-hosted-download-etag.md
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 237,
+    "ai_accepted": 237,
+    "git_diff_deleted_lines": 24,
+    "git_diff_added_lines": 237,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 237,
+        "ai_accepted": 237
+      }
+    }
+  },
   "proton_build": "1.7.6-proton.8"
 }
