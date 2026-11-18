@@ -1,0 +1,55 @@
+backend/migrations/9006_proton_artifacts_listing_sort_indexes.sql
+  s_7295de5a5caaa6::t_c62a2318f85a10 1-37
+backend/src/api/handlers/last_promotion.rs
+  s_7295de5a5caaa6::t_0879616432a29e 295-296
+backend/src/api/handlers/repositories.rs
+  s_7295de5a5caaa6::t_7e9d6685d081f8 38,7771-7779,8184-8199,8202,8230,8258,8283-8299,8304,8319-8323,8356-8358,8380-8388,8390-8398,8400-8413,8418-8422,8426-8427,10145-10165,44865-45092
+backend/src/services/artifact_service.rs
+  s_7295de5a5caaa6::t_0df87aa7066daa 801-898,2767-2812
+backend/tests/catalog_keyset_tests.rs
+  s_7295de5a5caaa6::t_6e8a2d349a3a76 96-97
+backend/tests/grouped_listing_keyset_tests.rs
+  s_7295de5a5caaa6::t_a47752e4b3b8a4 87-88
+backend/tests/listing_totals_tests.rs
+  s_7295de5a5caaa6::t_d05aa838729c48 80-81
+backend/tests/virtual_docker_grouped_listing_test.rs
+  s_7295de5a5caaa6::t_2dc00441dea7d7 134-135
+changes/unreleased/5040-artifact-list-sort.md
+  s_7295de5a5caaa6::t_80d85c49fcab8f 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "8c3d92ff89902aee22b8fd153146f175dd10f0b9",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 539,
+    "ai_accepted": 539,
+    "git_diff_deleted_lines": 51,
+    "git_diff_added_lines": 539,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 539,
+        "ai_accepted": 539
+      }
+    }
+  },
+  "token_usage": {
+    "origins": [
+      "1c34f3eefb61ea9f4702b77a34cb6a3ed72244bc"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
