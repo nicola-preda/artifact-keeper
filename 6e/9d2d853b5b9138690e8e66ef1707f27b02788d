@@ -1,0 +1,73 @@
+backend/src/api/handlers/maven.rs
+  s_7295de5a5caaa6::t_9ac992975d43cb 1745-1753,1768,1840-1846,1856,2608-2610,2613-2621,2653-2654,3202-3203,3208,3232,3289-3290,3297,3330,3391-3392,3466-3468,18702-18705,18742-18761,18776,18781,18788-18896
+changes/unreleased/6284-maven-metadata-checksum-age-gate.md
+  s_7295de5a5caaa6::t_38d466aaea166a 1-5
+docs/security/maven-age-gate.md
+  s_7295de5a5caaa6::t_960a37efef655a 22,77-83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "6e9d2d853b5b9138690e8e66ef1707f27b02788d",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 36,
+        "output_tokens": 9419,
+        "cache_creation_input_tokens": 1397060,
+        "cache_read_input_tokens": 8531032
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 36,
+          "output_tokens": 9419,
+          "cache_creation_input_tokens": 1397060,
+          "cache_read_input_tokens": 8531032
+        }
+      },
+      "tool_uses": {
+        "agent": 2,
+        "askuserquestion": 2,
+        "bash": 6,
+        "sendmessage": 1,
+        "workflow": 1
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 118,
+        "output_tokens": 18322,
+        "cache_creation_input_tokens": 707944,
+        "cache_read_input_tokens": 8188291
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 118,
+          "output_tokens": 18322,
+          "cache_creation_input_tokens": 707944,
+          "cache_read_input_tokens": 8188291
+        }
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 36,
+        "output_tokens": 9419,
+        "cache_creation_input_tokens": 1397060,
+        "cache_read_input_tokens": 8531032
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
