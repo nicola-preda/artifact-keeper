@@ -1,0 +1,93 @@
+scripts/ci/test-dispatch-cli-cache-warmup.sh
+  s_7295de5a5caaa6::t_a81e58f1f59b01 1-77
+scripts/ci/dispatch-cli-cache-warmup.sh
+  s_7295de5a5caaa6::t_6f111a68c8c322 1-53
+.github/workflows/ci.yml
+  s_7295de5a5caaa6::t_e8db02fd8921af 2161-2165
+.github/workflows/release-candidate.yml
+  s_7295de5a5caaa6::t_98a3251ffb57e3 440-443,450,453-458,463
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "d15c7f350d48651a2ff0e0a7ce36ab928a52351d",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 147,
+    "ai_accepted": 147,
+    "git_diff_deleted_lines": 8,
+    "git_diff_added_lines": 147,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 147,
+        "ai_accepted": 147
+      }
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 6,
+        "output_tokens": 1160,
+        "cache_creation_input_tokens": 2323,
+        "cache_read_input_tokens": 939345
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 6,
+          "output_tokens": 1160,
+          "cache_creation_input_tokens": 2323,
+          "cache_read_input_tokens": 939345
+        }
+      },
+      "tool_uses": {
+        "bash": 3
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 240,
+        "output_tokens": 46947,
+        "cache_creation_input_tokens": 243668,
+        "cache_read_input_tokens": 5588531
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 240,
+          "output_tokens": 46947,
+          "cache_creation_input_tokens": 243668,
+          "cache_read_input_tokens": 5588531
+        }
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 6,
+        "output_tokens": 1160,
+        "cache_creation_input_tokens": 2323,
+        "cache_read_input_tokens": 939345
+      }
+    },
+    "origins": [
+      "00a4ef7dbe387093183a63e714a753e9c8c67a63"
+    ]
+  },
+  "activity": {
+    "added_sloc": 125,
+    "checkpoints": 2,
+    "span_seconds": 17
+  },
+  "proton_build": "1.7.6-proton.8"
+}
