@@ -16,5 +16,19 @@ backend/src/api/handlers/repositories.rs
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 11,
+    "ai_accepted": 11,
+    "git_diff_deleted_lines": 5,
+    "git_diff_added_lines": 11,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 11,
+        "ai_accepted": 11
+      }
+    }
+  },
   "proton_build": "1.7.6-proton.8"
 }
