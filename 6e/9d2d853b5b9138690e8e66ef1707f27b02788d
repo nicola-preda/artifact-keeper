@@ -20,6 +20,20 @@ docs/security/maven-age-gate.md
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 193,
+    "ai_accepted": 193,
+    "git_diff_deleted_lines": 32,
+    "git_diff_added_lines": 193,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 193,
+        "ai_accepted": 193
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
