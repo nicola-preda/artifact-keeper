@@ -1,0 +1,41 @@
+backend/src/services/exception_queue.rs
+  s_7295de5a5caaa6::t_8e3df97be9c354 61-63,76,1099-1172
+changes/unreleased/5152-package-exception-queue.md
+  s_7295de5a5caaa6::t_6836ecc2072681 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "c9ed1de9ad238b13661b5295817f66697deded4f",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 81,
+    "ai_accepted": 81,
+    "git_diff_deleted_lines": 3,
+    "git_diff_added_lines": 81,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 81,
+        "ai_accepted": 81
+      }
+    }
+  },
+  "token_usage": {
+    "origins": [
+      "a39867ffb00ca46f7134aea36790ad45dee0373c"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}

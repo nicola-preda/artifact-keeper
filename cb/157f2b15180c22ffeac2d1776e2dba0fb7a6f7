@@ -1,0 +1,79 @@
+docs/security/scan-on-proxy.md
+  s_7295de5a5caaa6::t_a80baf7c6e286e 325-331
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "cb157f2b15180c22ffeac2d1776e2dba0fb7a6f7",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 7,
+    "ai_accepted": 7,
+    "git_diff_deleted_lines": 0,
+    "git_diff_added_lines": 7,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 7,
+        "ai_accepted": 7
+      }
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 4,
+        "output_tokens": 69,
+        "cache_creation_input_tokens": 802289,
+        "cache_read_input_tokens": 12852
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 4,
+          "output_tokens": 69,
+          "cache_creation_input_tokens": 802289,
+          "cache_read_input_tokens": 12852
+        }
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 20,
+        "output_tokens": 4329,
+        "cache_creation_input_tokens": 134343,
+        "cache_read_input_tokens": 1403184
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 20,
+          "output_tokens": 4329,
+          "cache_creation_input_tokens": 134343,
+          "cache_read_input_tokens": 1403184
+        }
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 4,
+        "output_tokens": 69,
+        "cache_creation_input_tokens": 802289,
+        "cache_read_input_tokens": 12852
+      }
+    },
+    "origins": [
+      "451a5bec66dc7ba075154e90087b0a7261de85b9"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
