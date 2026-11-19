@@ -1,0 +1,67 @@
+backend/src/api/routes.rs
+  s_7295de5a5caaa6::t_000f83df9bb312 1771,1786-1791,2970-3004
+docs/api-token-expiration-policy.md
+  s_7295de5a5caaa6::t_e402b0f1a22bd3 36-37
+changes/unreleased/5656-json-fatal-error-api-not-found.md
+  s_7295de5a5caaa6::t_451d6e45cdd27c 1-5
+docs/operations/logging.md
+  s_7295de5a5caaa6::t_5e05d4654af6bb 206
+backend/src/telemetry.rs
+  s_7295de5a5caaa6::t_953ce63ae86d41 1562-1599
+  s_7295de5a5caaa6::t_91a98d232073e8 697-709
+backend/src/main.rs
+  s_7295de5a5caaa6::t_77c8ccc1c361b8 1841,1843,1847-1848
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "8476f73cef12a823da6d306055d14c030c55801e",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 105,
+    "ai_accepted": 105,
+    "git_diff_deleted_lines": 7,
+    "git_diff_added_lines": 105,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 105,
+        "ai_accepted": 105
+      }
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 144,
+        "output_tokens": 35758,
+        "cache_creation_input_tokens": 107500,
+        "cache_read_input_tokens": 9161233
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 144,
+          "output_tokens": 35758,
+          "cache_creation_input_tokens": 107500,
+          "cache_read_input_tokens": 9161233
+        }
+      }
+    }
+  },
+  "activity": {
+    "added_sloc": 12,
+    "checkpoints": 1
+  },
+  "proton_build": "1.7.6-proton.8"
+}
