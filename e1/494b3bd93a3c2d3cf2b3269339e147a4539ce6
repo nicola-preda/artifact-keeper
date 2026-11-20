@@ -21,6 +21,20 @@ changes/unreleased/6315-score-lock-waiters-hold-no-connection.md
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 116,
+    "ai_accepted": 116,
+    "git_diff_deleted_lines": 2,
+    "git_diff_added_lines": 116,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 116,
+        "ai_accepted": 116
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
@@ -66,6 +80,12 @@ changes/unreleased/6315-score-lock-waiters-hold-no-connection.md
         "cache_read_input_tokens": 5818452
       }
     }
+  },
+  "activity": {
+    "added_sloc": 28,
+    "deleted_sloc": 1,
+    "checkpoints": 3,
+    "span_seconds": 20
   },
   "proton_build": "1.7.6-proton.8"
 }
