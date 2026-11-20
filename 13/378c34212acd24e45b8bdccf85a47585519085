@@ -30,6 +30,24 @@ docs/operations/online-migrations.md
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 94,
+    "ai_accepted": 94,
+    "git_diff_deleted_lines": 23,
+    "git_diff_added_lines": 94,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 84,
+        "ai_accepted": 84
+      },
+      "claude::unknown": {
+        "ai_additions": 10,
+        "ai_accepted": 10
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
