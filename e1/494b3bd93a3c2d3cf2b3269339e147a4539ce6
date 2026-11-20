@@ -1,0 +1,71 @@
+backend/src/services/scan_result_service.rs
+  s_7295de5a5caaa6::t_7cba446412f0e0 7592-7593,7778
+  s_7295de5a5caaa6::t_bb3070bee0f8dc 115-135
+  s_7295de5a5caaa6::t_90a8cf63c2b639 3203-3206,3208-3209
+  s_7295de5a5caaa6::t_82259b651f496b 7577,7733-7777,7779-7813
+changes/unreleased/6315-score-lock-waiters-hold-no-connection.md
+  s_7295de5a5caaa6::t_9a29373910d015 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e1494b3bd93a3c2d3cf2b3269339e147a4539ce6",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 16,
+        "output_tokens": 11835,
+        "cache_creation_input_tokens": 16708,
+        "cache_read_input_tokens": 5818452
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 16,
+          "output_tokens": 11835,
+          "cache_creation_input_tokens": 16708,
+          "cache_read_input_tokens": 5818452
+        }
+      },
+      "tool_uses": {
+        "agent": 6,
+        "bash": 3
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 476,
+        "output_tokens": 113493,
+        "cache_creation_input_tokens": 673696,
+        "cache_read_input_tokens": 19443231
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 476,
+          "output_tokens": 113493,
+          "cache_creation_input_tokens": 673696,
+          "cache_read_input_tokens": 19443231
+        }
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 16,
+        "output_tokens": 11835,
+        "cache_creation_input_tokens": 16708,
+        "cache_read_input_tokens": 5818452
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
