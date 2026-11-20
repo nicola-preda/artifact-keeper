@@ -16,6 +16,20 @@ backend/src/api/handlers/repositories.rs
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 5,
+    "ai_additions": 67,
+    "ai_accepted": 67,
+    "git_diff_deleted_lines": 24,
+    "git_diff_added_lines": 72,
+    "tool_model_breakdown": {
+      "claude::unknown": {
+        "ai_additions": 67,
+        "ai_accepted": 67
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "tool_uses": {
