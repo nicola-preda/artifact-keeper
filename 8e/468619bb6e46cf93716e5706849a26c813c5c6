@@ -1,0 +1,52 @@
+backend/migrations/409_scan_worker_scanner_versions.sql
+  s_7295de5a5caaa6::t_1e09d418c7ba43 1-14
+backend/src/api/handlers/proxy_helpers.rs
+  s_7295de5a5caaa6::t_15e19472424825 12709-12713,13024-13028
+backend/src/services/proxy_service.rs
+  s_7295de5a5caaa6::t_35b27d20ac4a4d 6968-6970
+backend/src/services/scan_queue.rs
+  s_7295de5a5caaa6::t_7fc71176adb48e 401-403,589-592,602-607,619-627
+backend/src/services/scan_worker.rs
+  s_7295de5a5caaa6::t_f710c5b0a31e64 208-209,214
+backend/src/services/scanner_service.rs
+  s_7295de5a5caaa6::t_6cfab944993b94 6421-6444,6446-6449,6451,6456-6463,6467-6478,6480-6483,6486-6513,10102-10103,10105-10111,10116,14105-14107,14110,14114,14119-14120,14123-14166,14168-14174,14176-14177,14180-14250
+changes/unreleased/5971-api-pods-without-grype.md
+  s_7295de5a5caaa6::t_1f64d8380edd82 5-7
+docs/security/scan-on-proxy.md
+  s_7295de5a5caaa6::t_0fb9c6710af3ef 633-644
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "8e468619bb6e46cf93716e5706849a26c813c5c6",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 2,
+        "output_tokens": 420,
+        "cache_creation_input_tokens": 579,
+        "cache_read_input_tokens": 190006
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 2,
+          "output_tokens": 420,
+          "cache_creation_input_tokens": 579,
+          "cache_read_input_tokens": 190006
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
