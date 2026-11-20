@@ -18,6 +18,20 @@ changes/unreleased/5152-package-exception-queue.md
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 204,
+    "ai_accepted": 204,
+    "git_diff_deleted_lines": 16,
+    "git_diff_added_lines": 204,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 204,
+        "ai_accepted": 204
+      }
+    }
+  },
   "token_usage": {
     "carried": {
       "total": {
