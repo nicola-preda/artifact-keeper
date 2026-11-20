@@ -1,0 +1,126 @@
+backend/src/api/handlers/admin.rs
+  s_7295de5a5caaa6::t_88d7b8fe6d3e1c 1116,3414-3442,3455-3456
+backend/src/services/exception_queue.rs
+  s_7295de5a5caaa6::t_920910dca8c191 29-35,149-160,195,201-202,1114,1189-1287
+  s_7295de5a5caaa6::t_8e3df97be9c354 61-63,76,1115-1188
+  s_7295de5a5caaa6::t_9cbbfa4999a8c9 2,374-386,461,463,466-468
+backend/src/api/handlers/age_gate.rs
+  s_7295de5a5caaa6::t_e7dff6c642c6dd 100-101,711,726-731,733,735,819,850,1208-1209,1212-1224,1229-1231,1233-1234,1236-1256,1259-1262,1264-1265,1268,1275,1283-1285,1494,1587-1588,2757-2782,2784-2810
+  s_7295de5a5caaa6::t_e8171cd2a870e0 244-259,655,2656-2657,3091-3140
+  s_7295de5a5caaa6::t_63bd47774b7b18 284-286,645-654,800-804,837-841,886-891,912-919,947-954,982-989,1016-1021,1040-1044,1063-1070,1088-1095,1116,1179,1198-1205,1225-1228,1257,2946-3090
+backend/src/services/age_gate_service.rs
+  s_7295de5a5caaa6::t_3e08a18b0c01f5 826-839,1453,1457-1464,1476-1477,1484-1485,1515-1516,1518,1525-1526,3570-3575
+  s_7295de5a5caaa6::t_3c187291a9f1e0 325,335,357,439,699,1444,1940,4042,4129
+changes/unreleased/5152-package-exception-queue.md
+  s_7295de5a5caaa6::t_6836ecc2072681 7
+  s_7295de5a5caaa6::t_4875da29617bdc 9
+docs/security/scan-on-proxy.md
+  s_7295de5a5caaa6::t_a80baf7c6e286e 325-331
+backend/migrations/404_package_exception_queue.sql
+  s_7295de5a5caaa6::t_604db15b33d5b9 56-57,59
+  s_7295de5a5caaa6::t_ab0362f4b6fb11 10-11
+backend/src/api/handlers/proxy_helpers.rs
+  s_7295de5a5caaa6::t_a1501d753d7f63 10910,29335
+backend/src/services/audit_service.rs
+  s_7295de5a5caaa6::t_c0556ec6f2c548 107
+backend/src/services/permission_service.rs
+  s_7295de5a5caaa6::t_a9f244cb2f127e 1538
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "6439f186e31bd29ec8b26964736870e83d34f158",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 15,
+    "ai_accepted": 15,
+    "git_diff_deleted_lines": 15,
+    "git_diff_added_lines": 15,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 15,
+        "ai_accepted": 15
+      }
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 330,
+        "output_tokens": 99706,
+        "cache_creation_input_tokens": 7504436,
+        "cache_read_input_tokens": 87196876
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 330,
+          "output_tokens": 99706,
+          "cache_creation_input_tokens": 7504436,
+          "cache_read_input_tokens": 87196876
+        }
+      },
+      "tool_uses": {
+        "agent": 9,
+        "askuserquestion": 2,
+        "bash": 114,
+        "sendmessage": 1,
+        "workflow": 2,
+        "write": 1
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 1125,
+        "output_tokens": 332733,
+        "cache_creation_input_tokens": 10374280,
+        "cache_read_input_tokens": 148121253
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 1125,
+          "output_tokens": 332733,
+          "cache_creation_input_tokens": 10374280,
+          "cache_read_input_tokens": 148121253
+        }
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 330,
+        "output_tokens": 99706,
+        "cache_creation_input_tokens": 7504436,
+        "cache_read_input_tokens": 87196876
+      }
+    },
+    "origins": [
+      "05b94b818510a94c19f3635c9a452f651a3ac30b",
+      "2d38d45954f0286a4b280b06f1337caabaad036d",
+      "451a5bec66dc7ba075154e90087b0a7261de85b9",
+      "55ecc5e840fe990a0616b08ef4d099bdeb46b1a3",
+      "6e73033e23a9f3c88d5b1d307aa59238a34173c2",
+      "7270842ef7af492309b2387ea91d13a8250a5fac",
+      "72d1282c5957530297e67627b8c7eb7acad60b90",
+      "a39867ffb00ca46f7134aea36790ad45dee0373c",
+      "c67bad51443f5dfcbd8de920d2a22e872997e1e0",
+      "d20d66020cea33aca7a5acf0eb69bae3d7cdc80a"
+    ]
+  },
+  "activity": {
+    "added_sloc": 89,
+    "checkpoints": 2,
+    "span_seconds": 1
+  },
+  "proton_build": "1.7.6-proton.8"
+}
