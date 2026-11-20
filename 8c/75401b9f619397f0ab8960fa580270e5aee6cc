@@ -1,0 +1,46 @@
+.github/workflows/ci.yml
+  s_7295de5a5caaa6::t_7b0e80da9a6076 3639-3640,3647
+.github/workflows/docker-publish.yml
+  s_7295de5a5caaa6::t_755b54d331ebd2 740-746
+.github/workflows/e2e.yml
+  s_7295de5a5caaa6::t_ee26ea39c72f7f 133-135
+.github/workflows/scheduled-tests.yml
+  s_7295de5a5caaa6::t_e6da6c248ea054 384-386
+changes/unreleased/5971-backend-image-without-grype.md
+  s_7295de5a5caaa6::t_2dffd35c72ec73 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "8c75401b9f619397f0ab8960fa580270e5aee6cc",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 98,
+        "output_tokens": 22211,
+        "cache_creation_input_tokens": 57240,
+        "cache_read_input_tokens": 9272670
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 98,
+          "output_tokens": 22211,
+          "cache_creation_input_tokens": 57240,
+          "cache_read_input_tokens": 9272670
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
