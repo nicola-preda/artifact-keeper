@@ -26,6 +26,20 @@ changes/unreleased/6346-pypi-catalog-once.md
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 139,
+    "ai_accepted": 139,
+    "git_diff_deleted_lines": 32,
+    "git_diff_added_lines": 139,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 139,
+        "ai_accepted": 139
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
@@ -72,6 +86,12 @@ changes/unreleased/6346-pypi-catalog-once.md
         "cache_read_input_tokens": 8358251
       }
     }
+  },
+  "activity": {
+    "added_sloc": 17,
+    "deleted_sloc": 4,
+    "checkpoints": 4,
+    "span_seconds": 134
   },
   "proton_build": "1.7.6-proton.8"
 }
