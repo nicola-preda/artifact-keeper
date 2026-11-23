@@ -45,23 +45,51 @@ docs/security/scan-on-proxy.md
     }
   },
   "token_usage": {
-    "carried": {
+    "attributable": {
       "total": {
-        "input_tokens": 2,
-        "output_tokens": 420,
-        "cache_creation_input_tokens": 579,
-        "cache_read_input_tokens": 190006
+        "input_tokens": 10,
+        "output_tokens": 4786,
+        "cache_creation_input_tokens": 5659,
+        "cache_read_input_tokens": 813517
       },
       "by_tool_model": {
         "claude::claude-opus-5-5": {
-          "input_tokens": 2,
-          "output_tokens": 420,
-          "cache_creation_input_tokens": 579,
-          "cache_read_input_tokens": 190006
+          "input_tokens": 10,
+          "output_tokens": 4786,
+          "cache_creation_input_tokens": 5659,
+          "cache_read_input_tokens": 813517
+        }
+      },
+      "tool_uses": {
+        "bash": 4
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 54,
+        "output_tokens": 10958,
+        "cache_creation_input_tokens": 21972,
+        "cache_read_input_tokens": 4861902
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 54,
+          "output_tokens": 10958,
+          "cache_creation_input_tokens": 21972,
+          "cache_read_input_tokens": 4861902
         }
       }
     },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 10,
+        "output_tokens": 4786,
+        "cache_creation_input_tokens": 5659,
+        "cache_read_input_tokens": 813517
+      }
+    },
     "origins": [
+      "26e747a6b49c0a2b1e44f4b6c30201f95ee27c6a",
       "8e468619bb6e46cf93716e5706849a26c813c5c6"
     ]
   },
