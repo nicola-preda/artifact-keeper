@@ -22,6 +22,20 @@ changes/unreleased/6352-artifact-list-sort.md
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 7,
+    "ai_accepted": 7,
+    "git_diff_deleted_lines": 7,
+    "git_diff_added_lines": 7,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 7,
+        "ai_accepted": 7
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
