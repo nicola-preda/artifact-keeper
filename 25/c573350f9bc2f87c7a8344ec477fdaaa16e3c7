@@ -1,31 +1,45 @@
 .env.example
   s_7295de5a5caaa6::t_334b29e9e2f133 759-769
+  s_7295de5a5caaa6::t_db0138ff50ee0c 759-769
 backend/src/api/handlers/auth.rs
   s_7295de5a5caaa6::t_d31f9e2eed330f 23,237-252,509,512-528,576-579,642,685-691,2159,2169,2183
+  s_7295de5a5caaa6::t_155178a3d800d4 23,237-252,509,512-528,576-579,642,685-691,2159,2169,2183
 backend/src/api/handlers/impersonation.rs
   s_7295de5a5caaa6::t_e7e9329186481d 1-195
+  s_7295de5a5caaa6::t_dc51fe8dd88453 1-195
 backend/src/api/handlers/mod.rs
   s_7295de5a5caaa6::t_2f430bf77be79b 646
+  s_7295de5a5caaa6::t_ca12590cda2f3f 646
 backend/src/api/middleware/auth.rs
   s_7295de5a5caaa6::t_4be925ee8a78a8 28,564-565,631-636,673-680,685,706,855-858,1045,1081-1085,1567,2445-2447
+  s_7295de5a5caaa6::t_1d4e7cb601f03d 28,564-565,631-636,673-680,685,706,855-858,1045,1081-1085,1567,2445-2447
 backend/src/api/middleware/impersonation.rs
   s_7295de5a5caaa6::t_ae4a2474163c76 1-737
+  s_7295de5a5caaa6::t_be36cfc93ec082 1-737
 backend/src/api/middleware/mod.rs
   s_7295de5a5caaa6::t_7188024425a637 9
+  s_7295de5a5caaa6::t_91fbe20e384dde 9
 backend/src/api/middleware/request_span.rs
   s_7295de5a5caaa6::t_4266171dfc4911 66-67,82,92,95-102,111-113,162-175
+  s_7295de5a5caaa6::t_a40ba656f77630 66-67,82,92,95-102,111-113,162-175
 backend/src/api/middleware/tracing.rs
   s_7295de5a5caaa6::t_82bf41a09e181a 393,596,604
+  s_7295de5a5caaa6::t_052b3c0601df0a 393,596,604
 backend/src/api/routes.rs
   s_7295de5a5caaa6::t_d1a79bc9a77e4c 335-344,1567,1574-1576
+  s_7295de5a5caaa6::t_c61af825180d62 335-344,1567,1574-1576
 backend/src/services/audit_export.rs
   s_7295de5a5caaa6::t_8cec7c581166ef 231-233
+  s_7295de5a5caaa6::t_e78eb1f67a5977 231-233
 backend/src/services/audit_service.rs
   s_7295de5a5caaa6::t_9b983581aaecdc 354-358,503-504
+  s_7295de5a5caaa6::t_114001263c2840 354-358,503-504
 backend/src/services/auth_service.rs
   s_7295de5a5caaa6::t_8f648d8bbca3c2 308-330,2675-2718
+  s_7295de5a5caaa6::t_fc2ef73e9cae75 308-330,2675-2718
 docs/audit-events.md
   s_7295de5a5caaa6::t_e24e03432840b1 322-336
+  s_7295de5a5caaa6::t_35ff3465088726 322-336
 ---
 {
   "schema_version": "authorship/3.0.0",
@@ -57,22 +71,50 @@ docs/audit-events.md
     }
   },
   "token_usage": {
-    "carried": {
+    "attributable": {
       "total": {
-        "input_tokens": 24,
-        "output_tokens": 11350,
-        "cache_creation_input_tokens": 20356,
-        "cache_read_input_tokens": 3231834
+        "input_tokens": 4,
+        "output_tokens": 571,
+        "cache_creation_input_tokens": 3564,
+        "cache_read_input_tokens": 224780
       },
       "by_tool_model": {
         "claude::claude-opus-5-5": {
-          "input_tokens": 24,
-          "output_tokens": 11350,
-          "cache_creation_input_tokens": 20356,
-          "cache_read_input_tokens": 3231834
+          "input_tokens": 4,
+          "output_tokens": 571,
+          "cache_creation_input_tokens": 3564,
+          "cache_read_input_tokens": 224780
         }
       }
-    }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 32,
+        "output_tokens": 15521,
+        "cache_creation_input_tokens": 27996,
+        "cache_read_input_tokens": 4101719
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 32,
+          "output_tokens": 15521,
+          "cache_creation_input_tokens": 27996,
+          "cache_read_input_tokens": 4101719
+        }
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 4,
+        "output_tokens": 571,
+        "cache_creation_input_tokens": 3564,
+        "cache_read_input_tokens": 224780
+      }
+    },
+    "origins": [
+      "25c573350f9bc2f87c7a8344ec477fdaaa16e3c7",
+      "dad9ed97a10b7cc191d3469eea0dfa8aab6a47b6"
+    ]
   },
   "proton_build": "1.7.6-proton.8"
 }
