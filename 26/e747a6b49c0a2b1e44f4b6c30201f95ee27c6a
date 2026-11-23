@@ -93,5 +93,11 @@ docs/security/scan-on-proxy.md
       "8e468619bb6e46cf93716e5706849a26c813c5c6"
     ]
   },
+  "activity": {
+    "added_sloc": 211,
+    "deleted_sloc": 72,
+    "checkpoints": 2,
+    "span_seconds": 2
+  },
   "proton_build": "1.7.6-proton.8"
 }
