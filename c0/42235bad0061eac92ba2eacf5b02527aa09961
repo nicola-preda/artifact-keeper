@@ -1,0 +1,32 @@
+backend/src/api/handlers/general.rs
+  s_7295de5a5caaa6::t_76775310e40471 12-16,22,25,27,29-30,63-213,462-621
+backend/src/api/handlers/proxy_helpers.rs
+  s_7295de5a5caaa6::t_fe6bcedd3b3223 29645,30151,30211-30225,30727
+backend/src/api/handlers/repositories.rs
+  s_7295de5a5caaa6::t_bef3a67205abcf 11186,11192-11198,13488-13490,13493,13969-13989,14073-14075,14081-14087,32523-32524,32531-32532,32566,32633-32643,32657-32659,32664-32666,32947
+backend/src/formats/mod.rs
+  s_7295de5a5caaa6::t_51f5f0ed507f39 284-287,327-329,339
+backend/src/models/format_handler.rs
+  s_7295de5a5caaa6::t_43cc3692be7b56 260,278
+backend/src/services/scan_result_service.rs
+  s_7295de5a5caaa6::t_54d85178ea1340 4404-4406,4413
+docs/security/scan-on-proxy.md
+  s_7295de5a5caaa6::t_a94a22df02fbc7 219-220,797-801,824,865-868
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "c042235bad0061eac92ba2eacf5b02527aa09961",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
