@@ -1,13 +1,20 @@
 backend/src/services/metrics_service.rs
   s_7295de5a5caaa6::t_c267e27600a45c 17,61-65,977-996,1378-1394
+  h_206b40f42abaf2 17,977-996,1378-1394
 backend/src/services/scheduler_service.rs
   s_7295de5a5caaa6::t_3c6951a7785392 452-453
+  h_206b40f42abaf2 452-453
 ---
 {
   "schema_version": "authorship/3.0.0",
   "git_ai_version": "1.7.6",
   "base_commit_sha": "1af6653380caedf73adccaba1d7ddd74bf31443e",
   "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
   "sessions": {
     "s_7295de5a5caaa6": {
       "agent_id": {
@@ -48,7 +55,11 @@ backend/src/services/scheduler_service.rs
           "cache_read_input_tokens": 2204461
         }
       }
-    }
+    },
+    "origins": [
+      "1af6653380caedf73adccaba1d7ddd74bf31443e",
+      "f0801de63e621f2351e12d8827141cea208e9d23"
+    ]
   },
   "proton_build": "1.7.6-proton.8"
 }
