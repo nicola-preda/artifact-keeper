@@ -1,0 +1,62 @@
+backend/src/services/scheduler_service.rs
+  s_7295de5a5caaa6::t_42786ad0f305a1 440-451
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "4ffc66eb49d4a930c26a4efb8911d8b3592196e0",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 38,
+        "output_tokens": 19476,
+        "cache_creation_input_tokens": 32881,
+        "cache_read_input_tokens": 3526651
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 38,
+          "output_tokens": 19476,
+          "cache_creation_input_tokens": 32881,
+          "cache_read_input_tokens": 3526651
+        }
+      }
+    },
+    "carried": {
+      "total": {
+        "input_tokens": 10,
+        "output_tokens": 14704,
+        "cache_creation_input_tokens": 18046,
+        "cache_read_input_tokens": 929381
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 10,
+          "output_tokens": 14704,
+          "cache_creation_input_tokens": 18046,
+          "cache_read_input_tokens": 929381
+        }
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 38,
+        "output_tokens": 19476,
+        "cache_creation_input_tokens": 32881,
+        "cache_read_input_tokens": 3526651
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
