@@ -1,0 +1,40 @@
+backend/migrations/423_repositories_version_policy.sql
+  s_7295de5a5caaa6::t_ac7e4d3ccc83a9 3-4
+changes/unreleased/5872-maven-version-policy.md
+  s_7295de5a5caaa6::t_535fd3b1553e97 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "471674c06eb68044dacfd4cc10b57af638fd528f",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 16,
+        "output_tokens": 3588,
+        "cache_creation_input_tokens": 5501,
+        "cache_read_input_tokens": 1362331
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 16,
+          "output_tokens": 3588,
+          "cache_creation_input_tokens": 5501,
+          "cache_read_input_tokens": 1362331
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
