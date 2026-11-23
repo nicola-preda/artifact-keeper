@@ -16,5 +16,19 @@ backend/src/services/scheduler_service.rs
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 2,
+    "ai_additions": 139,
+    "ai_accepted": 139,
+    "git_diff_deleted_lines": 1,
+    "git_diff_added_lines": 141,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 139,
+        "ai_accepted": 139
+      }
+    }
+  },
   "proton_build": "1.7.6-proton.8"
 }
