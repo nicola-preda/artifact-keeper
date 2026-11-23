@@ -30,5 +30,19 @@ changes/unreleased/4670-repo-admin-follows-grants.md
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 593,
+    "ai_accepted": 593,
+    "git_diff_deleted_lines": 51,
+    "git_diff_added_lines": 593,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 593,
+        "ai_accepted": 593
+      }
+    }
+  },
   "proton_build": "1.7.6-proton.8"
 }
