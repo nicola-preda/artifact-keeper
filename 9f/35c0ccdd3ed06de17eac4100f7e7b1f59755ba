@@ -30,5 +30,11 @@ backend/src/api/handlers/admin.rs
       }
     }
   },
+  "token_usage": {
+    "origins": [
+      "9f35c0ccdd3ed06de17eac4100f7e7b1f59755ba",
+      "d1ce8203bfb456f80ed8a41a1e8af24f8166b901"
+    ]
+  },
   "proton_build": "1.7.6-proton.8"
 }
