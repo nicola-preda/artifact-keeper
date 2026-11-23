@@ -1,0 +1,22 @@
+backend/src/services/backup_schedule_service.rs
+  s_7295de5a5caaa6::t_4d4eab78f48d79 33-34
+backend/src/services/scheduler_service.rs
+  s_7295de5a5caaa6::t_fd22f80e52dbde 2088-2105,2111-2151,4366-4445
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "b77a89dfbdcc6429174b8b9b3f3bfcce71716264",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
