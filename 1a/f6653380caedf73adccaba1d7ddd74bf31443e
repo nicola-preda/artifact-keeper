@@ -1,0 +1,40 @@
+backend/src/services/metrics_service.rs
+  s_7295de5a5caaa6::t_c267e27600a45c 17,61-65,977-996,1378-1394
+backend/src/services/scheduler_service.rs
+  s_7295de5a5caaa6::t_3c6951a7785392 452-453
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "1af6653380caedf73adccaba1d7ddd74bf31443e",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 22,
+        "output_tokens": 19002,
+        "cache_creation_input_tokens": 28246,
+        "cache_read_input_tokens": 2204461
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 22,
+          "output_tokens": 19002,
+          "cache_creation_input_tokens": 28246,
+          "cache_read_input_tokens": 2204461
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
