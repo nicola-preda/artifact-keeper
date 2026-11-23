@@ -1,13 +1,18 @@
 backend/src/api/handlers/admin.rs
   s_7295de5a5caaa6::t_6e863d9b6df446 27-29,40-51,3027-3191,3202-3206,3235-3239,3308-3315
+  s_91241db92deb5d::t_e91a6ef5399004 27-29,40-51,3027-3191,3202-3206,3235-3239,3308-3315
 backend/src/services/audit_export.rs
   s_7295de5a5caaa6::t_7744ee0b8f54da 228-231
+  s_91241db92deb5d::t_b4d78b69ff6e5e 228-231
 backend/src/services/audit_service.rs
   s_7295de5a5caaa6::t_11fbdbf5d69854 51-56,387-389,2380-2391
 backend/src/services/backup_service.rs
   s_7295de5a5caaa6::t_7254c92bc88e1a 55
+  s_91241db92deb5d::t_68b6dddc521fc2 55
 backend/src/services/mod.rs
   s_7295de5a5caaa6::t_d995cef937cd80 18
+backend/src/api/handlers/repositories.rs
+  s_7295de5a5caaa6::t_9c40451b9c593e 6982
 ---
 {
   "schema_version": "authorship/3.0.0",
@@ -22,6 +27,14 @@ backend/src/services/mod.rs
         "model": "claude-opus-5-5"
       },
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    },
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
   "commit_stats": {
@@ -37,6 +50,29 @@ backend/src/services/mod.rs
         "ai_accepted": 225
       }
     }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 32,
+        "output_tokens": 6784,
+        "cache_creation_input_tokens": 19864,
+        "cache_read_input_tokens": 2931755
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 32,
+          "output_tokens": 6784,
+          "cache_creation_input_tokens": 19864,
+          "cache_read_input_tokens": 2931755
+        }
+      }
+    },
+    "origins": [
+      "38189460c4296de907dad5c3ef0a9ef4ce6abe62",
+      "3fa6810767119519a15fd6ddde7368d29fed6925",
+      "5e038749fac0d6dcace37fe6f93cec343733d896"
+    ]
   },
   "proton_build": "1.7.6-proton.8"
 }
