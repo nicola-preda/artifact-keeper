@@ -1,5 +1,6 @@
 backend/src/api/handlers/swift.rs
   s_7295de5a5caaa6::t_a915a374bc9478 1371-1374,1516-1553,1569-1571,1578-1579,1582-1584,1745-1783,2768-2823
+  s_7295de5a5caaa6::t_21347b55a857da 1371-1374,1516-1553,1569-1571,1578-1579,1582-1584,1745-1783,2768-2823
 ---
 {
   "schema_version": "authorship/3.0.0",
@@ -33,20 +34,24 @@ backend/src/api/handlers/swift.rs
   "token_usage": {
     "carried": {
       "total": {
-        "input_tokens": 10,
-        "output_tokens": 2652,
-        "cache_creation_input_tokens": 13665,
-        "cache_read_input_tokens": 891415
+        "input_tokens": 68,
+        "output_tokens": 12845,
+        "cache_creation_input_tokens": 131669,
+        "cache_read_input_tokens": 3289978
       },
       "by_tool_model": {
         "claude::claude-opus-5-5": {
-          "input_tokens": 10,
-          "output_tokens": 2652,
-          "cache_creation_input_tokens": 13665,
-          "cache_read_input_tokens": 891415
+          "input_tokens": 68,
+          "output_tokens": 12845,
+          "cache_creation_input_tokens": 131669,
+          "cache_read_input_tokens": 3289978
         }
       }
-    }
+    },
+    "origins": [
+      "752a21b7097b0ec18afc6bc2e2d89503e367aa1f",
+      "8370441f14607b2750b8a5648ce0fd891a8f54b8"
+    ]
   },
   "proton_build": "1.7.6-proton.8"
 }
