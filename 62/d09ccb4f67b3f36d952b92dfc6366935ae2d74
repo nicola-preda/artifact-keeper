@@ -44,5 +44,11 @@ changes/unreleased/4670-repo-admin-follows-grants.md
       }
     }
   },
+  "token_usage": {
+    "origins": [
+      "62d09ccb4f67b3f36d952b92dfc6366935ae2d74",
+      "cf071366edf84ba14568c825f0f4c2026cc1adce"
+    ]
+  },
   "proton_build": "1.7.6-proton.8"
 }
