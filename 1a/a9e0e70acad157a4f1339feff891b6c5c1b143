@@ -1,0 +1,39 @@
+changes/unreleased/5971-backend-image-without-grype.md
+  s_7295de5a5caaa6::t_2dffd35c72ec73 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "1aa9e0e70acad157a4f1339feff891b6c5c1b143",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 1,
+    "ai_accepted": 1,
+    "git_diff_deleted_lines": 1,
+    "git_diff_added_lines": 1,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 1,
+        "ai_accepted": 1
+      }
+    }
+  },
+  "token_usage": {
+    "origins": [
+      "8545144487add4677bfff5195b3670885aa9de38"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
