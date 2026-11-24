@@ -1,0 +1,55 @@
+backend/migrations/428_build_artifacts_artifact_id.sql
+  s_7295de5a5caaa6::t_8ce7f969278199 5-10,19-20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "46636c6b52d1bdc2b6c1c98c0ec6c16fff7fb1b2",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 8,
+    "ai_accepted": 8,
+    "git_diff_deleted_lines": 9,
+    "git_diff_added_lines": 8,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 8,
+        "ai_accepted": 8
+      }
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 26,
+        "output_tokens": 6350,
+        "cache_creation_input_tokens": 8904,
+        "cache_read_input_tokens": 2521125
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 26,
+          "output_tokens": 6350,
+          "cache_creation_input_tokens": 8904,
+          "cache_read_input_tokens": 2521125
+        }
+      }
+    },
+    "origins": [
+      "25bfde69a46bbf3e5c491bda70303a8e88d0f866"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
