@@ -1,0 +1,26 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "9454c2485bf43dc8b2615c9f86bbf15ab25463f2",
+  "prompts": {},
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 154,
+        "output_tokens": 48427,
+        "cache_creation_input_tokens": 993577,
+        "cache_read_input_tokens": 16314614
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 154,
+          "output_tokens": 48427,
+          "cache_creation_input_tokens": 993577,
+          "cache_read_input_tokens": 16314614
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
