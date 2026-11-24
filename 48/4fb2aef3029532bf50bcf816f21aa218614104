@@ -1,0 +1,20 @@
+changes/unreleased/5872-maven-version-policy.md
+  s_7295de5a5caaa6::t_ffbfc21e8c8cc5 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "484fb2aef3029532bf50bcf816f21aa218614104",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
