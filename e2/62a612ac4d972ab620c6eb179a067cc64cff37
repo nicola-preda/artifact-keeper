@@ -1,0 +1,33 @@
+backend/src/services/opensearch_service.rs
+  h_4d0bfcca3c57b7 30,42-66,68-75,898,900-904
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e262a612ac4d972ab620c6eb179a067cc64cff37",
+  "prompts": {},
+  "humans": {
+    "h_4d0bfcca3c57b7": {
+      "author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 86,
+        "output_tokens": 20832,
+        "cache_creation_input_tokens": 39153,
+        "cache_read_input_tokens": 10947258
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 86,
+          "output_tokens": 20832,
+          "cache_creation_input_tokens": 39153,
+          "cache_read_input_tokens": 10947258
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
