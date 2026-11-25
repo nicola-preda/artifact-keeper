@@ -1,0 +1,57 @@
+backend/src/services/scan_result_service.rs
+  s_7295de5a5caaa6::t_d0757f8d1459bf 2676,2693,2698,2700,2725-2727,6603-6659
+changes/unreleased/5244-lifecycle-security-score.md
+  s_7295de5a5caaa6::t_dfaf006da79b6c 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "108290ad1cc5d8cb9e9aa450c6570ac210dae5d4",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 65,
+    "ai_accepted": 65,
+    "git_diff_deleted_lines": 353,
+    "git_diff_added_lines": 65,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 65,
+        "ai_accepted": 65
+      }
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 8,
+        "output_tokens": 477,
+        "cache_creation_input_tokens": 681,
+        "cache_read_input_tokens": 371637
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 8,
+          "output_tokens": 477,
+          "cache_creation_input_tokens": 681,
+          "cache_read_input_tokens": 371637
+        }
+      }
+    },
+    "origins": [
+      "35b3233cd9196920ab01e5f588d84fcb6dc407c1"
+    ]
+  },
+  "proton_build": "1.7.6-proton.8"
+}
