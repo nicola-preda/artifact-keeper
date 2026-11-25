@@ -11,6 +11,15 @@ backend/src/services/opensearch_service.rs
       "author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 40,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 5,
+    "git_diff_added_lines": 40,
+    "tool_model_breakdown": {}
+  },
   "token_usage": {
     "carried": {
       "total": {
