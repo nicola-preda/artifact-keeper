@@ -30,6 +30,20 @@ backend/src/api/handlers/pypi.rs
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 66,
+    "ai_accepted": 66,
+    "git_diff_deleted_lines": 54,
+    "git_diff_added_lines": 66,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 66,
+        "ai_accepted": 66
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
