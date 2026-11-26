@@ -18,6 +18,20 @@ changes/unreleased/6532-conda-migration-subdir-path.md
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 46,
+    "ai_accepted": 46,
+    "git_diff_deleted_lines": 0,
+    "git_diff_added_lines": 46,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 46,
+        "ai_accepted": 46
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
