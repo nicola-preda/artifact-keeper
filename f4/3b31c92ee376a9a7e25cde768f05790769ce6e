@@ -18,6 +18,20 @@ changes/unreleased/4324-catalog-aware-scan-reuse.md
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 143,
+    "ai_accepted": 143,
+    "git_diff_deleted_lines": 0,
+    "git_diff_added_lines": 143,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 143,
+        "ai_accepted": 143
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
