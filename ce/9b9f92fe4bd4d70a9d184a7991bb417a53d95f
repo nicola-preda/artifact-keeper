@@ -1,0 +1,35 @@
+backend/src/api/handlers/search.rs
+  h_4d0bfcca3c57b7 4029,4066,4101
+backend/src/api/handlers/test_db_helpers.rs
+  h_4d0bfcca3c57b7 205-222
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "ce9b9f92fe4bd4d70a9d184a7991bb417a53d95f",
+  "prompts": {},
+  "humans": {
+    "h_4d0bfcca3c57b7": {
+      "author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 86,
+        "output_tokens": 30583,
+        "cache_creation_input_tokens": 56056,
+        "cache_read_input_tokens": 15086084
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 86,
+          "output_tokens": 30583,
+          "cache_creation_input_tokens": 56056,
+          "cache_read_input_tokens": 15086084
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
