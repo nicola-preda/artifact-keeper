@@ -13,6 +13,15 @@ backend/src/api/handlers/test_db_helpers.rs
       "author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 21,
+    "unknown_additions": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "git_diff_deleted_lines": 6,
+    "git_diff_added_lines": 21,
+    "tool_model_breakdown": {}
+  },
   "token_usage": {
     "carried": {
       "total": {
