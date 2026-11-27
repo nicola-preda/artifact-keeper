@@ -1,0 +1,26 @@
+backend/src/api/handlers/approval.rs
+  s_7295de5a5caaa6::t_d80650602c4326 1011
+backend/src/api/handlers/promotion.rs
+  s_7295de5a5caaa6::t_b7bf67a66b42a2 1486,1939
+backend/src/services/artifact_service.rs
+  s_7295de5a5caaa6::t_9139eecd8bac96 3645-3656,3665,3670,3720-3723,3730,3736-3737,3985-3987,3997,5329-5338,5355-5360,5362-5404
+changes/unreleased/6546-promotion-chain-same-bytes.md
+  s_7295de5a5caaa6::t_31b4ba17fb743b 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "7fa89bdb5a11a0ee9243a0ca9af0e59ea21ae855",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
