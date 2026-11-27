@@ -1,0 +1,53 @@
+backend/src/api/handlers/debian.rs
+  s_7295de5a5caaa6::t_40a8c01f94d241 801,810,814-815,818-819,822,824,826,829,1060,1062-1063,1069-1072,1078,1197,1200,1207-1208,1244,1264,1271,1276,2777,2782-2783,2787-2813,2839-2840,2876-2877,2943-2944,3067-3068,3097-3098,3135-3136,8070-8218,9300,9306,9339,9371,9418,9434,9439,11921-11923,11926-11930,11934,11941,12007-12010,12018-12022,12024-12025,12027-12028,12033-12034,12049
+changes/unreleased/6548-debian-virtual-local-members-index.md
+  s_7295de5a5caaa6::t_562af693d5b1b7 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "129dedd1d8d28e16a53e7f448dbe7b04d8cfcbcf",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 220,
+        "output_tokens": 65259,
+        "cache_creation_input_tokens": 204912,
+        "cache_read_input_tokens": 16913439
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 220,
+          "output_tokens": 65259,
+          "cache_creation_input_tokens": 204912,
+          "cache_read_input_tokens": 16913439
+        }
+      },
+      "tool_uses": {
+        "bash": 108,
+        "read": 1,
+        "write": 1
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 220,
+        "output_tokens": 65259,
+        "cache_creation_input_tokens": 204912,
+        "cache_read_input_tokens": 16913439
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
