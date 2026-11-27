@@ -1,0 +1,63 @@
+backend/src/api/handlers/migration.rs
+  s_7295de5a5caaa6::t_71622c444aad68 599
+backend/src/models/migration.rs
+  s_7295de5a5caaa6::t_ee32a5809a2015 150-155
+backend/src/services/artifactory_client.rs
+  s_7295de5a5caaa6::t_360e95126662e5 260-263
+backend/src/services/migration_worker.rs
+  s_7295de5a5caaa6::t_d0e2859e754907 41-42,66,306-307,348,1281-1290,1350-1357,1727-1801,3685-3689,4307,5907,7214,7487,8018,12765,12806-13150
+backend/src/services/nexus_client.rs
+  s_7295de5a5caaa6::t_92a99ba3fb00ee 473-474,477-524,917,919,925-938,3438-3513
+backend/src/services/source_registry.rs
+  s_7295de5a5caaa6::t_ec5766e8d54d0e 443
+changes/unreleased/6519-nexus-migration-source-timestamps.md
+  s_7295de5a5caaa6::t_afcc44fee30215 1-5
+docs/migration-source-timestamps.md
+  s_7295de5a5caaa6::t_bf69cc99be463c 1-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "af53a74189bd0fabc080dd3d3e475f755f1956ea",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 82,
+        "output_tokens": 26947,
+        "cache_creation_input_tokens": 57543,
+        "cache_read_input_tokens": 8255439
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 82,
+          "output_tokens": 26947,
+          "cache_creation_input_tokens": 57543,
+          "cache_read_input_tokens": 8255439
+        }
+      },
+      "tool_uses": {
+        "bash": 41
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 82,
+        "output_tokens": 26947,
+        "cache_creation_input_tokens": 57543,
+        "cache_read_input_tokens": 8255439
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
